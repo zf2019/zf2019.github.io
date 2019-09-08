@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MSDN on 方阁志</title>
+    <link>http://blog.imfang.net/tags/msdn/</link>
+    <description>Recent content in MSDN on 方阁志</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 24 Jan 2019 15:05:22 +0800</lastBuildDate>
+    
+	<atom:link href="http://blog.imfang.net/tags/msdn/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MSDN原版Office软件</title>
+      <link>http://blog.imfang.net/software/110.html</link>
+      <pubDate>Thu, 24 Jan 2019 15:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/software/110.html</guid>
+      <description>&lt;p&gt;本页面提供MSDN最新、最纯净、最安全的原版Office软件，资源均来自于官方原版。由于网络环境和下载工具的不确定性，本站不保证所有人都可以下载成功，如果失败可以更换网络或者下载工具重复尝试。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title> MSDN原版Win7-XP系统</title>
+      <link>http://blog.imfang.net/software/109.html</link>
+      <pubDate>Thu, 24 Jan 2019 14:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/software/109.html</guid>
+      <description>&lt;p&gt;本页面提供MSDN最新、最纯净、最安全的原版windows7-XP系统，资源均来自于官方原版。由于网络环境和下载工具的不确定性，本站不保证所有人都可以下载成功，如果失败可以更换网络或者下载工具重复尝试。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title> MSDN原版Win8-8.1系统</title>
+      <link>http://blog.imfang.net/software/108.html</link>
+      <pubDate>Wed, 23 Jan 2019 14:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/software/108.html</guid>
+      <description>&lt;p&gt;本页面提供MSDN最新、最纯净、最安全的原版windows8-8.1系统，资源均来自于官方原版。由于网络环境和下载工具的不确定性，本站不保证所有人都可以下载成功，如果失败可以更换网络或者下载工具重复尝试。下载完成后务必进行SHA1校验&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>MSDN原版Win10系统</title>
+      <link>http://blog.imfang.net/software/107.html</link>
+      <pubDate>Wed, 23 Jan 2019 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/software/107.html</guid>
+      <description>&lt;p&gt;本页面提供MSDN最新、最纯净、最安全的原版windows10系统，资源均来自于官方原版。由于网络环境和下载工具的不确定性，本站不保证所有人都可以下载成功，如果失败可以更换网络或者下载工具重复尝试。下载完成后务必进行SHA1校验&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>网络与网站 on 方阁志</title>
+    <link>http://blog.imfang.net/categories/%E7%BD%91%E7%BB%9C%E4%B8%8E%E7%BD%91%E7%AB%99/</link>
+    <description>Recent content in 网络与网站 on 方阁志</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 19 Jul 2019 16:05:22 +0800</lastBuildDate>
+    
+	<atom:link href="http://blog.imfang.net/categories/%E7%BD%91%E7%BB%9C%E4%B8%8E%E7%BD%91%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>使用Hugo&#43;Github Pages免费搭建个人博客</title>
+      <link>http://blog.imfang.net/web/116.html</link>
+      <pubDate>Fri, 19 Jul 2019 16:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/116.html</guid>
+      <description>&lt;p&gt;我从2010年开始搭建个人独立博客网站一直用的都是Wordpress系统，到今年（2019）边学边用已经使用了9年多了，从刚开始的2.+版本到现在的3.99版我一直认为Wordpress是最好的博客系统。但是使用Wordpress的一个弊端就是你会把主要精力都放在了完善功能和美化主题上，因为Wordpress的主题、插件和各种教程多如牛毛，
+不能够专心的去写文章违背了我建博客的初心。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>再见WordPress。你好Hugo!</title>
+      <link>http://blog.imfang.net/web/115.html</link>
+      <pubDate>Wed, 17 Jul 2019 09:09:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/115.html</guid>
+      <description>&lt;p&gt;使用WordPress已经9年有余，从当初的狂热折腾当一切理想样式功能都实现后，突然发现这么多年把主要精力都放在了折腾Apache、PHP和MySQL上了，而博客里并没有几篇像样的文章。做为博主(非专业程序员)更应该专注于写作而不是折腾各种代码，在发现了简洁高效的Hugo后果断把博客回归到最初的静态HTML模式。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>微博外链图片失效的解决方法</title>
+      <link>http://blog.imfang.net/web/114.html</link>
+      <pubDate>Sat, 29 Jun 2019 15:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/114.html</guid>
+      <description>&lt;p&gt;由于本站服务器的空间和流量限制，所以文章中的配图基本上都是使用的外链图床，但是现在很多提供图床服务的网站都不是很稳定，这就导致了一个尴尬的现像：自己的网站还没挂呢但是使用的外链图床却先挂了，导致所有的外链图片都打不开。如果博客中的图片比较多再更改图床外链将是一件非常麻烦的事，所以选择一个高速且稳定的外链图床是非常重要的。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>自动更新网站页脚版权时间的代码</title>
+      <link>http://blog.imfang.net/web/94.html</link>
+      <pubDate>Fri, 27 Oct 2017 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/94.html</guid>
+      <description>&lt;h3 id=&#34;什么是动态页脚时间-动态时间戳&#34;&gt;什么是动态页脚时间（动态时间戳）？&lt;/h3&gt;
+
+&lt;p&gt;看一个网站是否还在更新？也许一两件事能表明这个网站还活着，但是当你发现页脚的版权声明 &lt;em&gt;&amp;ldquo;© 2010-2011 XXXX版权所有&amp;rdquo;&lt;/em&gt;
+当然这可能只是网站主忘记更新页脚时间，很多情况下是因为用了编码字符串。不过这种东西还是交给计算机自动维护比较好，使用本页面的动态时间戳会让网站主事半功倍。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>最简单的出墙方法:更改DNS</title>
+      <link>http://blog.imfang.net/web/66.html</link>
+      <pubDate>Sun, 11 Dec 2016 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/66.html</guid>
+      <description>&lt;p&gt;由于国内的网络环境太差,好多国内的朋友苦于无法进入被墙的国际主流网站,比如youtube、twitter、facebook、wikipedia(维基百科)等.为此本人以前也写过这方面的教程&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hostinger推出的免费XYZ域名活动</title>
+      <link>http://blog.imfang.net/web/62.html</link>
+      <pubDate>Wed, 04 Nov 2015 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/62.html</guid>
+      <description>&lt;p&gt;Hostinger不但提供免费空间,现在更是推出了免费注册.XYZ域名活动,但是不知道会持续多长时间,有兴趣的朋友可以去看看,下面是他们发的一个相关通知:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Godaddy域名转移到NameSilo详细图文教程（2015新）</title>
+      <link>http://blog.imfang.net/web/57.html</link>
+      <pubDate>Fri, 16 Oct 2015 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/57.html</guid>
+      <description>&lt;p&gt;现在Godaddy的域名价格是一天天的往上涨,已经没有了任何的价格优势,最近net域名续费价格更是涨到了一个疯狂的高度$17/年,折合人民币100多元了,而且还没有优惠码可以使用.这样的续费价格比起国内的价格都高出好几十呢,这使得我们这些广大的吊丝站长们不得不寻找其他实惠的域名服务商了.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>在虚拟空间里关闭(禁用)error_log错误日志</title>
+      <link>http://blog.imfang.net/web/51.html</link>
+      <pubDate>Wed, 07 Jan 2015 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/51.html</guid>
+      <description>&lt;p&gt;最近在空间后台里发现磁盘占用大的惊人,600M的空间被使用了300多M,但是我这是一个小博客图片都是外链的,哪有可能占用这么多的磁盘空间呢?而且我最近也没有上传什么大文件啊,为什么空间占用一下这么多了呢?后来经过仔细检查发现这个&amp;rdquo;error_log&amp;rdquo;错误日志就占了200多M,&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Feedsky可以放弃了</title>
+      <link>http://blog.imfang.net/web/48.html</link>
+      <pubDate>Thu, 25 Dec 2014 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/48.html</guid>
+      <description>&lt;p&gt;相信很多国内的个人博客都用过Feedsky的rss托管服务,就算没用过也听说过吧?他是国内唯一一家提供第三方Feed服务的网站.我从2011年就一直在使用Feedsky提供的feed输出服务,刚开始用还是不错的,Feed页面集成了国内主流的RSS订阅器,还有统计读者数量的功能非常不错.后来Feedsky就开始不定时的抽风了,最近更是关闭了Feed输出服务了!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>000webhost推荐的适合国人的强大免费空间:Hostinger</title>
+      <link>http://blog.imfang.net/web/43.html</link>
+      <pubDate>Sun, 14 Dec 2014 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/43.html</guid>
+      <description>&lt;p&gt;000webhost(三蛋)免费空间相信很多吊丝站长都知道并用过,他们提供的免费强大空间甚至比国内的很多收费空间还好,而且稳定值得信赖,被很多站长奉为免费空间的老大.我几年前也用过000webhost的免费空间,确实很稳定CP控制面板也非常强大,后来不知什么原因被关闭了就没有再使用.但是000webhost免费空间对中国的IP进行了屏蔽,中国的用户需要代理才能注册比较麻烦,而且英文页面对我们这些不懂英文的人来说也是个负担.就在昨天我收到了000webhost给我发来的邮件,&lt;del datetime=&#34;2018-06-25T09:39:36+00:00&#34;&gt;推荐了和他们同一家公司的Hostinger中国免费空间,据说是专门针对中国用户提供的免费空间,&lt;/del&gt;可能是他们终于发现了中国的庞大的用户群.下面是他们邮件里描述的空间配置表:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>修改dedecms图片附件文件夹按年月保存</title>
+      <link>http://blog.imfang.net/web/45.html</link>
+      <pubDate>Tue, 09 Dec 2014 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/45.html</guid>
+      <description>&lt;p&gt;默认情况下DEDECMS织梦系统的图片附件是按日保存的,每天一个文件夹,如果你经常上传图片附件的话,那么你的后台uploads文件夹里将产生非常多的以年月日命名的图片目录文件夹(如:140101),如果以后空间要搬家备份这些庞大的目录将是一件非常麻烦的事.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>2014年10月可用的GoDaddy域名续费优惠码</title>
+      <link>http://blog.imfang.net/web/42.html</link>
+      <pubDate>Tue, 30 Sep 2014 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/42.html</guid>
+      <description>&lt;p&gt;又到一一年一度的域名续费时候了,今年的GoDaddy域名续费优惠码好像特别难找,在网上找了一圈发现好多网友都说现在没有能用的GoDaddy续费优惠码了?好像GoDaddy停止发放优惠码了?听到这样的消息好多人都要把域名转出来了(有的甚至要转到国内,晕).其实就算GoDaddy没有优惠码了也是一个不错的域名提供商,安全性和自由度都是非常高的,把域名放在这里要比放在国内的域名商那里让人放心.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>DNS污染屏蔽的解决方法</title>
+      <link>http://blog.imfang.net/web/40.html</link>
+      <pubDate>Fri, 19 Sep 2014 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/40.html</guid>
+      <description>&lt;p&gt;好久没用SkyDrive了,今天准备写个带图的文章,准备重新启用SkyDrive半天打不开才发现竟然也被屏蔽了,SkyDrive(现改名为:OneDrive,就算换了马夹也无法逃脱被屏蔽的恶运)的屏蔽方式是DNS污染.正所谓哪里有压迫哪里就有反抗,只要是人为的技术性屏蔽,就能用技术去解决它,只要你想去解决&amp;ndash;这是马克思在相对论里的名言.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>godaddy域名续费仍然可以使用支付宝</title>
+      <link>http://blog.imfang.net/web/30.html</link>
+      <pubDate>Tue, 22 Oct 2013 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/30.html</guid>
+      <description>&lt;p&gt;最近我的域名要到期了,又要到godaddy续费了,在网上找了一圈发现也没有合适的.net域名续费优惠码.却发现有些网友说godaddy不支持支付宝付款了,这个消息让我很惶恐万分,因为支付宝是我在网上的唯一付款方式,如果godaddy不能支付宝付款了,我该怎么办呢?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>使用000webhost免费空间需要注意的事项</title>
+      <link>http://blog.imfang.net/web/24.html</link>
+      <pubDate>Tue, 02 Apr 2013 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/24.html</guid>
+      <description>&lt;p&gt;几年前使用过000webhost免费空间,大概用了有一年左右吧,后来不知神马原因网站被删除了,不过我依然认为000webhost是我使用过的最好的免费空间之一,不论是稳定性还是空间的配置都非常好.我认为选择免费空间稳定性一定要排在第一的,也许是我这个人比较容易满足吧,一但找到一个稳定好用的免费空间就不会再去折腾其他空间了,比如我现在使用了有2年的这个免费空间,大小只有600MB月流量只8G,比000webhost的配置大大的不如我却一直在使用着,就是因为他稳定好用,至于配置的大小只要够自己用就行了,没必要过份追求大的,这是我选择免费空间的一贯原责,扯远了下面就给大家讲讲000webhost免费空间的一些情况吧.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Firefox浏览器内存占用大的解决办法</title>
+      <link>http://blog.imfang.net/web/19.html</link>
+      <pubDate>Thu, 27 Sep 2012 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/19.html</guid>
+      <description>&lt;p&gt;本人上网一直比较喜欢使用Firefox(火狐狸)浏览器,不过Firefox浏览器内存占用过大一直是我比较头疼的地方,因为我的机子内存只有1G,而Firefox浏览器经常会占用150M左右的内存,而且打开的页面越多内存占用越大.以前也在网上找过相应的解决方法,不过Firefox一升级就又要重新再优化一次,每次都要到网上搜索很麻烦,这次索性把相关的内存优化方法转过来以备升级用,以下是Firefox浏览器的内存优化方法转自百度文库:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>日本免费VPN—jpwoo.com使用图解</title>
+      <link>http://blog.imfang.net/web/15.html</link>
+      <pubDate>Fri, 20 Jul 2012 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/15.html</guid>
+      <description>&lt;p&gt;这是来自日本的一个免费VPN，没有复杂的注册过程，只要正确填写邮箱地址就可以使用，现在看来稳定性还不错，推荐使用。下面是图文解说：&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>百度网盘注册邀请码</title>
+      <link>http://blog.imfang.net/web/9.html</link>
+      <pubDate>Fri, 18 May 2012 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/9.html</guid>
+      <description>&lt;p&gt;&lt;strong&gt;百度网盘简介&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;百度网盘，是百度公司推出的一项提供用户Web、PC、Android手机客户端多平台数据共享的云存储服务。该服务依托于百度强大的云存储集群机制，发挥了百度强有力的云端存储优势，提供超大的网络存储空间，拥有更强大的数据安全保障，并且提供了把精彩内容轻松分享给好友的通道。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>无限制上网GoAgent代理图文设置教程</title>
+      <link>http://blog.imfang.net/web/8.html</link>
+      <pubDate>Fri, 11 May 2012 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/8.html</guid>
+      <description>&lt;p&gt;本教程采用的是：Google Appengine+GoAgent+Firefox+AutoProxy的组合方式，GoAgent是一个使用Python和Google Appengine SDK编写的代理软件。部署和使用方法非常简单，不需要安装Python或者Google Appenginge SDK ，几分钟即可搞定。下面是具体的方法：&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>存储大文件的好东东:金山T盘</title>
+      <link>http://blog.imfang.net/web/6.html</link>
+      <pubDate>Tue, 10 Apr 2012 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/6.html</guid>
+      <description>&lt;h3&gt;介绍&lt;/h3&gt;
+
+&lt;p&gt;金山T盘是金山网络于2011年1月24日推出的一项免费网络硬盘服务。
+金山T盘采用国际顶尖的存储设备和高强度加密技术，确保用户数据不丢失。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Firefox&#43;MyEntunnel&#43;AutoProxy代理设置图文教程</title>
+      <link>http://blog.imfang.net/web/3.html</link>
+      <pubDate>Mon, 26 Mar 2012 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/3.html</guid>
+      <description>&lt;p&gt;对于翻墙的好处在这里就不多说了，方阁志前面也介绍了几种翻墙方法，说的都是利用免费VPN代理方法，但是免费VPN的缺点就是：使用后是全局代理，如果你访问国内网站的话也要绕道国外的VPN服务器上，这就影响了国内网站的访问速度了；&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>解决网站统计代码在Firefox上不显示问题</title>
+      <link>http://blog.imfang.net/web/1.html</link>
+      <pubDate>Wed, 21 Mar 2012 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/1.html</guid>
+      <description>&lt;p&gt;最近打开Firefox突然发现方阁志网站底部的站长统计代码不见了，检查了下源代码发现没有被更改，后来用IE打开显示正常。那么问题一定是出在Firefox上了，最近对Firefox做了很多的改动，&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>免费稳定的DNS解析服务器大全</title>
+      <link>http://blog.imfang.net/web/90.html</link>
+      <pubDate>Thu, 09 Feb 2012 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/90.html</guid>
+      <description>&lt;p&gt;DNS服务器是(Domain Name System或者Domain Name Service)域名系统或者域名服务,域名系统为Internet上的主机分配域名地址和IP地址。用户使用域名地址，该系统就会自动把域名地址转为IP地址。域名服务是运行域名系统的Internet工具。执行域名服务的服务器称之为DNS服务器，通过DNS服务器来应答域名服务的查询。做网站的朋友都会用到这些服务，下面就为大家推荐一些免费稳定的DNS服务器资源提供给大家参考。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>庆新年，GoDaddy送31%优惠码</title>
+      <link>http://blog.imfang.net/web/81.html</link>
+      <pubDate>Fri, 30 Dec 2011 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/81.html</guid>
+      <description>&lt;p&gt;这次GoDaddy送了两枚优惠码，有效期应该不会太长，必尽是庆祝新年的活动，希望有需要的朋友们抓紧时间了。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>关于域名的相关解释</title>
+      <link>http://blog.imfang.net/web/75.html</link>
+      <pubDate>Fri, 16 Dec 2011 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/75.html</guid>
+      <description>&lt;h3 id=&#34;什么是域名&#34;&gt;什么是域名？&lt;/h3&gt;
+
+&lt;p&gt;Internet域名是Internet网络上的一个服务器或一个网络系统的名字，在全世界，没有重复的域名。域名的形式是以若干个英文字母或数字组成，由“.”分隔成几部分，如oursoho.com就是一个域名。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>GoDaddy的12月30%优惠码(com、net、org)</title>
+      <link>http://blog.imfang.net/web/74.html</link>
+      <pubDate>Thu, 15 Dec 2011 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/74.html</guid>
+      <description>适用于在GoDaddy新注册的.com、.net、.org优惠30% 下面是优惠码： gdz1222p &amp;nbsp; 需要优惠码的朋友可以加本站QQ群：6464419，索要</description>
+    </item>
+    
+    <item>
+      <title>推荐一个.htaccess文件在线生成器</title>
+      <link>http://blog.imfang.net/web/72.html</link>
+      <pubDate>Tue, 13 Dec 2011 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/72.html</guid>
+      <description>&lt;p&gt;目前来说使用Unix或Linux系统的主机，或任何版本的Apache网络服务器，从理论上都是支持.htaccess的。利用.htaccess可以实现很多的实用功能，当然对于我这个新手来说编辑.htaccess文件是比较困难的，那么本文中介绍的这款生成器正好派上用场。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>网站建设教程简单讲解之[五]网站建设要注意的事项及其它细节</title>
+      <link>http://blog.imfang.net/web/68.html</link>
+      <pubDate>Mon, 05 Dec 2011 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/68.html</guid>
+      <description>&lt;h3 id=&#34;1-网站建设中要遵守和注意的事项&#34;&gt;1、网站建设中要遵守和注意的事项&lt;/h3&gt;
+
+&lt;p&gt;（1）不论使用的是哪国主机空间，一定要遵守空间所在国的法律和中国的法律，否则被墙、被K、被闭、被封杀是一定的（必须的）；&lt;/p&gt;
+
+&lt;p&gt;（2）仔细查看和遵守空间提供商的规定，不然网站被关闭还不知道是怎么回事，一般空间商网站都会有详细说明；&lt;/p&gt;
+
+&lt;p&gt;（3）不要在空间里放病毒文件、不要在网页上放置恶意代码或挂马；&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>网站建设教程简单讲解之[四]个人网站程序的选择与安装</title>
+      <link>http://blog.imfang.net/web/63.html</link>
+      <pubDate>Fri, 02 Dec 2011 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/63.html</guid>
+      <description>&lt;p&gt;前面几章讲了很多建站的基础知识，相信朋友们对网站都有了一定的了解，这一节开始讲解个人网站的架设，让我们一起在实践中学习吧。还是利用现成的开源网站程序做例子来讲解，建议使用MYSQL+PHP服务器端程序，因为针对PHP的开源免费网站程序非常多，我们的选择空间会大很多。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>网站建设教程简单讲解之[三]域名与空间的选择</title>
+      <link>http://blog.imfang.net/web/61.html</link>
+      <pubDate>Thu, 01 Dec 2011 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/61.html</guid>
+      <description>&lt;h3 id=&#34;1-什么是域名&#34;&gt;1、什么是域名？&lt;/h3&gt;
+
+&lt;p&gt;Internet域名是Internet网络上的一个服务器或一个网络系统的名字，在全世界，没有重复的域名。域名的形式是以若干个英文字母或数字组成，由“.”分隔成几部分，如本站的localhost/wordpress就是一个域名。因为网络上主机空间分配的是32bit地址（IP地址）如：61.135.132.6这很不利于人们的记忆，而域名的出现就大大方便了人们网络浏览。关于域名的更多知识本站稍晚将另写一篇文章：“关于域名的解释”，请大家关注一下。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>2011年11月Godaddy最新优惠码</title>
+      <link>http://blog.imfang.net/web/60.html</link>
+      <pubDate>Tue, 29 Nov 2011 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/60.html</guid>
+      <description>&lt;p&gt;自从在Godaddy上买了域名后，Godaddy就不定时的给我发送优惠码，这让我想起了自己在网上找优惠码的经历，有很多都是过期不能用的，所以把这几枚最新的Godaddy优惠码发上来分享给大家，希望能帮到准备在Godaddy上购买服务的朋友们。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>宽带连接打开太慢的解决方法</title>
+      <link>http://blog.imfang.net/web/59.html</link>
+      <pubDate>Mon, 28 Nov 2011 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/59.html</guid>
+      <description>&lt;p&gt;最近优化了启动项，电脑开机只要30几秒，不过新问题又来了，虽然电脑启动完成了，可是要打开宽带连接确非常慢（非病毒、非启动项过多），大概要等上2-3分钟的时间。这种问题以前我好像也遇到过，不过重装完系统就解决了。而现在人也变懒了不想遇到些小问题就重装系统，所以就在网上搜了一家伙，结果还真找出了解决的办法来。下面就讲一下解决的方法：&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>建站必备工具FlashFXPv4.1汉化绿色版</title>
+      <link>http://blog.imfang.net/web/56.html</link>
+      <pubDate>Wed, 23 Nov 2011 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/56.html</guid>
+      <description>&lt;p&gt;FlashFXP 是一个功能强大的 FXP/FTP软件，融合了一些其他优秀 FTP 软件的优点，如像 CuteFTP 一样可以比较文件夹，支持彩色文字显示；像 BpFTP 支持多文件夹选择文件，能够缓存文件夹；像 LeapFTP 一样的外观界面，甚至设计思路也差相仿佛。支持文件夹(带子文件夹)的文件传送、删除；支持上传、下载及第三方文件续传；&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>稳定高速的德国10G免费空间（适合新手学习建站）</title>
+      <link>http://blog.imfang.net/web/55.html</link>
+      <pubDate>Tue, 22 Nov 2011 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/55.html</guid>
+      <description>&lt;p&gt;KILU是德国Websuche Search Technology GmbH Co. KG旗下的老牌虚拟空间托管服务商，使用德国第二大主机提供商Hetzner Online AG的高性能服务器，IP地址位于德国巴伐利亚州，国内访问速度非常快。kilu.de提供10G的免费空间容量，不限流量，可以绑定域名，支持php+mysql，可以创建3个300M免费mysql数据库，绑定500个子域名，支持中文，支持Mod Rewrite，提供邮件和论坛技术支持唯一缺点就是有强制广告。同时，kilu.de还提供免费的com.nu域名，注册非常简单，不过不能修改ns和A记录，只能转发或绑定 kilu.de的免费空间。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>免费智能DNS解析DNSPod教程</title>
+      <link>http://blog.imfang.net/web/47.html</link>
+      <pubDate>Sun, 20 Nov 2011 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/47.html</guid>
+      <description>&lt;p&gt;DNSPod以稳定性、安全性、功能强大、智能免费、高速等优势深得广大站长的喜爱,DNSPod除了实时生效，不限制用户添加的域名和记录数量外，还率先提供了IPv6的支持和动态域名解析的功能，另外还支持DNS轮询、URL转发、API接口、批量修改管理等先进功能,并且所有功能都是免费提供。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>网站建设教程简单讲解之[二]建站的基本技能与知识</title>
+      <link>http://blog.imfang.net/web/44.html</link>
+      <pubDate>Sat, 19 Nov 2011 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/44.html</guid>
+      <description>&lt;h3 id=&#34;1-学习网站建设前应该掌握的基本技能&#34;&gt;1、学习网站建设前应该掌握的基本技能&lt;/h3&gt;
+
+&lt;p&gt;练习打字，无论是上网干什么打字都是必备的基本功，拼音输入法比较容易学习，学好了,打字速度也很快，比如：智能ABC输入法，搜狗拼音输入法，紫光拼音输入法；&lt;/p&gt;
+
+&lt;p&gt;学会windows的基本操作，比如熟练掌握Ctrl+X剪切，Ctrl+V粘贴，Ctrl+Z撤消，Ctrl+N新建 等基本Windows操作；学会熟练拖动文件；学会安装软件、常用软件的使用等。&lt;/p&gt;
+
+&lt;p&gt;没错，上面就是建设网站最基本的技能了。&lt;/p&gt;
+
+&lt;p&gt;当然如果你还想更深入的学习网站技术，还要掌握下面几款软件的使用：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;DreamWeaver（制作网页最常用的编辑软件）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Notepad++(博主一直在用的HTML编辑器)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;EditPlus(功能强大的HTML编辑器)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;PhotoShop(专业图片编辑软件)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>免费的博客外链图片存储空间Windows Live SkyDrive</title>
+      <link>http://blog.imfang.net/web/41.html</link>
+      <pubDate>Fri, 18 Nov 2011 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/41.html</guid>
+      <description>&lt;p&gt;很多做博客的朋友使用的空间都不是很大，如果发布很多图片的话，就会占用相当大的空间，那么就有必要找一个其他的空间来存放图片，当然这个空间一定要支持外链且相当稳定，如果能免费就更好了．本文推荐的这个存储空间就完全符合标准，Windows Live SkyDrive是Windows Live推出的一项免费服务，&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>网站建设教程简单讲解之[一]网站的概念</title>
+      <link>http://blog.imfang.net/web/35.html</link>
+      <pubDate>Fri, 18 Nov 2011 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/35.html</guid>
+      <description>&lt;h3 id=&#34;总目录&#34;&gt;总目录&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;一、网站建设教程简单讲解之[一]网站的概念&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://imfang.net/web/44.html&#34; target=&#34;_blank&#34;&gt;二、网站建设教程简单讲解之[二]建站的基本技能与知识&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://imfang.net/web/61.html&#34; target=&#34;_blank&#34;&gt;三、网站建设教程简单讲解之[三]域名与空间的选择&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://imfang.net/web/63.html&#34; target=&#34;_blank&#34;&gt;四、网站建设教程简单讲解之[四]个人网站程序的选择与安装&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://imfang.net/web/68.html&#34; target=&#34;_blank&#34;&gt;五、网站建设教程简单讲解之[五]网站建设应该要注意的事项&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;六、网站建设教程简单讲解之[六]网站推广与SEO(精力有限此章未写完)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;七、网站建设教程简单讲解之[七]网站的营销(精力有限此章未写完)&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>第一次抢注域名的经历</title>
+      <link>http://blog.imfang.net/web/12.html</link>
+      <pubDate>Tue, 15 Nov 2011 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/12.html</guid>
+      <description>&lt;p&gt;由于准备不足注定这是一个杯具的经历，当时搜索了一个5个字符的即将过期删除的com域名，在电脑前一直守候到凌晨0点。马上打开godaddy登录并查寻这个域名，一看真的可以注册，于是毫不犹豫的购买了，结果钱被扣了域名却没注册成功。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

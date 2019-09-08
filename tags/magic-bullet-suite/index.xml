@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Magic Bullet Suite on 方阁志</title>
+    <link>http://blog.imfang.net/tags/magic-bullet-suite/</link>
+    <description>Recent content in Magic Bullet Suite on 方阁志</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 08 Jul 2017 13:05:22 +0800</lastBuildDate>
+    
+	<atom:link href="http://blog.imfang.net/tags/magic-bullet-suite/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>[图]Magic Bullet Suite V11.4中文汉化版安装教程及EDIUS6.55桥接方法</title>
+      <link>http://blog.imfang.net/nle/83.html</link>
+      <pubDate>Sat, 08 Jul 2017 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/nle/83.html</guid>
+      <description>&lt;p&gt;Magic Bullet Suite 11(红巨人)是一款极其出色的视频后期调色软件.相信非编爱好者都知道,套装内包含调色插件、润肤插件、降噪插件、转场插件、高清插件等多套调色插件.是进行色彩校正必不可少的工具之一,软件适用于Win/Mac平台,AE CC/CSx 32/64位,Premiere Pro 32/64位,Final Cut Pro X,Sony Vegas Pro,Avid等软件,EDIUS可以桥接使用.性能出色,你值得拥有.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

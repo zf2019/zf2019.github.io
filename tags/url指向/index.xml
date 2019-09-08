@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>URL指向 on 方阁志</title>
+    <link>http://blog.imfang.net/tags/url%E6%8C%87%E5%90%91/</link>
+    <description>Recent content in URL指向 on 方阁志</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 16 Dec 2011 13:05:22 +0800</lastBuildDate>
+    
+	<atom:link href="http://blog.imfang.net/tags/url%E6%8C%87%E5%90%91/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>关于域名的相关解释</title>
+      <link>http://blog.imfang.net/web/75.html</link>
+      <pubDate>Fri, 16 Dec 2011 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/75.html</guid>
+      <description>&lt;h3 id=&#34;什么是域名&#34;&gt;什么是域名？&lt;/h3&gt;
+
+&lt;p&gt;Internet域名是Internet网络上的一个服务器或一个网络系统的名字，在全世界，没有重复的域名。域名的形式是以若干个英文字母或数字组成，由“.”分隔成几部分，如oursoho.com就是一个域名。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

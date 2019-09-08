@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Puffin浏览器 on 方阁志</title>
+    <link>http://blog.imfang.net/tags/puffin%E6%B5%8F%E8%A7%88%E5%99%A8/</link>
+    <description>Recent content in Puffin浏览器 on 方阁志</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 29 Mar 2012 13:05:22 +0800</lastBuildDate>
+    
+	<atom:link href="http://blog.imfang.net/tags/puffin%E6%B5%8F%E8%A7%88%E5%99%A8/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>推荐一款Android手机浏览器（可免费穿越，你懂的）</title>
+      <link>http://blog.imfang.net/phone/04.html</link>
+      <pubDate>Thu, 29 Mar 2012 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/phone/04.html</guid>
+      <description>&lt;p&gt;现在手机上网的用户已经非常多了，用手机上网可以方便的查寻一些资料，可是现在呢有好多东东都在墙外，想要看外面的东西一定要走出去才行。以前方阁志写了一篇苹果手机的穿墙方法，&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

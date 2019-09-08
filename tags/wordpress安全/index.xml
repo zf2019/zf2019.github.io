@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wordpress安全 on 方阁志</title>
+    <link>http://blog.imfang.net/tags/wordpress%E5%AE%89%E5%85%A8/</link>
+    <description>Recent content in wordpress安全 on 方阁志</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 02 Aug 2012 13:05:22 +0800</lastBuildDate>
+    
+	<atom:link href="http://blog.imfang.net/tags/wordpress%E5%AE%89%E5%85%A8/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>保护WordPress安全－－主题的安全性修改</title>
+      <link>http://blog.imfang.net/wordpress/16.html</link>
+      <pubDate>Thu, 02 Aug 2012 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/wordpress/16.html</guid>
+      <description>&lt;h3 id=&#34;隐藏wordpress的版本信息&#34;&gt;隐藏WordPress的版本信息&lt;/h3&gt;
+
+&lt;p&gt;有些主题会带有显示WordPress的版本信息的代码，有些恶意用户看到你的WordPress版本后，那他对特定版本的漏洞进行攻击就简单多了。那么我们就要去除WordPress的版本信息显示代码，首先，在主题的header.php中查找是否以下类似代码，如果有的话就将它去除，因为这是用来输出版本号的：&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

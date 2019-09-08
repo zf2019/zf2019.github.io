@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Phone 4 on 方阁志</title>
+    <link>http://blog.imfang.net/tags/phone-4/</link>
+    <description>Recent content in Phone 4 on 方阁志</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 21 Mar 2012 13:05:22 +0800</lastBuildDate>
+    
+	<atom:link href="http://blog.imfang.net/tags/phone-4/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Phone 4手机设置VPN（PPTP协议）代理教程</title>
+      <link>http://blog.imfang.net/phone/95.html</link>
+      <pubDate>Wed, 21 Mar 2012 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/phone/95.html</guid>
+      <description>&lt;p&gt;本教程可以帮助您手上的Phone 4手机翻墙登录Facebook 与Twitter 全球最大的交友网站，与全球超过 5 亿的朋友为邻；还可以观看全球最大视频网站YouTube等更多好玩的应用，下面就简单的介绍下Phone 4手机如何设置VPN（PPTP协议），由于本人手上没有Phone 4手机就不上图片了，文字教程也很简单只要对照您手上的Phone 4手机就能看懂。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

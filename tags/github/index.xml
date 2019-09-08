@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Github on 方阁志</title>
+    <link>http://blog.imfang.net/tags/github/</link>
+    <description>Recent content in Github on 方阁志</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 19 Jul 2019 16:05:22 +0800</lastBuildDate>
+    
+	<atom:link href="http://blog.imfang.net/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>使用Hugo&#43;Github Pages免费搭建个人博客</title>
+      <link>http://blog.imfang.net/web/116.html</link>
+      <pubDate>Fri, 19 Jul 2019 16:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/116.html</guid>
+      <description>&lt;p&gt;我从2010年开始搭建个人独立博客网站一直用的都是Wordpress系统，到今年（2019）边学边用已经使用了9年多了，从刚开始的2.+版本到现在的3.99版我一直认为Wordpress是最好的博客系统。但是使用Wordpress的一个弊端就是你会把主要精力都放在了完善功能和美化主题上，因为Wordpress的主题、插件和各种教程多如牛毛，
+不能够专心的去写文章违背了我建博客的初心。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>再见WordPress。你好Hugo!</title>
+      <link>http://blog.imfang.net/web/115.html</link>
+      <pubDate>Wed, 17 Jul 2019 09:09:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/115.html</guid>
+      <description>&lt;p&gt;使用WordPress已经9年有余，从当初的狂热折腾当一切理想样式功能都实现后，突然发现这么多年把主要精力都放在了折腾Apache、PHP和MySQL上了，而博客里并没有几篇像样的文章。做为博主(非专业程序员)更应该专注于写作而不是折腾各种代码，在发现了简洁高效的Hugo后果断把博客回归到最初的静态HTML模式。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

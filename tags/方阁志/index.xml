@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>方阁志</title>
+    <link>http://blog.imfang.net/tags/%E6%96%B9%E9%98%81%E5%BF%97/</link>
+    <description>Recent content on 方阁志</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Tue, 15 Nov 2011 13:05:22 +0800</lastBuildDate>
+    
+	<atom:link href="http://blog.imfang.net/tags/%E6%96%B9%E9%98%81%E5%BF%97/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>换域名、换空间、神马都换了</title>
+      <link>http://blog.imfang.net/mo/10.html</link>
+      <pubDate>Tue, 15 Nov 2011 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/mo/10.html</guid>
+      <description>&lt;p&gt;曾经的“留在网络”现在换成“方阁志”了，其实两个名子都很好，都可以做博客的名子，只不过后者和我更贴切一点吧。当然域名也要换了，以前的域名是：net599.com，这只是我随便起的一个名子，现在感觉其实没什么意义，现在的域名：imfang.net，更适合做我的博客，所以就换了吧。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

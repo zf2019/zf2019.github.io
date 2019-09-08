@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Backorder on 方阁志</title>
+    <link>http://blog.imfang.net/tags/backorder/</link>
+    <description>Recent content in Backorder on 方阁志</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Tue, 15 Nov 2011 13:05:22 +0800</lastBuildDate>
+    
+	<atom:link href="http://blog.imfang.net/tags/backorder/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>第一次抢注域名的经历</title>
+      <link>http://blog.imfang.net/web/12.html</link>
+      <pubDate>Tue, 15 Nov 2011 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/12.html</guid>
+      <description>&lt;p&gt;由于准备不足注定这是一个杯具的经历，当时搜索了一个5个字符的即将过期删除的com域名，在电脑前一直守候到凌晨0点。马上打开godaddy登录并查寻这个域名，一看真的可以注册，于是毫不犹豫的购买了，结果钱被扣了域名却没注册成功。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

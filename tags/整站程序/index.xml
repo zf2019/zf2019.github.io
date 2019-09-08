@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>整站程序 on 方阁志</title>
+    <link>http://blog.imfang.net/tags/%E6%95%B4%E7%AB%99%E7%A8%8B%E5%BA%8F/</link>
+    <description>Recent content in 整站程序 on 方阁志</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 02 Dec 2011 13:05:22 +0800</lastBuildDate>
+    
+	<atom:link href="http://blog.imfang.net/tags/%E6%95%B4%E7%AB%99%E7%A8%8B%E5%BA%8F/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>网站建设教程简单讲解之[四]个人网站程序的选择与安装</title>
+      <link>http://blog.imfang.net/web/63.html</link>
+      <pubDate>Fri, 02 Dec 2011 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/63.html</guid>
+      <description>&lt;p&gt;前面几章讲了很多建站的基础知识，相信朋友们对网站都有了一定的了解，这一节开始讲解个人网站的架设，让我们一起在实践中学习吧。还是利用现成的开源网站程序做例子来讲解，建议使用MYSQL+PHP服务器端程序，因为针对PHP的开源免费网站程序非常多，我们的选择空间会大很多。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

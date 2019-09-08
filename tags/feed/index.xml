@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Feed on 方阁志</title>
+    <link>http://blog.imfang.net/tags/feed/</link>
+    <description>Recent content in Feed on 方阁志</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 25 Dec 2014 13:05:22 +0800</lastBuildDate>
+    
+	<atom:link href="http://blog.imfang.net/tags/feed/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Feedsky可以放弃了</title>
+      <link>http://blog.imfang.net/web/48.html</link>
+      <pubDate>Thu, 25 Dec 2014 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/48.html</guid>
+      <description>&lt;p&gt;相信很多国内的个人博客都用过Feedsky的rss托管服务,就算没用过也听说过吧?他是国内唯一一家提供第三方Feed服务的网站.我从2011年就一直在使用Feedsky提供的feed输出服务,刚开始用还是不错的,Feed页面集成了国内主流的RSS订阅器,还有统计读者数量的功能非常不错.后来Feedsky就开始不定时的抽风了,最近更是关闭了Feed输出服务了!&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows7 on 方阁志</title>
+    <link>http://blog.imfang.net/tags/windows7/</link>
+    <description>Recent content in Windows7 on 方阁志</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 09 May 2019 15:05:22 +0800</lastBuildDate>
+    
+	<atom:link href="http://blog.imfang.net/tags/windows7/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>在线激活Windows和Office</title>
+      <link>http://blog.imfang.net/software/113.html</link>
+      <pubDate>Thu, 09 May 2019 15:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/software/113.html</guid>
+      <description>&lt;p&gt;最近在网上无意发现了一个可以在线激活Windows和Office的网站,此网站由爱好论坛出品，所有密钥均为网友共享，网站会自动检测是否可用。只需在网页输入安装ID即可在线激活。相比使用软件激活的方式，这个网页版激活更为简单。而且我试用了一下发现这个还是永久激活，比现在的软件激活6个月的要省事太多了。只是不知道这么好的网站能不能长久的存在下去，所以有需要的朋友赶紧使用吧。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>装完系统后更改硬盘模式RAID为ACHI教程</title>
+      <link>http://blog.imfang.net/software/112.html</link>
+      <pubDate>Mon, 18 Mar 2019 15:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/software/112.html</guid>
+      <description>&lt;p&gt;现在SSD固态硬盘渐渐成为主流，让RAID和ACHI模式成为现在的主流硬盘模式，如果是只有一个SSD固态硬盘那么这两个模式都是可以的，没必纠结选择哪个模式速度都是差不多的。但是现在的SSD虽然有速度快的明显优点，但是缺点也很明显就是：容量小价格贵。所以现在很多朋友都是使用SSD+机械硬盘这种方式组建多硬盘系统，把容量较小的SSD做为系统盘、大容量的机械硬盘用做存储盘，这样的组合既有速度又有容量而且价格也能接受。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title> MSDN原版Win7-XP系统</title>
+      <link>http://blog.imfang.net/software/109.html</link>
+      <pubDate>Thu, 24 Jan 2019 14:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/software/109.html</guid>
+      <description>&lt;p&gt;本页面提供MSDN最新、最纯净、最安全的原版windows7-XP系统，资源均来自于官方原版。由于网络环境和下载工具的不确定性，本站不保证所有人都可以下载成功，如果失败可以更换网络或者下载工具重复尝试。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Windows7旗舰版及两款永久激活工具</title>
+      <link>http://blog.imfang.net/software/53.html</link>
+      <pubDate>Thu, 12 Mar 2015 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/software/53.html</guid>
+      <description>&lt;p&gt;随着WindowsXP系统的退出,Windows7的用户占有率越来越大,而且Windows7也继承了XP系统的一些优良传统不像Windows8那样颠覆,所以很多Windows的老用户都选择升级到Windows7.Windows7包含旗舰版、专业版、家庭高级版、家庭普通版、简易版,其中旗舰版是Windows7中功能最多的一款,是目前市场占有率最高的一款操作系统.
+下面是Windows7旗舰版官方原版的下载地址:&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

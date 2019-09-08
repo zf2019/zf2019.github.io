@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>error_log on 方阁志</title>
+    <link>http://blog.imfang.net/tags/error_log/</link>
+    <description>Recent content in error_log on 方阁志</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 07 Jan 2015 13:05:22 +0800</lastBuildDate>
+    
+	<atom:link href="http://blog.imfang.net/tags/error_log/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>在虚拟空间里关闭(禁用)error_log错误日志</title>
+      <link>http://blog.imfang.net/web/51.html</link>
+      <pubDate>Wed, 07 Jan 2015 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/51.html</guid>
+      <description>&lt;p&gt;最近在空间后台里发现磁盘占用大的惊人,600M的空间被使用了300多M,但是我这是一个小博客图片都是外链的,哪有可能占用这么多的磁盘空间呢?而且我最近也没有上传什么大文件啊,为什么空间占用一下这么多了呢?后来经过仔细检查发现这个&amp;rdquo;error_log&amp;rdquo;错误日志就占了200多M,&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

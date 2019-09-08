@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>系统安全 on 方阁志</title>
+    <link>http://blog.imfang.net/tags/%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8/</link>
+    <description>Recent content in 系统安全 on 方阁志</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 27 Feb 2014 13:05:22 +0800</lastBuildDate>
+    
+	<atom:link href="http://blog.imfang.net/tags/%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>360安全卫士将推“XP专版”继续为XP系统用户提供安全防护</title>
+      <link>http://blog.imfang.net/software/34.html</link>
+      <pubDate>Thu, 27 Feb 2014 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/software/34.html</guid>
+      <description>&lt;p&gt;自从微软宣布4月8日将停止对WindowsXP系统的服务支持后，至使大量短期内无法升级XP系统的中国用户，陷入了巨大的安全恐慌中。目前XP系统在全球市场份额约为25%，在中国更是高达70%。受到使用习惯、硬件配置、软件兼容性等因素限制，大量中国用户短期内无法升级XP系统。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

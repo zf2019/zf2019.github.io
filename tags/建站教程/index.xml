@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>建站教程 on 方阁志</title>
+    <link>http://blog.imfang.net/tags/%E5%BB%BA%E7%AB%99%E6%95%99%E7%A8%8B/</link>
+    <description>Recent content in 建站教程 on 方阁志</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 05 Dec 2011 13:05:22 +0800</lastBuildDate>
+    
+	<atom:link href="http://blog.imfang.net/tags/%E5%BB%BA%E7%AB%99%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>网站建设教程简单讲解之[五]网站建设要注意的事项及其它细节</title>
+      <link>http://blog.imfang.net/web/68.html</link>
+      <pubDate>Mon, 05 Dec 2011 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/68.html</guid>
+      <description>&lt;h3 id=&#34;1-网站建设中要遵守和注意的事项&#34;&gt;1、网站建设中要遵守和注意的事项&lt;/h3&gt;
+
+&lt;p&gt;（1）不论使用的是哪国主机空间，一定要遵守空间所在国的法律和中国的法律，否则被墙、被K、被闭、被封杀是一定的（必须的）；&lt;/p&gt;
+
+&lt;p&gt;（2）仔细查看和遵守空间提供商的规定，不然网站被关闭还不知道是怎么回事，一般空间商网站都会有详细说明；&lt;/p&gt;
+
+&lt;p&gt;（3）不要在空间里放病毒文件、不要在网页上放置恶意代码或挂马；&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>网站建设教程简单讲解之[四]个人网站程序的选择与安装</title>
+      <link>http://blog.imfang.net/web/63.html</link>
+      <pubDate>Fri, 02 Dec 2011 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/63.html</guid>
+      <description>&lt;p&gt;前面几章讲了很多建站的基础知识，相信朋友们对网站都有了一定的了解，这一节开始讲解个人网站的架设，让我们一起在实践中学习吧。还是利用现成的开源网站程序做例子来讲解，建议使用MYSQL+PHP服务器端程序，因为针对PHP的开源免费网站程序非常多，我们的选择空间会大很多。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>网站建设教程简单讲解之[三]域名与空间的选择</title>
+      <link>http://blog.imfang.net/web/61.html</link>
+      <pubDate>Thu, 01 Dec 2011 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/61.html</guid>
+      <description>&lt;h3 id=&#34;1-什么是域名&#34;&gt;1、什么是域名？&lt;/h3&gt;
+
+&lt;p&gt;Internet域名是Internet网络上的一个服务器或一个网络系统的名字，在全世界，没有重复的域名。域名的形式是以若干个英文字母或数字组成，由“.”分隔成几部分，如本站的localhost/wordpress就是一个域名。因为网络上主机空间分配的是32bit地址（IP地址）如：61.135.132.6这很不利于人们的记忆，而域名的出现就大大方便了人们网络浏览。关于域名的更多知识本站稍晚将另写一篇文章：“关于域名的解释”，请大家关注一下。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>网站建设教程简单讲解之[二]建站的基本技能与知识</title>
+      <link>http://blog.imfang.net/web/44.html</link>
+      <pubDate>Sat, 19 Nov 2011 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/44.html</guid>
+      <description>&lt;h3 id=&#34;1-学习网站建设前应该掌握的基本技能&#34;&gt;1、学习网站建设前应该掌握的基本技能&lt;/h3&gt;
+
+&lt;p&gt;练习打字，无论是上网干什么打字都是必备的基本功，拼音输入法比较容易学习，学好了,打字速度也很快，比如：智能ABC输入法，搜狗拼音输入法，紫光拼音输入法；&lt;/p&gt;
+
+&lt;p&gt;学会windows的基本操作，比如熟练掌握Ctrl+X剪切，Ctrl+V粘贴，Ctrl+Z撤消，Ctrl+N新建 等基本Windows操作；学会熟练拖动文件；学会安装软件、常用软件的使用等。&lt;/p&gt;
+
+&lt;p&gt;没错，上面就是建设网站最基本的技能了。&lt;/p&gt;
+
+&lt;p&gt;当然如果你还想更深入的学习网站技术，还要掌握下面几款软件的使用：&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;DreamWeaver（制作网页最常用的编辑软件）&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Notepad++(博主一直在用的HTML编辑器)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;EditPlus(功能强大的HTML编辑器)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;PhotoShop(专业图片编辑软件)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>网站建设教程简单讲解之[一]网站的概念</title>
+      <link>http://blog.imfang.net/web/35.html</link>
+      <pubDate>Fri, 18 Nov 2011 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/35.html</guid>
+      <description>&lt;h3 id=&#34;总目录&#34;&gt;总目录&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;一、网站建设教程简单讲解之[一]网站的概念&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://imfang.net/web/44.html&#34; target=&#34;_blank&#34;&gt;二、网站建设教程简单讲解之[二]建站的基本技能与知识&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://imfang.net/web/61.html&#34; target=&#34;_blank&#34;&gt;三、网站建设教程简单讲解之[三]域名与空间的选择&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://imfang.net/web/63.html&#34; target=&#34;_blank&#34;&gt;四、网站建设教程简单讲解之[四]个人网站程序的选择与安装&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://imfang.net/web/68.html&#34; target=&#34;_blank&#34;&gt;五、网站建设教程简单讲解之[五]网站建设应该要注意的事项&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;六、网站建设教程简单讲解之[六]网站推广与SEO(精力有限此章未写完)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;七、网站建设教程简单讲解之[七]网站的营销(精力有限此章未写完)&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

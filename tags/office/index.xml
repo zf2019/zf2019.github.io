@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Office on 方阁志</title>
+    <link>http://blog.imfang.net/tags/office/</link>
+    <description>Recent content in Office on 方阁志</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 09 May 2019 15:05:22 +0800</lastBuildDate>
+    
+	<atom:link href="http://blog.imfang.net/tags/office/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>在线激活Windows和Office</title>
+      <link>http://blog.imfang.net/software/113.html</link>
+      <pubDate>Thu, 09 May 2019 15:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/software/113.html</guid>
+      <description>&lt;p&gt;最近在网上无意发现了一个可以在线激活Windows和Office的网站,此网站由爱好论坛出品，所有密钥均为网友共享，网站会自动检测是否可用。只需在网页输入安装ID即可在线激活。相比使用软件激活的方式，这个网页版激活更为简单。而且我试用了一下发现这个还是永久激活，比现在的软件激活6个月的要省事太多了。只是不知道这么好的网站能不能长久的存在下去，所以有需要的朋友赶紧使用吧。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>MSDN原版Office软件</title>
+      <link>http://blog.imfang.net/software/110.html</link>
+      <pubDate>Thu, 24 Jan 2019 15:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/software/110.html</guid>
+      <description>&lt;p&gt;本页面提供MSDN最新、最纯净、最安全的原版Office软件，资源均来自于官方原版。由于网络环境和下载工具的不确定性，本站不保证所有人都可以下载成功，如果失败可以更换网络或者下载工具重复尝试。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

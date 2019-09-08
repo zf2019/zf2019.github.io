@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AutoProxy on 方阁志</title>
+    <link>http://blog.imfang.net/tags/autoproxy/</link>
+    <description>Recent content in AutoProxy on 方阁志</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 11 May 2012 13:05:22 +0800</lastBuildDate>
+    
+	<atom:link href="http://blog.imfang.net/tags/autoproxy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>无限制上网GoAgent代理图文设置教程</title>
+      <link>http://blog.imfang.net/web/8.html</link>
+      <pubDate>Fri, 11 May 2012 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/8.html</guid>
+      <description>&lt;p&gt;本教程采用的是：Google Appengine+GoAgent+Firefox+AutoProxy的组合方式，GoAgent是一个使用Python和Google Appengine SDK编写的代理软件。部署和使用方法非常简单，不需要安装Python或者Google Appenginge SDK ，几分钟即可搞定。下面是具体的方法：&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Firefox&#43;MyEntunnel&#43;AutoProxy代理设置图文教程</title>
+      <link>http://blog.imfang.net/web/3.html</link>
+      <pubDate>Mon, 26 Mar 2012 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/3.html</guid>
+      <description>&lt;p&gt;对于翻墙的好处在这里就不多说了，方阁志前面也介绍了几种翻墙方法，说的都是利用免费VPN代理方法，但是免费VPN的缺点就是：使用后是全局代理，如果你访问国内网站的话也要绕道国外的VPN服务器上，这就影响了国内网站的访问速度了；&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

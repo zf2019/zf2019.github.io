@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GoAgent on 方阁志</title>
+    <link>http://blog.imfang.net/tags/goagent/</link>
+    <description>Recent content in GoAgent on 方阁志</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 27 Jun 2014 13:05:22 +0800</lastBuildDate>
+    
+	<atom:link href="http://blog.imfang.net/tags/goagent/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>goagent全自动下载配置工具</title>
+      <link>http://blog.imfang.net/software/38.html</link>
+      <pubDate>Fri, 27 Jun 2014 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/software/38.html</guid>
+      <description>&lt;p&gt;Goagent_Assistant是一个批处理辅助自动更新程序：默认第一次安装会自动从官网下载最新goagent，并启动自动配置向导，就算是没用过goagent的新手也可以轻松配置。正常使用，启动配置批处理，按0即可实现一键升级更新，方便快捷，会自动读取之前配置过的appid并导入，无需再手工下载配置。并带有其他更多功能，可自己探索&amp;hellip;全部用批处理实现，自解压包，懂批处理的可解压看到所有文件源码，安全可靠！&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>无限制上网GoAgent代理图文设置教程</title>
+      <link>http://blog.imfang.net/web/8.html</link>
+      <pubDate>Fri, 11 May 2012 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/8.html</guid>
+      <description>&lt;p&gt;本教程采用的是：Google Appengine+GoAgent+Firefox+AutoProxy的组合方式，GoAgent是一个使用Python和Google Appengine SDK编写的代理软件。部署和使用方法非常简单，不需要安装Python或者Google Appenginge SDK ，几分钟即可搞定。下面是具体的方法：&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

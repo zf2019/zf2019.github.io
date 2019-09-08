@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>免费NS on 方阁志</title>
+    <link>http://blog.imfang.net/tags/%E5%85%8D%E8%B4%B9ns/</link>
+    <description>Recent content in 免费NS on 方阁志</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 09 Feb 2012 13:05:22 +0800</lastBuildDate>
+    
+	<atom:link href="http://blog.imfang.net/tags/%E5%85%8D%E8%B4%B9ns/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>免费稳定的DNS解析服务器大全</title>
+      <link>http://blog.imfang.net/web/90.html</link>
+      <pubDate>Thu, 09 Feb 2012 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/90.html</guid>
+      <description>&lt;p&gt;DNS服务器是(Domain Name System或者Domain Name Service)域名系统或者域名服务,域名系统为Internet上的主机分配域名地址和IP地址。用户使用域名地址，该系统就会自动把域名地址转为IP地址。域名服务是运行域名系统的Internet工具。执行域名服务的服务器称之为DNS服务器，通过DNS服务器来应答域名服务的查询。做网站的朋友都会用到这些服务，下面就为大家推荐一些免费稳定的DNS服务器资源提供给大家参考。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

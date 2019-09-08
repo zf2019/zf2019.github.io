@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>游戏黑边 on 方阁志</title>
+    <link>http://blog.imfang.net/tags/%E6%B8%B8%E6%88%8F%E9%BB%91%E8%BE%B9/</link>
+    <description>Recent content in 游戏黑边 on 方阁志</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 16 Dec 2013 13:05:22 +0800</lastBuildDate>
+    
+	<atom:link href="http://blog.imfang.net/tags/%E6%B8%B8%E6%88%8F%E9%BB%91%E8%BE%B9/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>笔记本玩游戏全屏左右出现黑边解决办法</title>
+      <link>http://blog.imfang.net/software/33.html</link>
+      <pubDate>Mon, 16 Dec 2013 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/software/33.html</guid>
+      <description>&lt;p&gt;用笔记本电脑玩游戏时，当切换到全屏时游戏显示不是满屏的，而是左右两边出现了黑边，这看起来很不爽。那么这种问题怎么解决呢？下面就给出几种解决办法：&lt;/p&gt;
+
+&lt;h3 id=&#34;一-windows7下游戏全屏问题通用解决方法-推荐使用&#34;&gt;一、Windows7下游戏全屏问题通用解决方法（推荐使用）：&lt;/h3&gt;
+
+&lt;p&gt;Win键+R键，打开运行窗口，输入regedit 回车，这样就打开了注册表编辑器，然后，定位到以下位置：&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SkyDrive on 方阁志</title>
+    <link>http://blog.imfang.net/tags/skydrive/</link>
+    <description>Recent content in SkyDrive on 方阁志</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 29 Jun 2019 15:05:22 +0800</lastBuildDate>
+    
+	<atom:link href="http://blog.imfang.net/tags/skydrive/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>微博外链图片失效的解决方法</title>
+      <link>http://blog.imfang.net/web/114.html</link>
+      <pubDate>Sat, 29 Jun 2019 15:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/114.html</guid>
+      <description>&lt;p&gt;由于本站服务器的空间和流量限制，所以文章中的配图基本上都是使用的外链图床，但是现在很多提供图床服务的网站都不是很稳定，这就导致了一个尴尬的现像：自己的网站还没挂呢但是使用的外链图床却先挂了，导致所有的外链图片都打不开。如果博客中的图片比较多再更改图床外链将是一件非常麻烦的事，所以选择一个高速且稳定的外链图床是非常重要的。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>DNS污染屏蔽的解决方法</title>
+      <link>http://blog.imfang.net/web/40.html</link>
+      <pubDate>Fri, 19 Sep 2014 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/40.html</guid>
+      <description>&lt;p&gt;好久没用SkyDrive了,今天准备写个带图的文章,准备重新启用SkyDrive半天打不开才发现竟然也被屏蔽了,SkyDrive(现改名为:OneDrive,就算换了马夹也无法逃脱被屏蔽的恶运)的屏蔽方式是DNS污染.正所谓哪里有压迫哪里就有反抗,只要是人为的技术性屏蔽,就能用技术去解决它,只要你想去解决&amp;ndash;这是马克思在相对论里的名言.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>免费的博客外链图片存储空间Windows Live SkyDrive</title>
+      <link>http://blog.imfang.net/web/41.html</link>
+      <pubDate>Fri, 18 Nov 2011 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/41.html</guid>
+      <description>&lt;p&gt;很多做博客的朋友使用的空间都不是很大，如果发布很多图片的话，就会占用相当大的空间，那么就有必要找一个其他的空间来存放图片，当然这个空间一定要支持外链且相当稳定，如果能免费就更好了．本文推荐的这个存储空间就完全符合标准，Windows Live SkyDrive是Windows Live推出的一项免费服务，&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

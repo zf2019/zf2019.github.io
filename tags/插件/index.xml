@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>插件 on 方阁志</title>
+    <link>http://blog.imfang.net/tags/%E6%8F%92%E4%BB%B6/</link>
+    <description>Recent content in 插件 on 方阁志</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 01 Nov 2013 13:05:22 +0800</lastBuildDate>
+    
+	<atom:link href="http://blog.imfang.net/tags/%E6%8F%92%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>使用插件代替loper主题的滑动解锁</title>
+      <link>http://blog.imfang.net/wordpress/31.html</link>
+      <pubDate>Fri, 01 Nov 2013 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/wordpress/31.html</guid>
+      <description>&lt;p&gt;以前用loper1.2的时候评论里的滑动解锁都很正常，后来换了loper1.3后滑动解锁就出问题了，就是鼠标点了没反应。在网上找了很多方法一直无法解决这个问题，比如网上最常用的方法：创建Qaptcha.jquery.php这个文件，在我这里还是不管用。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>简单实用的wordpress文章插入代码插件</title>
+      <link>http://blog.imfang.net/wordpress/23.html</link>
+      <pubDate>Sun, 03 Feb 2013 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/wordpress/23.html</guid>
+      <description>&lt;p&gt;如何在文章中插入代码这本来是件简单的事，但由于wordpress是用PHP代码写的，所以在wordpress的文章中插入ＰＨＰ代码就会有些部份会被屏蔽掉，针对这种问题本站特意来推荐一个简洁干净的代码显示插件WP-Syntax，这是一个很经典的代码显示插件，使用方法很简单，下载插件并激活后，在编辑文章时，使用HTM文本输入，并使用如下语句&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>wordpress必备插件WP-PostViews浏览量统计</title>
+      <link>http://blog.imfang.net/wordpress/27.html</link>
+      <pubDate>Thu, 17 Nov 2011 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/wordpress/27.html</guid>
+      <description>&lt;p&gt;&lt;strong&gt;WP-PostViews&lt;/strong&gt;插件由 &lt;a href=&#34;http://lesterchan.net/&#34;&gt;GaMerZ&lt;/a&gt;开发，主要功能是实现文章阅读数统计、侧边栏 Widget 以及显示最受欢迎（阅读数最多）文章、某分类下最受欢迎（阅读数最多）文章等功能。&lt;/p&gt;
+
+&lt;p&gt;效果展示：见本站文章标题行。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

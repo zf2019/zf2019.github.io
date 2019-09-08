@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WordPress on 方阁志</title>
+    <link>http://blog.imfang.net/categories/wordpress/</link>
+    <description>Recent content in WordPress on 方阁志</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 12 Nov 2018 13:05:22 +0800</lastBuildDate>
+    
+	<atom:link href="http://blog.imfang.net/categories/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>让WordPress在PC端和移动端浏览显示不同的主题效果</title>
+      <link>http://blog.imfang.net/wordpress/105.html</link>
+      <pubDate>Mon, 12 Nov 2018 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/wordpress/105.html</guid>
+      <description>&lt;p&gt;随着智能移动端的普及，现在越来越多的人在使用智能手机来浏览网站，但是WordPress很多主题并不是响应式的设计对移动端不能很好的适应，特别是一些老的主题比如本站正在使用的Loper主题在手机上显示的就不是很好。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ajax.useso.com加载慢解决方法</title>
+      <link>http://blog.imfang.net/wordpress/64.html</link>
+      <pubDate>Mon, 19 Sep 2016 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/wordpress/64.html</guid>
+      <description>&lt;p&gt;好长时间没上博客了，最近因为又要域名续费了，打开网站发现速度又异常的慢。显示等待ajax.useso.com&amp;hellip;这个情况似曾相识啊！好像前几年谷歌在中国被封就出现过这个问题嘛，当时的fonts.googleapis.com和ajax.googleapis.com连接不上导至很多wordpress网站打开缓慢，&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>使用https方式（SSL）调用Gravatar头像服务器地址</title>
+      <link>http://blog.imfang.net/wordpress/49.html</link>
+      <pubDate>Sat, 27 Dec 2014 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/wordpress/49.html</guid>
+      <description>&lt;p&gt;发现现在打开的我的博客老是提示:加载&amp;rdquo;0.gravatar.com&amp;rdquo;等,而且评论头像也无法正常显示了,可能是Gravatar头像服务器集体被墙了,无论是国内主机还是国外主机都受到了影响,严重的影响了使用此服务网站的打开速度和使用体验.当然网上有很多方法可以解决这一问题,有国内服务器替代法也有插件替代法,在这里我介绍下我使用的方法,打开速度还不错.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>无觅相关文章插件代码显示WordPress版本号问题</title>
+      <link>http://blog.imfang.net/wordpress/36.html</link>
+      <pubDate>Tue, 06 May 2014 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/wordpress/36.html</guid>
+      <description>&lt;p&gt;以前针对WordPress的安全方面做了些修改,首先就是隐藏WordPress的版本信息,这使有些恶意用户想针对特定版本的漏洞进行攻击就不那么容易了,相信很多WordPress用户都做过此类修改吧.
+但是最近我发现网站的源码里有这么一段代码:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>使用插件代替loper主题的滑动解锁</title>
+      <link>http://blog.imfang.net/wordpress/31.html</link>
+      <pubDate>Fri, 01 Nov 2013 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/wordpress/31.html</guid>
+      <description>&lt;p&gt;以前用loper1.2的时候评论里的滑动解锁都很正常，后来换了loper1.3后滑动解锁就出问题了，就是鼠标点了没反应。在网上找了很多方法一直无法解决这个问题，比如网上最常用的方法：创建Qaptcha.jquery.php这个文件，在我这里还是不管用。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>更换WP-PostViews阅读次数插件为WP-PostViews Plus</title>
+      <link>http://blog.imfang.net/wordpress/26.html</link>
+      <pubDate>Sat, 13 Jul 2013 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/wordpress/26.html</guid>
+      <description>&lt;p&gt;好久没上博客了，今天进来看了一下发现所有文章的阅读次数统计一点没变？这让我很惊讶，难道几个月都没人看我的文章吗？以前本站的访问量虽然不大但还是有一点的，不可能一点没有啊．最后终于发现问题出在访问统计插件WP-PostViews和后来安装的静态缓存插件hyper cache冲突造成的，&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>WordPress去掉网友评论中签名超链接的方法</title>
+      <link>http://blog.imfang.net/wordpress/22.html</link>
+      <pubDate>Sun, 03 Feb 2013 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/wordpress/22.html</guid>
+      <description>&lt;p&gt;最近有很多网友在本站评论时加了超链接就走,让我是删也不是不删也不是,在网上找了个屏蔽评论上超链接的方法,现在分享出来给和我有同样困扰的朋友们. 在WordPress安装文件夹下找到：wp-includes文件夹，然后在里面找到评论模板文件：comment-template.php,打开comment-template.php，搜索$return，找到如下代码：&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>简单实用的wordpress文章插入代码插件</title>
+      <link>http://blog.imfang.net/wordpress/23.html</link>
+      <pubDate>Sun, 03 Feb 2013 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/wordpress/23.html</guid>
+      <description>&lt;p&gt;如何在文章中插入代码这本来是件简单的事，但由于wordpress是用PHP代码写的，所以在wordpress的文章中插入ＰＨＰ代码就会有些部份会被屏蔽掉，针对这种问题本站特意来推荐一个简洁干净的代码显示插件WP-Syntax，这是一个很经典的代码显示插件，使用方法很简单，下载插件并激活后，在编辑文章时，使用HTM文本输入，并使用如下语句&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>某些主题升级至WordPress3.4以上新版报错的解决办法</title>
+      <link>http://blog.imfang.net/wordpress/17.html</link>
+      <pubDate>Fri, 03 Aug 2012 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/wordpress/17.html</guid>
+      <description>&lt;p&gt;像本站使用的loper1.3主题，升级至WordPress3.4以上最新版后出现了错误，提示：&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>保护WordPress安全－－主题的安全性修改</title>
+      <link>http://blog.imfang.net/wordpress/16.html</link>
+      <pubDate>Thu, 02 Aug 2012 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/wordpress/16.html</guid>
+      <description>&lt;h3 id=&#34;隐藏wordpress的版本信息&#34;&gt;隐藏WordPress的版本信息&lt;/h3&gt;
+
+&lt;p&gt;有些主题会带有显示WordPress的版本信息的代码，有些恶意用户看到你的WordPress版本后，那他对特定版本的漏洞进行攻击就简单多了。那么我们就要去除WordPress的版本信息显示代码，首先，在主题的header.php中查找是否以下类似代码，如果有的话就将它去除，因为这是用来输出版本号的：&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>不改代码不安插件完美解决WordPress文章ID不连续问题</title>
+      <link>http://blog.imfang.net/wordpress/2.html</link>
+      <pubDate>Fri, 23 Mar 2012 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/wordpress/2.html</guid>
+      <description>&lt;p&gt;可能有很多WordPress博客的固定链接和方阁志一样使用了文章ID（* /%category%/%post_id%.html）这种格式，但是WordPress由于种种原因导致了文章ID不连续的问题，使很多追求完美的站长们头痛不已，我也在网上找了N长时间都不能完美的解决这个问题，&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>免费VPN代理穿越图文教程（教你如何设置PPTP协议）</title>
+      <link>http://blog.imfang.net/web/93.html</link>
+      <pubDate>Mon, 19 Mar 2012 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/93.html</guid>
+      <description>&lt;p&gt;大家都知道，正常情况下在国内是访问不了外国的某些网站的，比如：Twitter、Facebook、YouTube等网站，那是因为这些网站是被G.F.W防火墙屏蔽了，想访问这些被屏蔽的网站就要翻墙。下面就为大家简单介绍一下如何利用免费的VPN进行翻墙的方法，&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>如何申请一个自己的Gravatar头像</title>
+      <link>http://blog.imfang.net/wordpress/91.html</link>
+      <pubDate>Fri, 02 Mar 2012 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/wordpress/91.html</guid>
+      <description>&lt;p&gt;Gravatar(个人全球统一标识)是globally recognized avatar(直译为”全球标识的头像”)的缩写。它可以在一切支持Gravatar的场合显示你的专属头像,就是能让你在wordpress博客上发布评论的时候可以使用专属头像，&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Wordpress安装插件汇总</title>
+      <link>http://blog.imfang.net/wordpress/86.html</link>
+      <pubDate>Fri, 03 Feb 2012 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/wordpress/86.html</guid>
+      <description>&lt;p&gt;使用wordpress写blog几个月后，也使用过很多个wordpress插件，安装插件不是很多的情况下运行速度还不错。下面就总结一下我使用的插件，希望能给后边wordpress的新手一些帮助。说明：本文所说“必装插件”并非是wordpress必需安装这些插件才能使用，即使不安装一个插件wordpress也可以正常使用，只是安装了这些插件会使你的博客更易管理、更人性化、更易于收录、更&amp;hellip;反正使用wordpress做博客插件是必不可少的，安装少量插件对博客也是有利的。下面的1、2、3项只是根据我个人的使用经验做的一个排名，实际使用时请根据自己的需要做选择。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>wordpress固定链接设置参数</title>
+      <link>http://blog.imfang.net/wordpress/78.html</link>
+      <pubDate>Thu, 22 Dec 2011 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/wordpress/78.html</guid>
+      <description>&lt;p&gt;在使用wordpress发表文章前,一定要先把固定链接设置好,因为wordpress默认的链接形式是动态的这不利于SEO,所以更改一个对搜索引擎友好的固定链接是很有必要的.在这里我推荐在安装完wordpress后首先就要更改固定链接,而不是发表过文章后再更改,事后更改有很多弊端如:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>WordPress插件推荐：Super Switch可禁用版本修定和自动保存等功能</title>
+      <link>http://blog.imfang.net/wordpress/70.html</link>
+      <pubDate>Tue, 06 Dec 2011 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/wordpress/70.html</guid>
+      <description>&lt;p&gt;wordpress有很多功能看起来很人性化，但并不适用于所有人，比如我就被保存修订版本、自动保存这些功能搞的头大．有了这些功能导至文章ID不能连续，而且还占用大量数据库空间，我在网上找了很多方法都不能理想的解决这个问题，最后终于找到了这个插件Super Switch(超级工具)，如果有和我一样困惑的朋友不仿试试．&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>wordpress必备插件WP-PostViews浏览量统计</title>
+      <link>http://blog.imfang.net/wordpress/27.html</link>
+      <pubDate>Thu, 17 Nov 2011 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/wordpress/27.html</guid>
+      <description>&lt;p&gt;&lt;strong&gt;WP-PostViews&lt;/strong&gt;插件由 &lt;a href=&#34;http://lesterchan.net/&#34;&gt;GaMerZ&lt;/a&gt;开发，主要功能是实现文章阅读数统计、侧边栏 Widget 以及显示最受欢迎（阅读数最多）文章、某分类下最受欢迎（阅读数最多）文章等功能。&lt;/p&gt;
+
+&lt;p&gt;效果展示：见本站文章标题行。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

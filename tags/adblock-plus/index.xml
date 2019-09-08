@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AdBlock Plus on 方阁志</title>
+    <link>http://blog.imfang.net/tags/adblock-plus/</link>
+    <description>Recent content in AdBlock Plus on 方阁志</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 21 Mar 2012 13:05:22 +0800</lastBuildDate>
+    
+	<atom:link href="http://blog.imfang.net/tags/adblock-plus/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>解决网站统计代码在Firefox上不显示问题</title>
+      <link>http://blog.imfang.net/web/1.html</link>
+      <pubDate>Wed, 21 Mar 2012 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/1.html</guid>
+      <description>&lt;p&gt;最近打开Firefox突然发现方阁志网站底部的站长统计代码不见了，检查了下源代码发现没有被更改，后来用IE打开显示正常。那么问题一定是出在Firefox上了，最近对Firefox做了很多的改动，&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
