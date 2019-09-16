@@ -4,19 +4,54 @@
   
   <url>
     <loc>http://blog.imfang.net/categories/</loc>
-    <lastmod>2019-09-05T10:05:22+08:00</lastmod>
+    <lastmod>2019-09-16T10:05:22+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>http://blog.imfang.net/tags/cloudflare/</loc>
+    <lastmod>2019-09-16T10:05:22+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.imfang.net/tags/dns/</loc>
+    <lastmod>2019-09-16T10:05:22+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.imfang.net/tags/github/</loc>
+    <lastmod>2019-09-16T10:05:22+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.imfang.net/web/118.html</loc>
+    <lastmod>2019-09-16T10:05:22+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://blog.imfang.net/post/</loc>
-    <lastmod>2019-09-05T10:05:22+08:00</lastmod>
+    <lastmod>2019-09-16T10:05:22+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://blog.imfang.net/tags/</loc>
-    <lastmod>2019-09-05T10:05:22+08:00</lastmod>
+    <lastmod>2019-09-16T10:05:22+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.imfang.net/</loc>
+    <lastmod>2019-09-16T10:05:22+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.imfang.net/categories/%E7%BD%91%E7%BB%9C%E4%B8%8E%E7%BD%91%E7%AB%99/</loc>
+    <lastmod>2019-09-16T10:05:22+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -32,20 +67,8 @@
   </url>
   
   <url>
-    <loc>http://blog.imfang.net/</loc>
-    <lastmod>2019-09-05T10:05:22+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>http://blog.imfang.net/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9B%B8%E5%85%B3/</loc>
     <lastmod>2019-09-05T10:05:22+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.imfang.net/tags/github/</loc>
-    <lastmod>2019-07-19T16:05:22+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -64,12 +87,6 @@
   <url>
     <loc>http://blog.imfang.net/web/116.html</loc>
     <lastmod>2019-07-19T16:05:22+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://blog.imfang.net/categories/%E7%BD%91%E7%BB%9C%E4%B8%8E%E7%BD%91%E7%AB%99/</loc>
-    <lastmod>2019-07-19T16:05:22+08:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
