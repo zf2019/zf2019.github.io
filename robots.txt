@@ -1,4 +1,1 @@
-# robots.txt
 User-agent: *
-Disallow: 
-Sitemap: http://blog.imfang.net/sitemap.xml

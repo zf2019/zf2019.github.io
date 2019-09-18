@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo on 方阁志</title>
+    <title>hugo on 方阁志</title>
     <link>http://blog.imfang.net/tags/hugo/</link>
-    <description>Recent content in Hugo on 方阁志</description>
+    <description>Recent content in hugo on 方阁志</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 19 Jul 2019 16:05:22 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 18 Sep 2019 10:05:22 +0800</lastBuildDate>
     
 	<atom:link href="http://blog.imfang.net/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>在HUGO文章底部添加打赏功能代码</title>
+      <link>http://blog.imfang.net/web/119.html</link>
+      <pubDate>Wed, 18 Sep 2019 10:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/web/119.html</guid>
+      <description>&lt;p&gt;博客自开通打赏功能以来到现在收到的打赏屈指可数，每一笔打赏都记录在了【&lt;a href=&#34;http://blog.imfang.net/juanzeng/&#34;&gt;捐赠&lt;/a&gt;】页面以示感谢，虽然收到的打赏不多但是这代表网友们对我的认可，也是增加了我写博客的动力。当然大部份的个人博客都是始于兴趣爱好，
+对于这些小额的打赏感觉如鸡肋一般没有必要，但是我认为还是很有必要加上的，虽然未必能收到打赏就算是给获得帮助的读者提供一个表达感谢的渠道吧。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>使用Hugo&#43;Github Pages免费搭建个人博客</title>
