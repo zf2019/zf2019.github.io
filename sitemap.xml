@@ -9,6 +9,12 @@
   </url>
   
   <url>
+    <loc>http://blog.imfang.net/tags/hugo/</loc>
+    <lastmod>2019-09-18T10:05:22+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.imfang.net/post/</loc>
     <lastmod>2019-09-18T10:05:22+08:00</lastmod>
     <priority>0</priority>
@@ -16,12 +22,6 @@
   
   <url>
     <loc>http://blog.imfang.net/tags/</loc>
-    <lastmod>2019-09-18T10:05:22+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.imfang.net/tags/hugo/</loc>
     <lastmod>2019-09-18T10:05:22+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -1396,6 +1396,10 @@
   
   <url>
     <loc>http://blog.imfang.net/archives/</loc>
+  </url>
+  
+  <url>
+    <loc>http://blog.imfang.net/search/</loc>
   </url>
   
 </urlset>

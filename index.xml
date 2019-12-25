@@ -1302,5 +1302,14 @@
       <description></description>
     </item>
     
+    <item>
+      <title>搜索</title>
+      <link>http://blog.imfang.net/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.imfang.net/search/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

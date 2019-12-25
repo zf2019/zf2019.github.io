@@ -28,7 +28,7 @@
         <link rel="stylesheet" href="/css/prism.css">
     
     <link rel="stylesheet" href="/css/style.css">
-    <script type="text/javascript" src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     
 
@@ -67,6 +67,120 @@
 
 
 <div id="body">
+        
+        <div id="virtual_toc_list" style="display: none">
+            <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#国外免费稳定的dns服务">国外免费稳定的DNS服务</a></li>
+<li><a href="#国内免费稳定的dns服务">国内免费稳定的DNS服务</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+        </div>
+        <div id="float_toc_div" style="margin: 10px;border: 1px solid gray;z-index:99999;display: none;">
+            <header style="background-color: #f3f3f3;color: black;border-bottom: 1px solid gray;padding: 10px 10px 10px 10px;">
+                <strong id="toc_btn_open" style="color: black;font-size: large;">目录</strong>
+                <strong id="toc_btn_close" style="color: black;font-size: large;float: right">╳</strong>
+            </header>
+            <div id="toc_list" style="background-color: #f3f3f3;color: black;padding: 10px;">
+        
+            </div>
+        </div>
+        <style type="text/css">
+            #float_toc_div {
+                position: fixed;
+                display: none;
+                 
+                height: auto;
+                font-size: 13px;
+            }
+        
+            #toc_list a:hover,
+            #toc_list a:active {
+                color: #ba3925;
+            }
+        </style>
+        <script>
+            window.onload = function () {
+                let tocNavElem = document.getElementById("TableOfContents");
+                let floatTocDivElem = document.getElementById("float_toc_div");
+                let tocListElem = floatTocDivElem.getElementsByTagName('div')[0];
+                let colGroupElem = document.getElementById("body").getElementsByClassName("col-group")[0]
+                let floatTocWidth = (document.body.clientWidth - colGroupElem.offsetWidth) / 2 - 16;
+                var useFloatToc = false;
+
+                if (floatTocWidth >= 100) {
+                    useFloatToc = true;
+                    document.getElementById("toc_list").appendChild(tocNavElem);
+                    floatTocDivElem.style.display = 'block';
+                    floatTocDivElem.style.width = floatTocWidth + 'px';
+                    top();
+                    floatTocDivElem.style.left = '0px';
+
+                    function top() {
+                        if (document.getElementsByClassName('container')[0].offsetWidth <= 720) {
+                            floatTocDivElem.style.top = '0px';
+                        } else {
+                            floatTocDivElem.style.top = window.innerHeight / 9 + 'px';
+                        }
+                    }
+
+                    function ishide() {
+                        if (document.getElementsByClassName('container')[0].offsetWidth <= 720) {
+                            floatTocDivElem.style.top = '0px';
+                        } else {
+                            floatTocDivElem.style.display = 'block';
+                        }
+                    }
+
+                    window.onscroll = function () {
+                        ishide();
+                        if ((document.documentElement.scrollTop != 0) && (floatTocDivElem.style.display == 'block')) {
+                            top();
+                        }
+                    };
+
+                    window.onresize = function () {
+                        ishide();
+                    }
+
+                    document.getElementById("toc_btn_open").addEventListener('click', function () {
+                        switch (tocListElem.style.display) {
+                            case "none":
+                                document.getElementById("toc_btn_close").style.display = "";
+                                tocListElem.style.display = "";
+                                floatTocDivElem.getElementsByTagName("header")[0].style.borderBottom = "1px solid gray";
+                                break;
+                            default:
+                                break;
+                        }
+                    }, false);
+
+                    document.getElementById("toc_btn_close").addEventListener('click', function () {
+                        switch (tocListElem.style.display) {
+                            case "":
+                                document.getElementById("toc_btn_close").style.display = "none";
+                                tocListElem.style.display = "none";
+                                floatTocDivElem.getElementsByTagName("header")[0].style.borderBottom = "";
+                                break;
+                            default:
+                                break;
+                        }
+                    }, false);
+                } else {
+                    let fixedTocElem = document.getElementsByClassName("toc-article")[0];
+                    fixedTocElem.appendChild(tocNavElem);
+                    fixedTocElem.parentElement.style.display = "";
+                }
+                document.getElementById("virtual_toc_list").remove();
+            };   
+        </script>
+        
     <div class="container">
         <div class="col-group">
 
@@ -93,21 +207,9 @@
                         </div>
                         
                         
-                        <div class="clear">
+                        <div class="clear" style="display: none">
                             <div class="toc-article">
                                 <div class="toc-title">文章目录</div>
-                                <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li>
-<ul>
-<li><a href="#国外免费稳定的dns服务">国外免费稳定的DNS服务</a></li>
-<li><a href="#国内免费稳定的dns服务">国内免费稳定的DNS服务</a></li>
-</ul></li>
-</ul></li>
-</ul>
-</nav>
                             </div>
                         </div>
                         
@@ -283,7 +385,7 @@ Domaincow.com提供简单易用的免费网页和电子邮件转发服务，域�
                         
 
 <div class="post-archive">
-    <h2>扩展阅读</h2>
+    <h2>See Also</h2>
     <ul class="listing">
         
         <li><a href="/web/75.html">关于域名的相关解释</a></li>
@@ -340,9 +442,9 @@ Domaincow.com提供简单易用的免费网页和电子邮件转发服务，域�
             </div>
             <div id="secondary">
     <section class="widget">
-        <form id="search" action="//www.google.com/search" method="get" accept-charset="utf-8" target="_blank" _lpchecked="1">
+        <form id="search" action="/search/" method="get" accept-charset="utf-8" target="_blank" _lpchecked="1">
       
-      <input type="text" name="q" maxlength="20" placeholder="国内暂无法使用">
+      <input type="text" name="q" maxlength="20" placeholder="Search">
       <input type="hidden" name="sitesearch" value="http://blog.imfang.net">
       <button type="submit" class="submit icon-search"></button>
 </form>
@@ -401,7 +503,7 @@ Domaincow.com提供简单易用的免费网页和电子邮件转发服务，域�
     <ul class="widget-list">
         
         <li>
-            <a href="http://imfang.net/" title="请站长喝杯咖啡" target="_blank" style="color:red">
+            <a href="http://imfang.net/" title="博主的支付宝红包" target="_blank" style="color:red">
                 
                     <img src="/images/543779226.png">
                 
@@ -416,14 +518,6 @@ Domaincow.com提供简单易用的免费网页和电子邮件转发服务，域�
             </a>
         </li>
         
-        <li>
-            <a href="/juanzeng" title="垃圾分类公益广告" target="_blank" style="color:red">
-                
-                    <img src="/images/ljfl1.jpg">
-                
-            </a>
-        </li>
-        
     </ul>
 </section>
 
@@ -432,37 +526,21 @@ Domaincow.com提供简单易用的免费网页和电子邮件转发服务，域�
         <h3 class="widget-title">文章分类</h3>
 <ul class="widget-list">
     
-    <li>
-        <a href="http://blog.imfang.net/categories/wordpress/">wordpress(17)</a>
-    </li>
+    <li><a href="http://blog.imfang.net/categories/wordpress/">WordPress (17)</a></li>
     
-    <li>
-        <a href="http://blog.imfang.net/categories/%E6%89%8B%E6%9C%BA%E4%B8%8E%E6%95%B0%E7%A0%81/">手机与数码(6)</a>
-    </li>
+    <li><a href="http://blog.imfang.net/categories/%E6%89%8B%E6%9C%BA%E4%B8%8E%E6%95%B0%E7%A0%81/">手机与数码 (6)</a></li>
     
-    <li>
-        <a href="http://blog.imfang.net/categories/%E6%91%84%E5%BD%B1%E4%B8%8Eps/">摄影与ps(4)</a>
-    </li>
+    <li><a href="http://blog.imfang.net/categories/%E6%91%84%E5%BD%B1%E4%B8%8Eps/">摄影与PS (4)</a></li>
     
-    <li>
-        <a href="http://blog.imfang.net/categories/%E6%9C%AA%E5%88%86%E7%B1%BB/">未分类(12)</a>
-    </li>
+    <li><a href="http://blog.imfang.net/categories/%E6%9C%AA%E5%88%86%E7%B1%BB/">未分类 (12)</a></li>
     
-    <li>
-        <a href="http://blog.imfang.net/categories/%E7%94%9F%E6%B4%BB%E7%9A%84%E7%82%B9%E6%BB%B4/">生活的点滴(12)</a>
-    </li>
+    <li><a href="http://blog.imfang.net/categories/%E7%94%9F%E6%B4%BB%E7%9A%84%E7%82%B9%E6%BB%B4/">生活的点滴  (12)</a></li>
     
-    <li>
-        <a href="http://blog.imfang.net/categories/%E7%BD%91%E7%BB%9C%E4%B8%8E%E7%BD%91%E7%AB%99/">网络与网站(41)</a>
-    </li>
+    <li><a href="http://blog.imfang.net/categories/%E7%BD%91%E7%BB%9C%E4%B8%8E%E7%BD%91%E7%AB%99/">网络与网站 (41)</a></li>
     
-    <li>
-        <a href="http://blog.imfang.net/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9B%B8%E5%85%B3/">计算机相关(19)</a>
-    </li>
+    <li><a href="http://blog.imfang.net/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9B%B8%E5%85%B3/">计算机相关 (19)</a></li>
     
-    <li>
-        <a href="http://blog.imfang.net/categories/%E9%9D%9E%E7%BC%96%E8%B5%84%E6%BA%90/">非编资源(7)</a>
-    </li>
+    <li><a href="http://blog.imfang.net/categories/%E9%9D%9E%E7%BC%96%E8%B5%84%E6%BA%90/">非编资源 (7)</a></li>
     
 </ul>
     </section>
@@ -477,131 +555,131 @@ Domaincow.com提供简单易用的免费网页和电子邮件转发服务，域�
     
     <a href="http://blog.imfang.net/tags/2012/">2012</a>
     
-    <a href="http://blog.imfang.net/tags/adblock-plus/">adblock-plus</a>
+    <a href="http://blog.imfang.net/tags/adblock-plus/">AdBlock Plus</a>
     
-    <a href="http://blog.imfang.net/tags/adobe/">adobe</a>
+    <a href="http://blog.imfang.net/tags/adobe/">Adobe</a>
     
     <a href="http://blog.imfang.net/tags/ajax.useso.com/">ajax.useso.com</a>
     
-    <a href="http://blog.imfang.net/tags/android/">android</a>
+    <a href="http://blog.imfang.net/tags/android/">Android</a>
     
-    <a href="http://blog.imfang.net/tags/apache/">apache</a>
+    <a href="http://blog.imfang.net/tags/apache/">Apache</a>
     
-    <a href="http://blog.imfang.net/tags/autoproxy/">autoproxy</a>
+    <a href="http://blog.imfang.net/tags/autoproxy/">AutoProxy</a>
     
-    <a href="http://blog.imfang.net/tags/backorder/">backorder</a>
+    <a href="http://blog.imfang.net/tags/backorder/">Backorder</a>
     
-    <a href="http://blog.imfang.net/tags/cloudflare/">cloudflare</a>
+    <a href="http://blog.imfang.net/tags/cloudflare/">Cloudflare</a>
     
-    <a href="http://blog.imfang.net/tags/dedecms/">dedecms</a>
+    <a href="http://blog.imfang.net/tags/dedecms/">DEDECMS</a>
     
-    <a href="http://blog.imfang.net/tags/dns/">dns</a>
+    <a href="http://blog.imfang.net/tags/dns/">DNS</a>
     
-    <a href="http://blog.imfang.net/tags/dnspod/">dnspod</a>
+    <a href="http://blog.imfang.net/tags/dnspod/">DNSPod</a>
     
-    <a href="http://blog.imfang.net/tags/dns%E6%B1%A1%E6%9F%93/">dns污染</a>
+    <a href="http://blog.imfang.net/tags/dns%E6%B1%A1%E6%9F%93/">DNS污染</a>
     
-    <a href="http://blog.imfang.net/tags/easyrecovery/">easyrecovery</a>
+    <a href="http://blog.imfang.net/tags/easyrecovery/">EasyRecovery</a>
     
-    <a href="http://blog.imfang.net/tags/edius/">edius</a>
+    <a href="http://blog.imfang.net/tags/edius/">Edius</a>
     
-    <a href="http://blog.imfang.net/tags/edius%E6%8F%92%E4%BB%B6/">edius插件</a>
+    <a href="http://blog.imfang.net/tags/edius%E6%8F%92%E4%BB%B6/">EDIUS插件</a>
     
     <a href="http://blog.imfang.net/tags/error_log/">error_log</a>
     
-    <a href="http://blog.imfang.net/tags/feed/">feed</a>
+    <a href="http://blog.imfang.net/tags/feed/">Feed</a>
     
-    <a href="http://blog.imfang.net/tags/feedsky/">feedsky</a>
+    <a href="http://blog.imfang.net/tags/feedsky/">Feedsky</a>
     
-    <a href="http://blog.imfang.net/tags/firefox/">firefox</a>
+    <a href="http://blog.imfang.net/tags/firefox/">Firefox</a>
     
-    <a href="http://blog.imfang.net/tags/flashfxp/">flashfxp</a>
+    <a href="http://blog.imfang.net/tags/flashfxp/">FlashFXP</a>
     
-    <a href="http://blog.imfang.net/tags/github/">github</a>
+    <a href="http://blog.imfang.net/tags/github/">Github</a>
     
-    <a href="http://blog.imfang.net/tags/goagent/">goagent</a>
+    <a href="http://blog.imfang.net/tags/goagent/">GoAgent</a>
     
     <a href="http://blog.imfang.net/tags/godaddy/">godaddy</a>
     
     <a href="http://blog.imfang.net/tags/godaddy%E4%BC%98%E6%83%A0%E7%A0%81/">godaddy优惠码</a>
     
-    <a href="http://blog.imfang.net/tags/google-appengine/">google-appengine</a>
+    <a href="http://blog.imfang.net/tags/google-appengine/">Google Appengine</a>
     
-    <a href="http://blog.imfang.net/tags/gravatar/">gravatar</a>
+    <a href="http://blog.imfang.net/tags/gravatar/">Gravatar</a>
     
     <a href="http://blog.imfang.net/tags/hostinger/">hostinger</a>
     
-    <a href="http://blog.imfang.net/tags/hugo/">hugo</a>
+    <a href="http://blog.imfang.net/tags/hugo/">Hugo</a>
     
-    <a href="http://blog.imfang.net/tags/ip%E5%9C%B0%E5%9D%80/">ip地址</a>
+    <a href="http://blog.imfang.net/tags/ip%E5%9C%B0%E5%9D%80/">IP地址</a>
     
-    <a href="http://blog.imfang.net/tags/magic-bullet-suite/">magic-bullet-suite</a>
+    <a href="http://blog.imfang.net/tags/magic-bullet-suite/">Magic Bullet Suite</a>
     
-    <a href="http://blog.imfang.net/tags/msdn/">msdn</a>
+    <a href="http://blog.imfang.net/tags/msdn/">MSDN</a>
     
-    <a href="http://blog.imfang.net/tags/myentunnel/">myentunnel</a>
+    <a href="http://blog.imfang.net/tags/myentunnel/">MyEntunnel</a>
     
-    <a href="http://blog.imfang.net/tags/mysql/">mysql</a>
+    <a href="http://blog.imfang.net/tags/mysql/">MySQL</a>
     
-    <a href="http://blog.imfang.net/tags/namesilo/">namesilo</a>
+    <a href="http://blog.imfang.net/tags/namesilo/">NameSilo</a>
     
-    <a href="http://blog.imfang.net/tags/nero/">nero</a>
+    <a href="http://blog.imfang.net/tags/nero/">Nero</a>
     
-    <a href="http://blog.imfang.net/tags/office/">office</a>
+    <a href="http://blog.imfang.net/tags/office/">Office</a>
     
-    <a href="http://blog.imfang.net/tags/phone-4/">phone-4</a>
+    <a href="http://blog.imfang.net/tags/phone-4/">Phone 4</a>
     
-    <a href="http://blog.imfang.net/tags/photoshop/">photoshop</a>
+    <a href="http://blog.imfang.net/tags/photoshop/">Photoshop</a>
     
-    <a href="http://blog.imfang.net/tags/php/">php</a>
+    <a href="http://blog.imfang.net/tags/php/">PHP</a>
     
-    <a href="http://blog.imfang.net/tags/pptp%E5%8D%8F%E8%AE%AE/">pptp协议</a>
+    <a href="http://blog.imfang.net/tags/pptp%E5%8D%8F%E8%AE%AE/">PPTP协议</a>
     
-    <a href="http://blog.imfang.net/tags/premiere%E6%8F%92%E4%BB%B6/">premiere插件</a>
+    <a href="http://blog.imfang.net/tags/premiere%E6%8F%92%E4%BB%B6/">Premiere插件</a>
     
-    <a href="http://blog.imfang.net/tags/puffin%E6%B5%8F%E8%A7%88%E5%99%A8/">puffin浏览器</a>
+    <a href="http://blog.imfang.net/tags/puffin%E6%B5%8F%E8%A7%88%E5%99%A8/">Puffin浏览器</a>
     
-    <a href="http://blog.imfang.net/tags/skydrive/">skydrive</a>
+    <a href="http://blog.imfang.net/tags/skydrive/">SkyDrive</a>
     
-    <a href="http://blog.imfang.net/tags/sony/">sony</a>
+    <a href="http://blog.imfang.net/tags/sony/">SONY</a>
     
-    <a href="http://blog.imfang.net/tags/ssh/">ssh</a>
+    <a href="http://blog.imfang.net/tags/ssh/">SSH</a>
     
-    <a href="http://blog.imfang.net/tags/super-switch/">super-switch</a>
+    <a href="http://blog.imfang.net/tags/super-switch/">Super Switch</a>
     
-    <a href="http://blog.imfang.net/tags/url%E6%8C%87%E5%90%91/">url指向</a>
+    <a href="http://blog.imfang.net/tags/url%E6%8C%87%E5%90%91/">URL指向</a>
     
-    <a href="http://blog.imfang.net/tags/war3/">war3</a>
+    <a href="http://blog.imfang.net/tags/war3/">War3</a>
     
-    <a href="http://blog.imfang.net/tags/win10%E6%BF%80%E6%B4%BB/">win10激活</a>
+    <a href="http://blog.imfang.net/tags/win10%E6%BF%80%E6%B4%BB/">Win10激活</a>
     
-    <a href="http://blog.imfang.net/tags/win7%E6%B2%A1%E5%A3%B0%E9%9F%B3/">win7没声音</a>
+    <a href="http://blog.imfang.net/tags/win7%E6%B2%A1%E5%A3%B0%E9%9F%B3/">Win7没声音</a>
     
-    <a href="http://blog.imfang.net/tags/win8/">win8</a>
+    <a href="http://blog.imfang.net/tags/win8/">Win8</a>
     
-    <a href="http://blog.imfang.net/tags/windows7/">windows7</a>
+    <a href="http://blog.imfang.net/tags/windows7/">Windows7</a>
     
-    <a href="http://blog.imfang.net/tags/windows%E7%B3%BB%E7%BB%9F/">windows系统</a>
+    <a href="http://blog.imfang.net/tags/windows%E7%B3%BB%E7%BB%9F/">Windows系统</a>
     
-    <a href="http://blog.imfang.net/tags/wordpress/">wordpress</a>
+    <a href="http://blog.imfang.net/tags/wordpress/">WordPress</a>
     
-    <a href="http://blog.imfang.net/tags/wordpress%E5%A4%B4%E5%83%8F/">wordpress头像</a>
+    <a href="http://blog.imfang.net/tags/wordpress%E5%A4%B4%E5%83%8F/">WordPress头像</a>
     
     <a href="http://blog.imfang.net/tags/wordpress%E5%AE%89%E5%85%A8/">wordpress安全</a>
     
     <a href="http://blog.imfang.net/tags/wordpress%E6%8F%92%E4%BB%B6/">wordpress插件</a>
     
-    <a href="http://blog.imfang.net/tags/wp-postviews/">wp-postviews</a>
+    <a href="http://blog.imfang.net/tags/wp-postviews/">WP-PostViews</a>
     
     <a href="http://blog.imfang.net/tags/yahoo/">yahoo</a>
     
     <a href="http://blog.imfang.net/tags/%E4%BC%9A%E5%A3%B0%E4%BC%9A%E5%BD%B1/">会声会影</a>
     
-    <a href="http://blog.imfang.net/tags/%E5%85%8D%E8%B4%B9dns/">免费dns</a>
+    <a href="http://blog.imfang.net/tags/%E5%85%8D%E8%B4%B9dns/">免费DNS</a>
     
-    <a href="http://blog.imfang.net/tags/%E5%85%8D%E8%B4%B9ns/">免费ns</a>
+    <a href="http://blog.imfang.net/tags/%E5%85%8D%E8%B4%B9ns/">免费NS</a>
     
-    <a href="http://blog.imfang.net/tags/%E5%85%8D%E8%B4%B9vpn/">免费vpn</a>
+    <a href="http://blog.imfang.net/tags/%E5%85%8D%E8%B4%B9vpn/">免费VPN</a>
     
     <a href="http://blog.imfang.net/tags/%E5%85%8D%E8%B4%B9%E7%A9%BA%E9%97%B4/">免费空间</a>
     
@@ -615,7 +693,7 @@ Domaincow.com提供简单易用的免费网页和电子邮件转发服务，域�
     
     <a href="http://blog.imfang.net/tags/%E5%90%AF%E5%8A%A8%E9%A1%B9/">启动项</a>
     
-    <a href="http://blog.imfang.net/tags/%E5%9B%BA%E5%AE%9Aip/">固定ip</a>
+    <a href="http://blog.imfang.net/tags/%E5%9B%BA%E5%AE%9Aip/">固定IP</a>
     
     <a href="http://blog.imfang.net/tags/%E5%9B%BA%E5%AE%9A%E9%93%BE%E6%8E%A5/">固定链接</a>
     
@@ -657,7 +735,7 @@ Domaincow.com提供简单易用的免费网页和电子邮件转发服务，域�
     
     <a href="http://blog.imfang.net/tags/%E6%95%B4%E7%AB%99%E7%A8%8B%E5%BA%8F/">整站程序</a>
     
-    <a href="http://blog.imfang.net/tags/%E6%96%87%E7%AB%A0id/">文章id</a>
+    <a href="http://blog.imfang.net/tags/%E6%96%87%E7%AB%A0id/">文章ID</a>
     
     <a href="http://blog.imfang.net/tags/%E6%96%B0%E5%B9%B4/">新年</a>
     
@@ -701,7 +779,7 @@ Domaincow.com提供简单易用的免费网页和电子邮件转发服务，域�
     
     <a href="http://blog.imfang.net/tags/%E9%82%AE%E7%AE%B1/">邮箱</a>
     
-    <a href="http://blog.imfang.net/tags/%E9%87%91%E5%B1%B1t%E7%9B%98/">金山t盘</a>
+    <a href="http://blog.imfang.net/tags/%E9%87%91%E5%B1%B1t%E7%9B%98/">金山T盘</a>
     
     <a href="http://blog.imfang.net/tags/%E9%94%99%E8%AF%AF%E6%97%A5%E5%BF%97/">错误日志</a>
     
@@ -740,12 +818,12 @@ Domaincow.com提供简单易用的免费网页和电子邮件转发服务，域�
 
 
     <section class="widget">
-        <h3 class="widget-title">其他功能</h3>
+        <h3 class="widget-title">其他链接</h3>
         <ul class="widget-list">
             <li><a href="http://blog.imfang.net/index.xml">文章 RSS</a></li>
-			<li><a href="https://imfang.avosapps.us/" target="_blank">评论管理</a></li>
+            <li><a href="https://imfang.avosapps.us/" target="_blank">评论管理</a></li>
         </ul>
-		<a href="https://996.icu" target="_blank"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="996.icu" /></a>
+		    <a href="https://996.icu" target="_blank"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="996.icu"></a>
     </section>
 </div>
         </div>
@@ -761,31 +839,111 @@ Domaincow.com提供简单易用的免费网页和电子邮件转发服务，域�
 </footer>
 
 
-    <script type="text/javascript">
     
-    (function(){
-        $("pre code").parent().addClass("line-numbers")
-    }())
+    <script type="text/javascript">
+        
+        (function () {
+            $("pre code").parent().addClass("line-numbers")
+        }());
 
-    window.MathJax = {
-        tex2jax: {
-            inlineMath: [ ['$','$'] ],
-            processEscapes: true
-        }
-    };
+        window.MathJax = {
+            tex2jax: {
+                inlineMath: [['$', '$']],
+                processEscapes: true
+                }
+            };
     </script>
     <script type="text/javascript" src="/js/prism.js" async="true"></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+
 
 <a id="rocket" href="#top"></a>
 <script type="text/javascript" src="/js/totop.js?v=0.0.0" async=""></script>
 
 
 
-<script type="text/javascript" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script>
+    <script type="text/javascript" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script>
 
 
 
 
+<script type="text/javascript">
+(function(){
+	if (typeof self === 'undefined' || !self.Prism || !self.document) {
+		return;
+	}
+
+	if (!Prism.plugins.toolbar) {
+		console.warn('Copy to Clipboard plugin loaded before Toolbar plugin.');
+
+		return;
+	}
+
+	var ClipboardJS = window.ClipboardJS || undefined;
+
+	if (!ClipboardJS && typeof require === 'function') {
+		ClipboardJS = require('clipboard');
+	}
+
+	var callbacks = [];
+
+	if (!ClipboardJS) {
+		var script = document.createElement('script');
+		var head = document.querySelector('head');
+
+		script.onload = function() {
+			ClipboardJS = window.ClipboardJS;
+
+			if (ClipboardJS) {
+				while (callbacks.length) {
+					callbacks.pop()();
+				}
+			}
+		};
+
+		script.src = 'https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js';
+		head.appendChild(script);
+	}
+
+	Prism.plugins.toolbar.registerButton('copy-to-clipboard', function (env) {
+		var linkCopy = document.createElement('button');
+		linkCopy.textContent = '复制代码';
+
+		if (!ClipboardJS) {
+			callbacks.push(registerClipboard);
+		} else {
+			registerClipboard();
+		}
+
+		return linkCopy;
+
+		function registerClipboard() {
+			var clip = new ClipboardJS(linkCopy, {
+				'text': function () {
+					return env.code;
+				}
+			});
+
+			clip.on('success', function() {
+				linkCopy.textContent = '复制成功!';
+
+				resetText();
+			});
+			clip.on('error', function () {
+				linkCopy.textContent = '按 Ctrl+C 复制';
+
+				resetText();
+			});
+		}
+
+		function resetText() {
+			setTimeout(function () {
+				linkCopy.textContent = '复制代码';
+			}, 5000);
+		}
+	});
+})();
+
+</script>
 </body>
 </html>

@@ -1075,6 +1075,7 @@ table tr th, table tr td {
 #TableOfContents li {
     list-style-type: none; 
 }
+/* 打赏*/
 #QR {
     padding-top:20px;
 }
