@@ -6,10 +6,28 @@
     <description>Recent content on 方阁志</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 18 Sep 2019 10:05:22 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 26 Dec 2020 11:05:22 +0800</lastBuildDate>
     
 	<atom:link href="http://blog.imfang.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>推荐：win10系统好用的五笔输入法</title>
+      <link>http://blog.imfang.net/software/121.html</link>
+      <pubDate>Sat, 26 Dec 2020 11:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/software/121.html</guid>
+      <description>&lt;p&gt;自从换了win10系统后，我试用了很多第三方五笔输入法，比如：极点五笔，极品五笔，万能五笔，花儿五笔等。极点五笔我还是比较喜欢的，只是在win10系统里不太兼容，其他五笔也都有很多问题，搞的我在各种输入法中不断的切换，不胜其烦。其实微软就自带有五笔输入法，最近又在网上找到了一位五笔爱好者发布的开源软件“wubiLex( Win10 五笔助手) ”，我试用后感觉非常好，强烈推荐给喜欢五笔的朋友们使用！&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>重置win10系统后，怎么彻底删除C盘里的Windows Old</title>
+      <link>http://blog.imfang.net/software/120.html</link>
+      <pubDate>Sat, 26 Dec 2020 10:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/software/120.html</guid>
+      <description>正常情况下如果重新安装或升级windows10系统后，安装文件会在系统盘C：里把旧系统做一个备份生成一个Windows Old文件夹，以便新系</description>
+    </item>
     
     <item>
       <title>在HUGO文章底部添加打赏功能代码</title>

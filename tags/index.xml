@@ -6,13 +6,31 @@
     <description>Recent content in Tags on 方阁志</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 18 Sep 2019 10:05:22 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 26 Dec 2020 11:05:22 +0800</lastBuildDate>
     
 	<atom:link href="http://blog.imfang.net/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Hugo</title>
+      <title>Windows系统</title>
+      <link>http://blog.imfang.net/tags/windows%E7%B3%BB%E7%BB%9F/</link>
+      <pubDate>Sat, 26 Dec 2020 11:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/tags/windows%E7%B3%BB%E7%BB%9F/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>输入法</title>
+      <link>http://blog.imfang.net/tags/%E8%BE%93%E5%85%A5%E6%B3%95/</link>
+      <pubDate>Sat, 26 Dec 2020 11:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/tags/%E8%BE%93%E5%85%A5%E6%B3%95/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
       <link>http://blog.imfang.net/tags/hugo/</link>
       <pubDate>Wed, 18 Sep 2019 10:05:22 +0800</pubDate>
       
@@ -57,7 +75,7 @@
     </item>
     
     <item>
-      <title>WordPress</title>
+      <title>wordpress</title>
       <link>http://blog.imfang.net/tags/wordpress/</link>
       <pubDate>Fri, 19 Jul 2019 16:05:22 +0800</pubDate>
       
@@ -107,15 +125,6 @@
       <pubDate>Thu, 09 May 2019 15:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/tags/windows7/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Windows系统</title>
-      <link>http://blog.imfang.net/tags/windows%E7%B3%BB%E7%BB%9F/</link>
-      <pubDate>Thu, 09 May 2019 15:05:22 +0800</pubDate>
-      
-      <guid>http://blog.imfang.net/tags/windows%E7%B3%BB%E7%BB%9F/</guid>
       <description></description>
     </item>
     
