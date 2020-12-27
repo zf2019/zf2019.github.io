@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ajax.useso.com on 方阁志</title>
@@ -6,11 +6,7 @@
     <description>Recent content in ajax.useso.com on 方阁志</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 19 Sep 2016 13:05:22 +0800</lastBuildDate>
-    
-	<atom:link href="http://blog.imfang.net/tags/ajax.useso.com/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 19 Sep 2016 13:05:22 +0800</lastBuildDate><atom:link href="http://blog.imfang.net/tags/ajax.useso.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ajax.useso.com加载慢解决方法</title>
       <link>http://blog.imfang.net/wordpress/64.html</link>

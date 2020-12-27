@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>计算机相关 on 方阁志</title>
@@ -6,11 +6,7 @@
     <description>Recent content in 计算机相关 on 方阁志</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 26 Dec 2020 11:05:22 +0800</lastBuildDate>
-    
-	<atom:link href="http://blog.imfang.net/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9B%B8%E5%85%B3/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 26 Dec 2020 11:05:22 +0800</lastBuildDate><atom:link href="http://blog.imfang.net/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%9B%B8%E5%85%B3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>推荐：win10系统好用的五笔输入法</title>
       <link>http://blog.imfang.net/software/121.html</link>
@@ -126,7 +122,6 @@
       
       <guid>http://blog.imfang.net/software/87.html</guid>
       <description>&lt;p&gt;Nero刻录软件是德国Ahead公司出品的,也是全球应用最多的光介质媒体烧录软件.Nero具备高速、稳定的烧录核心,再加上友善的操作接口,绝对是你烧录机的绝佳搭档.&lt;/p&gt;
-
 &lt;p&gt;Nero虽然好用但是现在的新版Nero越来越不好破解了,我从Nero2014到现在的最新2017破解版都装过,但是基本上都不能用(或者是我安装的问题).我目前用过最稳定的版本就是Nero8和现在使用的Nero10了,&lt;/p&gt;</description>
     </item>
     
@@ -192,9 +187,7 @@
       
       <guid>http://blog.imfang.net/software/33.html</guid>
       <description>&lt;p&gt;用笔记本电脑玩游戏时，当切换到全屏时游戏显示不是满屏的，而是左右两边出现了黑边，这看起来很不爽。那么这种问题怎么解决呢？下面就给出几种解决办法：&lt;/p&gt;
-
-&lt;h3 id=&#34;一-windows7下游戏全屏问题通用解决方法-推荐使用&#34;&gt;一、Windows7下游戏全屏问题通用解决方法（推荐使用）：&lt;/h3&gt;
-
+&lt;h3 id=&#34;一windows7下游戏全屏问题通用解决方法推荐使用&#34;&gt;一、Windows7下游戏全屏问题通用解决方法（推荐使用）：&lt;/h3&gt;
 &lt;p&gt;Win键+R键，打开运行窗口，输入regedit 回车，这样就打开了注册表编辑器，然后，定位到以下位置：&lt;/p&gt;</description>
     </item>
     
@@ -204,8 +197,7 @@
       <pubDate>Thu, 27 Dec 2012 13:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/software/21.html</guid>
-      <description>&lt;p&gt;各种文件后缀名与打开方式大全,想知道某个文件要用什么软件打开就来这里查查吧.如果看不到文件的后缀名,在XP系统里打开我的电脑&amp;ndash;&amp;gt;工具&amp;ndash;&amp;gt;文件夹选项&amp;ndash;&amp;gt;查看&amp;ndash;&amp;gt;把&amp;rdquo;隐藏已知文件类型的扩展名&amp;rdquo;前面的勾去掉就行了.&lt;/p&gt;
-
+      <description>&lt;p&gt;各种文件后缀名与打开方式大全,想知道某个文件要用什么软件打开就来这里查查吧.如果看不到文件的后缀名,在XP系统里打开我的电脑&amp;ndash;&amp;gt;工具&amp;ndash;&amp;gt;文件夹选项&amp;ndash;&amp;gt;查看&amp;ndash;&amp;gt;把&amp;quot;隐藏已知文件类型的扩展名&amp;quot;前面的勾去掉就行了.&lt;/p&gt;
 &lt;p&gt;扩展名 ↓ 文件类型 ↓ 打开方式↓  (按照字母A-Z排列)&lt;/p&gt;</description>
     </item>
     

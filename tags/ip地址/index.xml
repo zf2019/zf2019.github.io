@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>IP地址 on 方阁志</title>
@@ -6,11 +6,7 @@
     <description>Recent content in IP地址 on 方阁志</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 09 Feb 2012 13:05:22 +0800</lastBuildDate>
-    
-	<atom:link href="http://blog.imfang.net/tags/ip%E5%9C%B0%E5%9D%80/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 09 Feb 2012 13:05:22 +0800</lastBuildDate><atom:link href="http://blog.imfang.net/tags/ip%E5%9C%B0%E5%9D%80/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>免费稳定的DNS解析服务器大全</title>
       <link>http://blog.imfang.net/web/90.html</link>
@@ -27,7 +23,6 @@
       
       <guid>http://blog.imfang.net/web/75.html</guid>
       <description>&lt;h3 id=&#34;什么是域名&#34;&gt;什么是域名？&lt;/h3&gt;
-
 &lt;p&gt;Internet域名是Internet网络上的一个服务器或一个网络系统的名字，在全世界，没有重复的域名。域名的形式是以若干个英文字母或数字组成，由“.”分隔成几部分，如oursoho.com就是一个域名。&lt;/p&gt;</description>
     </item>
     

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>EDIUS插件 on 方阁志</title>
@@ -6,11 +6,7 @@
     <description>Recent content in EDIUS插件 on 方阁志</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 10 Jul 2017 13:05:22 +0800</lastBuildDate>
-    
-	<atom:link href="http://blog.imfang.net/tags/edius%E6%8F%92%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 10 Jul 2017 13:05:22 +0800</lastBuildDate><atom:link href="http://blog.imfang.net/tags/edius%E6%8F%92%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[图]Edius6.55可用插件和特效预设汇总</title>
       <link>http://blog.imfang.net/nle/85.html</link>

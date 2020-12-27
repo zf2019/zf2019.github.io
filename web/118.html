@@ -3,42 +3,45 @@
 <head>
 
     <meta charset="utf-8">
-    <meta name="generator" content="Hugo 0.55.6" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    
 
     <title>GitHub Pages自定义域名使用Cloudflare无法Enforce HTTPS解决方法 | 方阁志</title>
     <meta property="og:title" content="GitHub Pages自定义域名使用Cloudflare无法Enforce HTTPS解决方法 - 方阁志">
     <meta property="og:type" content="article">
         
-    <meta property="article:published_time" content="2019-09-16T10:05:22&#43;08:00">
+    <meta property="article:published_time" content='2019-09-16T10:05:22&#43;08:00'>
         
         
-    <meta property="article:modified_time" content="2019-09-16T10:05:22&#43;08:00">
+    <meta property="article:modified_time" content='2019-09-16T10:05:22&#43;08:00'>
         
     <meta name="Keywords" content="方阁志,威力方工作室,周方博客,wordpress,hugo,计算机,网络,Photoshop,非线性编辑">
     <meta name="description" content="GitHub Pages自定义域名使用Cloudflare无法Enforce HTTPS解决方法">
         
     <meta name="author" content="威力方">
     <meta property="og:url" content="http://blog.imfang.net/web/118.html">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href='/favicon.ico'  type="image/x-icon">
 
-    <link rel="stylesheet" href="/css/normalize.css">
-    
-        <link rel="stylesheet" href="/css/prism.css">
-    
-    <link rel="stylesheet" href="/css/style.css">
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href='/css/normalize.css'>
+    <link rel="stylesheet" href='/css/style.css'>
+    <script type="text/javascript" src="//cdn.bootcdn.net/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     
-
-
+    
+    
+        <link href="https://cdn.bootcdn.net/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" rel="stylesheet">
+    
+    
     
     
 </head>
 
+
 <body>
-<header id="header" class="clearfix">
+    <header id="header" class="clearfix">
     <div class="container">
         <div class="col-group">
             <div class="site-name ">
@@ -65,92 +68,103 @@
     </div>
 </header>
 
+    <div id="body">
+        <div class="container">
+            <div class="col-group">
 
-<div id="body">
+                <div class="col-8" id="main">
+                    
+<div class="res-cons">
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">GitHub Pages自定义域名使用Cloudflare无法Enforce HTTPS解决方法</h1>
+        </header>
+        <date class="post-meta meta-date">
+            2019年9月16日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='/categories/%E7%BD%91%E7%BB%9C%E4%B8%8E%E7%BD%91%E7%AB%99'>网络与网站</a></span>
+            
+        </div>
         
         
-    <div class="container">
-        <div class="col-group">
-
-            <div class="col-8" id="main">
-                <div class="res-cons">
-                    <article class="post">
-                        <header>
-                            <h1 class="post-title">GitHub Pages自定义域名使用Cloudflare无法Enforce HTTPS解决方法</h1>
-                        </header>
-                        <date class="post-meta meta-date">
-                            2019年9月16日
-                        </date>
-                        
-                        <div class="post-meta">
-                            <span>|</span>
-                            
-                                <span class="meta-category"><a href="http://blog.imfang.net/categories/%E7%BD%91%E7%BB%9C%E4%B8%8E%E7%BD%91%E7%AB%99">网络与网站</a></span>
-                            
-                        </div>
-                        
-                        
-                        <div class="post-meta">
-                            <span id="busuanzi_container_page_pv">|<span id="busuanzi_value_page_pv"></span><span> 阅读</span></span>
-                        </div>
-                        
-                        
-                        <div class="post-content">
-                            <p>早在去年我就想把博客启用更安全的HTTPS协议，不过考虑到博客里并不涉及什么敏感信息，而且当时使用的是WordPress如果半路配置HTTPS是相当繁琐的，最主要的是还需要额外购买证书，所以一直没有实施这个想法。<br />
+        <div class="post-meta">
+            <span id="busuanzi_container_page_pv">|<span id="busuanzi_value_page_pv"></span><span>
+                    阅读</span></span>
+        </div>
+        
+        
+        <div class="post-content">
+            <p>早在去年我就想把博客启用更安全的HTTPS协议，不过考虑到博客里并不涉及什么敏感信息，而且当时使用的是WordPress如果半路配置HTTPS是相当繁琐的，最主要的是还需要额外购买证书，所以一直没有实施这个想法。<br>
 直到现在把博客托管到GitHub Pages后发现他们提供免费的HTTPS服务，由于我当时对这项免费的服务并不了解所以并没有第一时间配置。在使用了GitHub一段时间后发现他们的免费服务还是靠普的，此时又有了给博客启用HTTPS的想法，
 我以为很简单直接在Settings里点选Enforce HTTPS不就完事了吗，哪知世上的事并不如人意。</p>
-
 <p>Enforce HTTPS竟然是灰色的不给选？我当时不知出了什么问题，就在网上搜了很长时间，搜到的所有答案都是要求清空Custom domain重新设置自定义域名然后等24小时后就可以选Enforce HTTPS了。然后我就照着做了，然后傻等了24小时、48小时&hellip;&hellip;
 一直等了N天也不行。如下图
-<img src="/imag/20190717/github1.png" alt="Enforce HTTPS灰色的" />
-这时候我才反应过来肯定哪里有什么不对，但是我却找不到原因，这让我苦恼了好几天。后来在GitHub的帮助页面发现可以给他们发邮件，我就抱着试试看的态度发了个简单的英文邮件，并附上了Custom domain页面和DNS设置页面的截图</p>
 
+    
+    
+        <a data-fancybox="gallery" href="https://cdn.jsdelivr.net/gh/zf2019/zf2019.github.io/imag/20190717/github1.png">
+            <img class="mx-auto" alt="Enforce HTTPS灰色的" src="https://cdn.jsdelivr.net/gh/zf2019/zf2019.github.io/imag/20190717/github1.png" />
+        </a>
+    
+这时候我才反应过来肯定哪里有什么不对，但是我却找不到原因，这让我苦恼了好几天。后来在GitHub的帮助页面发现可以给他们发邮件，我就抱着试试看的态度发了个简单的英文邮件，并附上了Custom domain页面和DNS设置页面的截图</p>
 <blockquote>
 <p>My domain name: blog.imfang.net has correctly configured DNS, or can&rsquo;t open HTTPS, ask for help</p>
 </blockquote>
-
 <p>由于我不会英语，只能通过百度翻译写上这么一小段，希望GitHub的技术人员能看懂。没想到过了两天就收到了GitHub技术员Lesley发来的邮件。下图
-<img src="/imag/20190717/github3-1.png" alt="GitHub技术员发来的邮件" />
+
+    
+    
+        <a data-fancybox="gallery" href="https://cdn.jsdelivr.net/gh/zf2019/zf2019.github.io/imag/20190717/github3-1.png">
+            <img class="mx-auto" alt="GitHub技术员发来的邮件" src="https://cdn.jsdelivr.net/gh/zf2019/zf2019.github.io/imag/20190717/github3-1.png" />
+        </a>
+    
 当然还是使用百度翻译，我竟然也看懂了
-<img src="/imag/20190717/github3-2.png" alt="翻译后" />
+
+    
+    
+        <a data-fancybox="gallery" href="https://cdn.jsdelivr.net/gh/zf2019/zf2019.github.io/imag/20190717/github3-2.png">
+            <img class="mx-auto" alt="翻译后" src="https://cdn.jsdelivr.net/gh/zf2019/zf2019.github.io/imag/20190717/github3-2.png" />
+        </a>
+    
 问题一目了然：是因为我使用了Cloudflare的HTTP/DNS代理导致GitHub无法查看生成HTTPS证书所需的DNS记录，我需要关掉Cloudflare上的HTTP/DNS代理然后等72小时生效后再清空Custom domain重新设置自定义域名。
-<img src="/imag/20190717/github4.png" alt="Cloudflare" />
+
+    
+    
+        <a data-fancybox="gallery" href="https://cdn.jsdelivr.net/gh/zf2019/zf2019.github.io/imag/20190717/github4.png">
+            <img class="mx-auto" alt="Cloudflare" src="https://cdn.jsdelivr.net/gh/zf2019/zf2019.github.io/imag/20190717/github4.png" />
+        </a>
+    
 其实我只等了几分钟，实在不想等了就Ping了下域名发现IP变成GitHub的了，说明设置已经生效了，立马清空了Custom domain重新设置一遍自定义域名，哈哈Enforce HTTPS可以选了，点选后再等几分钟后HTTPS就生效了，困扰我1个多星期的问题解决了。
 另外我的域名DNS设置的是A记录，GitHub建议更改为CNAME记录形式，这样以后即使GitHub更换了IP地址也不用重新设置了，我完全遵照GitHub的建议更改了域名的DNS为CNAME记录。
-<img src="/imag/20190717/github5.png" alt="Enforce HTTPS正常" />
-PS：一般如果使用的是域名商提供的DNS不会像我这么难设置，因为我使用了Cloudflare的CDN服务默认开启了HTTP/DNS代理（域名的IP被改成了Cloudflare提供的地址），所以导致GitHub无法查看生成HTTPS证书所需的DNS记录，如果你也遇到和我一样的问题可以试试我的方法，启用HTTPS正常后我又偷偷的打开了HTTP/DNS代理不知道会不会出问题，不过暂时好像一切正常。<br />
-<strong>最后一定要重点感谢一下GitHub技术员Lesley（莱斯莉）提供的专业帮助，这充分证明了GitHub团队的专业和敬业精神！再看国内的某些客服格式化的回复跟人家比简直就是天壤之别</strong></p>
-                        </div>
 
-                        
+    
+    
+        <a data-fancybox="gallery" href="https://cdn.jsdelivr.net/gh/zf2019/zf2019.github.io/imag/20190717/github5.png">
+            <img class="mx-auto" alt="Enforce HTTPS正常" src="https://cdn.jsdelivr.net/gh/zf2019/zf2019.github.io/imag/20190717/github5.png" />
+        </a>
+    
+PS：一般如果使用的是域名商提供的DNS不会像我这么难设置，因为我使用了Cloudflare的CDN服务默认开启了HTTP/DNS代理（域名的IP被改成了Cloudflare提供的地址），所以导致GitHub无法查看生成HTTPS证书所需的DNS记录，如果你也遇到和我一样的问题可以试试我的方法，启用HTTPS正常后我又偷偷的打开了HTTP/DNS代理不知道会不会出问题，不过暂时好像一切正常。<br>
+<strong>最后一定要重点感谢一下GitHub技术员Lesley（莱斯莉）提供的专业帮助，这充分证明了GitHub团队的专业和敬业精神！再看国内的某些客服格式化的回复跟人家比简直就是天壤之别</strong></p>
+        </div>
+
+        
 <div class="post-archive">
     <ul class="post-copyright">
         <li><strong>原文作者：</strong><a rel="author" href="http://blog.imfang.net">威力方</a></li>
         <li style="word-break:break-all"><strong>原文链接：</strong><a href="http://blog.imfang.net/web/118.html">http://blog.imfang.net/web/118.html</a></li>
-        <li><strong>版权声明：</strong>除非注明！本站文章均为原创。采用<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">《知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议》</a>进行许可，非商业转载请注明出处（作者，原文链接），商业转载请联系作者获得授权。</li>
+        <li><strong>版权声明：</strong>本作品采用<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">《知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议》</a>进行许可，非商业转载请注明出处（作者，原文链接），商业转载请联系作者获得授权。</li>
     </ul>
 </div>
-<div style="padding: 10px 0; margin: 20px auto; width: 100%; font-size:16px; text-align: center;">
-        <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
-            <span>打赏</span></button>
-        <div id="QR" style="display: none;">
-            <div id="wechat" style="display: inline-block">
-                <a class="fancybox" rel="group">
-                    <img id="wechat_qr" src="/images/weixin.png" alt="WeChat Pay"></a>
-                <p>微信打赏</p>
-            </div>
-            <div id="alipay" style="display: inline-block">
-                <a class="fancybox" rel="group">
-                    <img id="alipay_qr" src="/images/zhifubao.png" alt="Alipay"></a>
-                <p>支付宝打赏</p>
-            </div>
-        </div>
-</div>
-<br/>	
+<br/>
 
 
 
-                        
+        
 
 <div class="post-archive">
     <h2>See Also</h2>
@@ -170,45 +184,75 @@ PS：一般如果使用的是域名商提供的DNS不会像我这么难设置，
 </div>
 
 
-                        <div class="post-meta meta-tags">
-                            
-                            <ul class="clearfix">
-                                
-                                <li><a href="http://blog.imfang.net/tags/github">GitHub</a></li>
-                                
-                                <li><a href="http://blog.imfang.net/tags/cloudflare">Cloudflare</a></li>
-                                
-                                <li><a href="http://blog.imfang.net/tags/dns">DNS</a></li>
-                                
-                            </ul>
-                            
-                        </div>
-                    </article>
-                    
-  <span id="/web/118.html" class="leancloud_visitors" data-flag-title="GitHub Pages自定义域名使用Cloudflare无法Enforce HTTPS解决方法">
-    <h3><span class="post-meta-item-text">留言本（支持Markdown）</span></h3>
-    <p></p>
-  </span>
-  <div id="vcomments"></div>
-  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
-  <script type="text/javascript">
-    new Valine({
-        el: '#vcomments' ,
-        appId: 'teSRhj0VmmlUYBek5ciJnzWk-MdYXbMMI',
-        appKey: 'KSNbo03f2K33Lzu2Xxqbk6Js',
-        notify:  true , 
-        verify:  true , 
-        avatar:'mm', 
-        placeholder: '评论数据存储在第三方平台,请勿发表不当言论!',
-        visitor:  false 
-    });
-  </script>
+        <div class="post-meta meta-tags">
+            
+            <ul class="clearfix">
+                
+                <li><a href='/tags/github'>GitHub</a></li>
+                
+                <li><a href='/tags/cloudflare'>Cloudflare</a></li>
+                
+                <li><a href='/tags/dns'>DNS</a></li>
+                
+            </ul>
+            
+        </div>
+    </article>
+    
+    
+
+    
+    
+</div>
+
+                    <footer id="footer">
+    <div>
+        &copy; 2011-2020 <a href="http://blog.imfang.net">方阁志 By 威力方</a>
+        
+        | <a rel="nofollow" target="_blank" href="http://www.beian.miit.gov.cn/">预ICP备88888888号-1</a>
+        
+    </div>
+    <br />
+    <div>
+        <div class="github-badge">
+            <a href="https://gohugo.io/" target="_black" rel="nofollow"><span class="badge-subject">Powered by</span><span class="badge-value bg-blue">Hugo</span></a>
+        </div>
+        <div class="github-badge">
+            <a href="https://www.flysnow.org/" target="_black"><span class="badge-subject">Design by</span><span class="badge-value bg-brightgreen">飞雪无情</span></a>
+        </div>
+        <div class="github-badge">
+            <a href="https://github.com/flysnow-org/maupassant-hugo" target="_black"><span class="badge-subject">Theme</span><span class="badge-value bg-yellowgreen">Maupassant</span></a>
+        </div>
+    </div>
+</footer>
+
+
+    
+    <script type="text/javascript">
+        window.MathJax = {
+            tex2jax: {
+                inlineMath: [['$', '$']],
+                processEscapes: true
+                }
+            };
+    </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script><script src="https://cdn.bootcdn.net/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+<a id="rocket" href="#top"></a>
+<script type="text/javascript" src='/js/totop.js?v=0.0.0' async=""></script>
+
+
+
+    <script type="text/javascript" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script>
+
+
+
+
                 </div>
-            </div>
-            <div id="secondary">
+
+                <div id="secondary">
     <section class="widget">
-        <form id="search" action="/search/" method="get" accept-charset="utf-8" target="_blank" _lpchecked="1">
+        <form id="search" action='http://blog.imfang.net/search/' method="get" accept-charset="utf-8" target="_blank" _lpchecked="1">
       
       <input type="text" name="q" maxlength="20" placeholder="Search">
       <input type="hidden" name="sitesearch" value="http://blog.imfang.net">
@@ -265,7 +309,7 @@ PS：一般如果使用的是域名商提供的DNS不会像我这么难设置，
 
     
 <section class="widget">
-    <h3 class="widget-title" style="color:red">谢谢支持</h3>
+    <h3 class="widget-title" style="color:red">福利派送</h3>
     <ul class="widget-list">
         
         <li>
@@ -289,7 +333,7 @@ PS：一般如果使用的是域名商提供的DNS不会像我这么难设置，
 
 
     <section class="widget">
-        <h3 class="widget-title">文章分类</h3>
+        <h3 class="widget-title"><a href='/categories/'>分类</a></h3>
 <ul class="widget-list">
     
     <li><a href="http://blog.imfang.net/categories/wordpress/">WordPress (17)</a></li>
@@ -300,7 +344,7 @@ PS：一般如果使用的是域名商提供的DNS不会像我这么难设置，
     
     <li><a href="http://blog.imfang.net/categories/%E6%9C%AA%E5%88%86%E7%B1%BB/">未分类 (12)</a></li>
     
-    <li><a href="http://blog.imfang.net/categories/%E7%94%9F%E6%B4%BB%E7%9A%84%E7%82%B9%E6%BB%B4/">生活的点滴  (12)</a></li>
+    <li><a href="http://blog.imfang.net/categories/%E7%94%9F%E6%B4%BB%E7%9A%84%E7%82%B9%E6%BB%B4/">生活的点滴 (12)</a></li>
     
     <li><a href="http://blog.imfang.net/categories/%E7%BD%91%E7%BB%9C%E4%B8%8E%E7%BD%91%E7%AB%99/">网络与网站 (41)</a></li>
     
@@ -312,7 +356,7 @@ PS：一般如果使用的是域名商提供的DNS不会像我这么难设置，
     </section>
 
     <section class="widget">
-        <h3 class="widget-title">文章标签</h3>
+        <h3 class="widget-title"><a href='/tags/'>标签</a></h3>
 <div class="tagcloud">
     
     <a href="http://blog.imfang.net/tags/.htaccess/">.htaccess</a>
@@ -375,7 +419,7 @@ PS：一般如果使用的是域名商提供的DNS不会像我这么难设置，
     
     <a href="http://blog.imfang.net/tags/hostinger/">hostinger</a>
     
-    <a href="http://blog.imfang.net/tags/hugo/">hugo</a>
+    <a href="http://blog.imfang.net/tags/hugo/">Hugo</a>
     
     <a href="http://blog.imfang.net/tags/ip%E5%9C%B0%E5%9D%80/">IP地址</a>
     
@@ -427,7 +471,7 @@ PS：一般如果使用的是域名商提供的DNS不会像我这么难设置，
     
     <a href="http://blog.imfang.net/tags/windows%E7%B3%BB%E7%BB%9F/">Windows系统</a>
     
-    <a href="http://blog.imfang.net/tags/wordpress/">wordpress</a>
+    <a href="http://blog.imfang.net/tags/wordpress/">WordPress</a>
     
     <a href="http://blog.imfang.net/tags/wordpress%E5%A4%B4%E5%83%8F/">WordPress头像</a>
     
@@ -586,132 +630,15 @@ PS：一般如果使用的是域名商提供的DNS不会像我这么难设置，
 
 
     <section class="widget">
-        <h3 class="widget-title">其他链接</h3>
+        <h3 class="widget-title">其它</h3>
         <ul class="widget-list">
             <li><a href="http://blog.imfang.net/index.xml">文章 RSS</a></li>
-            <li><a href="https://imfang.avosapps.us/" target="_blank">评论管理</a></li>
         </ul>
-		    <a href="https://996.icu" target="_blank"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="996.icu"></a>
     </section>
 </div>
+            </div>
         </div>
     </div>
-</div>
-<footer id="footer">
-    <div class="container">
-        &copy; 2011-2020 <a href="http://blog.imfang.net">方阁志 By 威力方</a>.
-        Powered by <a rel="nofollow noreferer noopener" href="https://gohugo.io" target="_blank">Hugo</a>.
-        <a href="https://www.flysnow.org/" target="_blank">Theme</a> based on <a href="https://github.com/rujews/maupassant-hugo" target="_blank">maupassant</a>.
-        
-    </div>
-</footer>
-
-
-    
-    <script type="text/javascript">
-        
-        (function () {
-            $("pre code").parent().addClass("line-numbers")
-        }());
-
-        window.MathJax = {
-            tex2jax: {
-                inlineMath: [['$', '$']],
-                processEscapes: true
-                }
-            };
-    </script>
-    <script type="text/javascript" src="/js/prism.js" async="true"></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
-
-
-<a id="rocket" href="#top"></a>
-<script type="text/javascript" src="/js/totop.js?v=0.0.0" async=""></script>
-
-
-
-    <script type="text/javascript" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script>
-
-
-
-
-<script type="text/javascript">
-(function(){
-	if (typeof self === 'undefined' || !self.Prism || !self.document) {
-		return;
-	}
-
-	if (!Prism.plugins.toolbar) {
-		console.warn('Copy to Clipboard plugin loaded before Toolbar plugin.');
-
-		return;
-	}
-
-	var ClipboardJS = window.ClipboardJS || undefined;
-
-	if (!ClipboardJS && typeof require === 'function') {
-		ClipboardJS = require('clipboard');
-	}
-
-	var callbacks = [];
-
-	if (!ClipboardJS) {
-		var script = document.createElement('script');
-		var head = document.querySelector('head');
-
-		script.onload = function() {
-			ClipboardJS = window.ClipboardJS;
-
-			if (ClipboardJS) {
-				while (callbacks.length) {
-					callbacks.pop()();
-				}
-			}
-		};
-
-		script.src = 'https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js';
-		head.appendChild(script);
-	}
-
-	Prism.plugins.toolbar.registerButton('copy-to-clipboard', function (env) {
-		var linkCopy = document.createElement('button');
-		linkCopy.textContent = '复制代码';
-
-		if (!ClipboardJS) {
-			callbacks.push(registerClipboard);
-		} else {
-			registerClipboard();
-		}
-
-		return linkCopy;
-
-		function registerClipboard() {
-			var clip = new ClipboardJS(linkCopy, {
-				'text': function () {
-					return env.code;
-				}
-			});
-
-			clip.on('success', function() {
-				linkCopy.textContent = '复制成功!';
-
-				resetText();
-			});
-			clip.on('error', function () {
-				linkCopy.textContent = '按 Ctrl+C 复制';
-
-				resetText();
-			});
-		}
-
-		function resetText() {
-			setTimeout(function () {
-				linkCopy.textContent = '复制代码';
-			}, 5000);
-		}
-	});
-})();
-
-</script>
 </body>
+
 </html>

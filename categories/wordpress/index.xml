@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>WordPress on 方阁志</title>
@@ -6,11 +6,7 @@
     <description>Recent content in WordPress on 方阁志</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 12 Nov 2018 13:05:22 +0800</lastBuildDate>
-    
-	<atom:link href="http://blog.imfang.net/categories/wordpress/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 12 Nov 2018 13:05:22 +0800</lastBuildDate><atom:link href="http://blog.imfang.net/categories/wordpress/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>让WordPress在PC端和移动端浏览显示不同的主题效果</title>
       <link>http://blog.imfang.net/wordpress/105.html</link>
@@ -35,7 +31,7 @@
       <pubDate>Sat, 27 Dec 2014 13:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/wordpress/49.html</guid>
-      <description>&lt;p&gt;发现现在打开的我的博客老是提示:加载&amp;rdquo;0.gravatar.com&amp;rdquo;等,而且评论头像也无法正常显示了,可能是Gravatar头像服务器集体被墙了,无论是国内主机还是国外主机都受到了影响,严重的影响了使用此服务网站的打开速度和使用体验.当然网上有很多方法可以解决这一问题,有国内服务器替代法也有插件替代法,在这里我介绍下我使用的方法,打开速度还不错.&lt;/p&gt;</description>
+      <description>&lt;p&gt;发现现在打开的我的博客老是提示:加载&amp;quot;0.gravatar.com&amp;quot;等,而且评论头像也无法正常显示了,可能是Gravatar头像服务器集体被墙了,无论是国内主机还是国外主机都受到了影响,严重的影响了使用此服务网站的打开速度和使用体验.当然网上有很多方法可以解决这一问题,有国内服务器替代法也有插件替代法,在这里我介绍下我使用的方法,打开速度还不错.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -100,7 +96,6 @@
       
       <guid>http://blog.imfang.net/wordpress/16.html</guid>
       <description>&lt;h3 id=&#34;隐藏wordpress的版本信息&#34;&gt;隐藏WordPress的版本信息&lt;/h3&gt;
-
 &lt;p&gt;有些主题会带有显示WordPress的版本信息的代码，有些恶意用户看到你的WordPress版本后，那他对特定版本的漏洞进行攻击就简单多了。那么我们就要去除WordPress的版本信息显示代码，首先，在主题的header.php中查找是否以下类似代码，如果有的话就将它去除，因为这是用来输出版本号的：&lt;/p&gt;</description>
     </item>
     
@@ -164,8 +159,7 @@
       <pubDate>Thu, 17 Nov 2011 13:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/wordpress/27.html</guid>
-      <description>&lt;p&gt;&lt;strong&gt;WP-PostViews&lt;/strong&gt;插件由 &lt;a href=&#34;http://lesterchan.net/&#34;&gt;GaMerZ&lt;/a&gt;开发，主要功能是实现文章阅读数统计、侧边栏 Widget 以及显示最受欢迎（阅读数最多）文章、某分类下最受欢迎（阅读数最多）文章等功能。&lt;/p&gt;
-
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;WP-PostViews&lt;!-- raw HTML omitted --&gt;插件由 &lt;!-- raw HTML omitted --&gt;GaMerZ&lt;!-- raw HTML omitted --&gt;开发，主要功能是实现文章阅读数统计、侧边栏 Widget 以及显示最受欢迎（阅读数最多）文章、某分类下最受欢迎（阅读数最多）文章等功能。&lt;/p&gt;
 &lt;p&gt;效果展示：见本站文章标题行。&lt;/p&gt;</description>
     </item>
     

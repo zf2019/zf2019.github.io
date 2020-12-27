@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on 方阁志</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Tags on 方阁志</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 26 Dec 2020 11:05:22 +0800</lastBuildDate>
-    
-	<atom:link href="http://blog.imfang.net/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 26 Dec 2020 11:05:22 +0800</lastBuildDate><atom:link href="http://blog.imfang.net/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Windows系统</title>
       <link>http://blog.imfang.net/tags/windows%E7%B3%BB%E7%BB%9F/</link>
@@ -30,7 +26,7 @@
     </item>
     
     <item>
-      <title>hugo</title>
+      <title>Hugo</title>
       <link>http://blog.imfang.net/tags/hugo/</link>
       <pubDate>Wed, 18 Sep 2019 10:05:22 +0800</pubDate>
       
@@ -75,7 +71,7 @@
     </item>
     
     <item>
-      <title>wordpress</title>
+      <title>WordPress</title>
       <link>http://blog.imfang.net/tags/wordpress/</link>
       <pubDate>Fri, 19 Jul 2019 16:05:22 +0800</pubDate>
       
@@ -273,20 +269,20 @@
     </item>
     
     <item>
-      <title>EDIUS插件</title>
-      <link>http://blog.imfang.net/tags/edius%E6%8F%92%E4%BB%B6/</link>
-      <pubDate>Mon, 10 Jul 2017 13:05:22 +0800</pubDate>
-      
-      <guid>http://blog.imfang.net/tags/edius%E6%8F%92%E4%BB%B6/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Edius</title>
       <link>http://blog.imfang.net/tags/edius/</link>
       <pubDate>Mon, 10 Jul 2017 13:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/tags/edius/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EDIUS插件</title>
+      <link>http://blog.imfang.net/tags/edius%E6%8F%92%E4%BB%B6/</link>
+      <pubDate>Mon, 10 Jul 2017 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/tags/edius%E6%8F%92%E4%BB%B6/</guid>
       <description></description>
     </item>
     
@@ -408,20 +404,20 @@
     </item>
     
     <item>
-      <title>NameSilo</title>
-      <link>http://blog.imfang.net/tags/namesilo/</link>
-      <pubDate>Fri, 16 Oct 2015 13:05:22 +0800</pubDate>
-      
-      <guid>http://blog.imfang.net/tags/namesilo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>godaddy</title>
       <link>http://blog.imfang.net/tags/godaddy/</link>
       <pubDate>Fri, 16 Oct 2015 13:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/tags/godaddy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NameSilo</title>
+      <link>http://blog.imfang.net/tags/namesilo/</link>
+      <pubDate>Fri, 16 Oct 2015 13:05:22 +0800</pubDate>
+      
+      <guid>http://blog.imfang.net/tags/namesilo/</guid>
       <description></description>
     </item>
     

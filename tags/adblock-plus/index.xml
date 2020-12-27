@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AdBlock Plus on 方阁志</title>
@@ -6,11 +6,7 @@
     <description>Recent content in AdBlock Plus on 方阁志</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 21 Mar 2012 13:05:22 +0800</lastBuildDate>
-    
-	<atom:link href="http://blog.imfang.net/tags/adblock-plus/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 21 Mar 2012 13:05:22 +0800</lastBuildDate><atom:link href="http://blog.imfang.net/tags/adblock-plus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>解决网站统计代码在Firefox上不显示问题</title>
       <link>http://blog.imfang.net/web/1.html</link>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 方阁志</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Posts on 方阁志</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 26 Dec 2020 11:05:22 +0800</lastBuildDate>
-    
-	<atom:link href="http://blog.imfang.net/post/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 26 Dec 2020 11:05:22 +0800</lastBuildDate><atom:link href="http://blog.imfang.net/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>推荐：win10系统好用的五笔输入法</title>
       <link>http://blog.imfang.net/software/121.html</link>
@@ -45,7 +41,7 @@
       <pubDate>Mon, 16 Sep 2019 10:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/web/118.html</guid>
-      <description>&lt;p&gt;早在去年我就想把博客启用更安全的HTTPS协议，不过考虑到博客里并不涉及什么敏感信息，而且当时使用的是WordPress如果半路配置HTTPS是相当繁琐的，最主要的是还需要额外购买证书，所以一直没有实施这个想法。&lt;br /&gt;
+      <description>&lt;p&gt;早在去年我就想把博客启用更安全的HTTPS协议，不过考虑到博客里并不涉及什么敏感信息，而且当时使用的是WordPress如果半路配置HTTPS是相当繁琐的，最主要的是还需要额外购买证书，所以一直没有实施这个想法。&lt;br&gt;
 直到现在把博客托管到GitHub Pages后发现他们提供免费的HTTPS服务，由于我当时对这项免费的服务并不了解所以并没有第一时间配置。在使用了GitHub一段时间后发现他们的免费服务还是靠普的，此时又有了给博客启用HTTPS的想法，
 我以为很简单直接在Settings里点选Enforce HTTPS不就完事了吗，哪知世上的事并不如人意。&lt;/p&gt;</description>
     </item>
@@ -184,11 +180,8 @@
       
       <guid>http://blog.imfang.net/photography/103.html</guid>
       <description>&lt;p&gt;DR作为一款商业级修图插件现在更新到了4.5版功能更加强大,在磨皮的同时还能保留皮肤的纹理,让皮肤磨的毫无违和感,同时一目了然的功能菜单,不仅可以快速上手,还可以有针对性的修饰某一部位,从而极大提高成品效果和工作效率,是修图工作者和爱好者的必备插件.&lt;/p&gt;
-
 &lt;p&gt;【插件介绍】&lt;/p&gt;
-
 &lt;p&gt;支持PSCC-CC2018&lt;/p&gt;
-
 &lt;p&gt;兼容WIN&amp;amp;MAC&lt;/p&gt;</description>
     </item>
     
@@ -199,13 +192,9 @@
       
       <guid>http://blog.imfang.net/photography/102.html</guid>
       <description>&lt;p&gt;今天就要告诉大家一个很不幸的消息：&lt;/p&gt;
-
 &lt;p&gt;国内某家软件公司在5月17日正式获得了Adobe软件的代理权&lt;/p&gt;
-
 &lt;p&gt;至于这家公司是哪家公司&lt;/p&gt;
-
 &lt;p&gt;这里就不点名指姓了&lt;/p&gt;
-
 &lt;p&gt;感兴趣的小伙伴可以跳转查看知乎上面的回答：&lt;/p&gt;</description>
     </item>
     
@@ -215,8 +204,7 @@
       <pubDate>Fri, 11 May 2018 13:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/mo/101.html</guid>
-      <description>&lt;p&gt;针对最近关注度比较高的&amp;rdquo;5.6空姐搭乘网约车遇害案&amp;rdquo;,网上出了个&amp;rdquo;女性乘坐网约车安全防范指南&amp;rdquo;图示,本博客第一时间转载希望能给广大女性朋友一个安全提醒!&lt;/p&gt;
-
+      <description>&lt;p&gt;针对最近关注度比较高的&amp;quot;5.6空姐搭乘网约车遇害案&amp;quot;,网上出了个&amp;quot;女性乘坐网约车安全防范指南&amp;quot;图示,本博客第一时间转载希望能给广大女性朋友一个安全提醒!&lt;/p&gt;
 &lt;p&gt;博主提醒:广大单身女性乘坐网约车(或其他陌生车辆)出行时应注意以下,最大限度地保护自己,避免危险!&lt;/p&gt;</description>
     </item>
     
@@ -227,43 +215,24 @@
       
       <guid>http://blog.imfang.net/photography/100.html</guid>
       <description>&lt;p&gt;Adobe2018已经出来一段时间了,博主在网上搜寻整合了这套Adobe CC 2018 精选教程及全套安装包提供给小伙伴们下载学习使用.&lt;/p&gt;
-
 &lt;p&gt;此次Adobe CC 2018全套安装包包括&lt;/p&gt;
-
 &lt;p&gt;Adobe Photoshop CC 2018&lt;/p&gt;
-
 &lt;p&gt;Adobe Illustrator CC 2018&lt;/p&gt;
-
 &lt;p&gt;Adobe Acrobat DC 2017&lt;/p&gt;
-
 &lt;p&gt;Adobe After Effects CC 2018&lt;/p&gt;
-
 &lt;p&gt;Adobe Premiere Pro CC 2018&lt;/p&gt;
-
 &lt;p&gt;Adobe Lightroom Classic CC 7.0&lt;/p&gt;
-
 &lt;p&gt;Adobe Dreamweaver CC 2018&lt;/p&gt;
-
 &lt;p&gt;Adobe InDesign CC 2018&lt;/p&gt;
-
 &lt;p&gt;Adobe Animate CC 2018&lt;/p&gt;
-
 &lt;p&gt;Adobe Audition CC 2018&lt;/p&gt;
-
 &lt;p&gt;Adobe Bridge CC 2018&lt;/p&gt;
-
 &lt;p&gt;Adobe Character Animator CC 2018&lt;/p&gt;
-
 &lt;p&gt;Adobe InCopy CC 2018&lt;/p&gt;
-
 &lt;p&gt;Adobe Media Encoder CC 2018&lt;/p&gt;
-
 &lt;p&gt;Adobe Muse CC 2018&lt;/p&gt;
-
 &lt;p&gt;Adobe Photoshop Elements 2018&lt;/p&gt;
-
 &lt;p&gt;Adobe Prelude CC 2018 SP&lt;/p&gt;
-
 &lt;p&gt;Adobe Premiere Elements 2018&lt;/p&gt;</description>
     </item>
     
@@ -274,11 +243,8 @@
       
       <guid>http://blog.imfang.net/photography/99.html</guid>
       <description>&lt;p&gt;本文综合网上资料修正给出完美的SONY微单相机收费APP安装教程,方便新入门法师们&lt;/p&gt;
-
 &lt;p&gt;安装需求：&lt;/p&gt;
-
 &lt;p&gt;Windows 系统电脑；Win7、Win8、Win10全兼容(苹果电脑需下载专用安装软件!后面有链接)&lt;/p&gt;
-
 &lt;p&gt;安装APP不需要相机为最新固件,但是如果安装失败请升级到最新固件再试&lt;/p&gt;</description>
     </item>
     
@@ -298,7 +264,6 @@
       
       <guid>http://blog.imfang.net/mo/97.html</guid>
       <description>&lt;p&gt;11月30日晚，国务院办公厅关于2018年部分节假日安排的通知正式公布。&lt;/p&gt;
-
 &lt;p&gt;经国务院批准，现将2018年元旦、春节、清明节、劳动节、端午节、中秋节和国庆节放假调休日期的具体安排通知如下。&lt;/p&gt;</description>
     </item>
     
@@ -317,9 +282,8 @@
       <pubDate>Fri, 27 Oct 2017 13:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/web/94.html</guid>
-      <description>&lt;h3 id=&#34;什么是动态页脚时间-动态时间戳&#34;&gt;什么是动态页脚时间（动态时间戳）？&lt;/h3&gt;
-
-&lt;p&gt;看一个网站是否还在更新？也许一两件事能表明这个网站还活着，但是当你发现页脚的版权声明 &lt;em&gt;&amp;ldquo;© 2010-2011 XXXX版权所有&amp;rdquo;&lt;/em&gt;
+      <description>&lt;h3 id=&#34;什么是动态页脚时间动态时间戳&#34;&gt;什么是动态页脚时间（动态时间戳）？&lt;/h3&gt;
+&lt;p&gt;看一个网站是否还在更新？也许一两件事能表明这个网站还活着，但是当你发现页脚的版权声明 &lt;!-- raw HTML omitted --&gt;&amp;ldquo;© 2010-2011 XXXX版权所有&amp;rdquo;&lt;!-- raw HTML omitted --&gt;
 当然这可能只是网站主忘记更新页脚时间，很多情况下是因为用了编码字符串。不过这种东西还是交给计算机自动维护比较好，使用本页面的动态时间戳会让网站主事半功倍。&lt;/p&gt;</description>
     </item>
     
@@ -339,13 +303,9 @@
       
       <guid>http://blog.imfang.net/life/88.html</guid>
       <description>&lt;p&gt;在建军90周年即将到来之际,想起了曾经的军旅生涯&lt;/p&gt;
-
 &lt;p&gt;在此发一些当年的老照片以作纪念&lt;/p&gt;
-
 &lt;p&gt;一起扛过枪的战友们还记得我吗?&lt;/p&gt;
-
 &lt;p&gt;看到后请主动和我联系&lt;/p&gt;
-
 &lt;p&gt;江西省军区独立营二连(舟艇分队)1999-2001届战士&lt;/p&gt;</description>
     </item>
     
@@ -356,7 +316,6 @@
       
       <guid>http://blog.imfang.net/software/87.html</guid>
       <description>&lt;p&gt;Nero刻录软件是德国Ahead公司出品的,也是全球应用最多的光介质媒体烧录软件.Nero具备高速、稳定的烧录核心,再加上友善的操作接口,绝对是你烧录机的绝佳搭档.&lt;/p&gt;
-
 &lt;p&gt;Nero虽然好用但是现在的新版Nero越来越不好破解了,我从Nero2014到现在的最新2017破解版都装过,但是基本上都不能用(或者是我安装的问题).我目前用过最稳定的版本就是Nero8和现在使用的Nero10了,&lt;/p&gt;</description>
     </item>
     
@@ -393,12 +352,9 @@
       <pubDate>Thu, 15 Jun 2017 13:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/life/80.html</guid>
-      <description>&lt;p&gt;&lt;strong&gt;拍摄参数&lt;/strong&gt;&lt;/p&gt;
-
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;拍摄参数&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 &lt;p&gt;摄像机:主机/索尼HXR-MC1500C；副机/索尼HDR-PJ760E&lt;/p&gt;
-
 &lt;p&gt;画质设置:(HD FH)(AVC HD 17M)&lt;/p&gt;
-
 &lt;p&gt;白平衡:室外(其它设置自动)&lt;/p&gt;</description>
     </item>
     
@@ -418,9 +374,7 @@
       
       <guid>http://blog.imfang.net/nle/69.html</guid>
       <description>&lt;p&gt;分辨率高达4K的一段可循环背景视频素材&lt;/p&gt;
-
 &lt;p&gt;以唯美浪漫的粉色为主色调，里面布满了漂亮的爱心粒子&lt;/p&gt;
-
 &lt;p&gt;适合感恩节、婚礼、爱情等有关的主题&lt;/p&gt;</description>
     </item>
     
@@ -431,7 +385,6 @@
       
       <guid>http://blog.imfang.net/nle/67.html</guid>
       <description>&lt;p&gt;ArcTime是使用Java编写的免费跨平台字幕软件，是一款全新概念的可视化字幕编辑器，独创字幕块概念，在时间线上拖动、调整字幕块即可轻松完成字幕创建工作。&lt;/p&gt;
-
 &lt;p&gt;可以运行在Mac、Windows、Linux上。&lt;/p&gt;</description>
     </item>
     
@@ -514,7 +467,7 @@
       <pubDate>Wed, 07 Jan 2015 13:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/web/51.html</guid>
-      <description>&lt;p&gt;最近在空间后台里发现磁盘占用大的惊人,600M的空间被使用了300多M,但是我这是一个小博客图片都是外链的,哪有可能占用这么多的磁盘空间呢?而且我最近也没有上传什么大文件啊,为什么空间占用一下这么多了呢?后来经过仔细检查发现这个&amp;rdquo;error_log&amp;rdquo;错误日志就占了200多M,&lt;/p&gt;</description>
+      <description>&lt;p&gt;最近在空间后台里发现磁盘占用大的惊人,600M的空间被使用了300多M,但是我这是一个小博客图片都是外链的,哪有可能占用这么多的磁盘空间呢?而且我最近也没有上传什么大文件啊,为什么空间占用一下这么多了呢?后来经过仔细检查发现这个&amp;quot;error_log&amp;quot;错误日志就占了200多M,&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -533,7 +486,7 @@
       <pubDate>Sat, 27 Dec 2014 13:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/wordpress/49.html</guid>
-      <description>&lt;p&gt;发现现在打开的我的博客老是提示:加载&amp;rdquo;0.gravatar.com&amp;rdquo;等,而且评论头像也无法正常显示了,可能是Gravatar头像服务器集体被墙了,无论是国内主机还是国外主机都受到了影响,严重的影响了使用此服务网站的打开速度和使用体验.当然网上有很多方法可以解决这一问题,有国内服务器替代法也有插件替代法,在这里我介绍下我使用的方法,打开速度还不错.&lt;/p&gt;</description>
+      <description>&lt;p&gt;发现现在打开的我的博客老是提示:加载&amp;quot;0.gravatar.com&amp;quot;等,而且评论头像也无法正常显示了,可能是Gravatar头像服务器集体被墙了,无论是国内主机还是国外主机都受到了影响,严重的影响了使用此服务网站的打开速度和使用体验.当然网上有很多方法可以解决这一问题,有国内服务器替代法也有插件替代法,在这里我介绍下我使用的方法,打开速度还不错.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -552,11 +505,8 @@
       
       <guid>http://blog.imfang.net/mo/46.html</guid>
       <description>&lt;p&gt;以下是国务院办公厅公布的关于2015年部分节假日安排时间表,在此转载以备查寻.&lt;/p&gt;
-
 &lt;p&gt;一、元旦：1月1日至3日放假调休，共3天。1月4日（星期日）上班。&lt;/p&gt;
-
 &lt;p&gt;二、春节：2月18日至24日放假调休，共7天。2月15日（星期日）、2月28日（星期六）上班。&lt;/p&gt;
-
 &lt;p&gt;三、清明节：4月5日放假，4月6日（星期一）补休。&lt;/p&gt;</description>
     </item>
     
@@ -566,7 +516,7 @@
       <pubDate>Sun, 14 Dec 2014 13:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/web/43.html</guid>
-      <description>&lt;p&gt;000webhost(三蛋)免费空间相信很多吊丝站长都知道并用过,他们提供的免费强大空间甚至比国内的很多收费空间还好,而且稳定值得信赖,被很多站长奉为免费空间的老大.我几年前也用过000webhost的免费空间,确实很稳定CP控制面板也非常强大,后来不知什么原因被关闭了就没有再使用.但是000webhost免费空间对中国的IP进行了屏蔽,中国的用户需要代理才能注册比较麻烦,而且英文页面对我们这些不懂英文的人来说也是个负担.就在昨天我收到了000webhost给我发来的邮件,&lt;del datetime=&#34;2018-06-25T09:39:36+00:00&#34;&gt;推荐了和他们同一家公司的Hostinger中国免费空间,据说是专门针对中国用户提供的免费空间,&lt;/del&gt;可能是他们终于发现了中国的庞大的用户群.下面是他们邮件里描述的空间配置表:&lt;/p&gt;</description>
+      <description>&lt;p&gt;000webhost(三蛋)免费空间相信很多吊丝站长都知道并用过,他们提供的免费强大空间甚至比国内的很多收费空间还好,而且稳定值得信赖,被很多站长奉为免费空间的老大.我几年前也用过000webhost的免费空间,确实很稳定CP控制面板也非常强大,后来不知什么原因被关闭了就没有再使用.但是000webhost免费空间对中国的IP进行了屏蔽,中国的用户需要代理才能注册比较麻烦,而且英文页面对我们这些不懂英文的人来说也是个负担.就在昨天我收到了000webhost给我发来的邮件,&lt;!-- raw HTML omitted --&gt;推荐了和他们同一家公司的Hostinger中国免费空间,据说是专门针对中国用户提供的免费空间,&lt;!-- raw HTML omitted --&gt;可能是他们终于发现了中国的庞大的用户群.下面是他们邮件里描述的空间配置表:&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -649,9 +599,7 @@
       
       <guid>http://blog.imfang.net/software/33.html</guid>
       <description>&lt;p&gt;用笔记本电脑玩游戏时，当切换到全屏时游戏显示不是满屏的，而是左右两边出现了黑边，这看起来很不爽。那么这种问题怎么解决呢？下面就给出几种解决办法：&lt;/p&gt;
-
-&lt;h3 id=&#34;一-windows7下游戏全屏问题通用解决方法-推荐使用&#34;&gt;一、Windows7下游戏全屏问题通用解决方法（推荐使用）：&lt;/h3&gt;
-
+&lt;h3 id=&#34;一windows7下游戏全屏问题通用解决方法推荐使用&#34;&gt;一、Windows7下游戏全屏问题通用解决方法（推荐使用）：&lt;/h3&gt;
 &lt;p&gt;Win键+R键，打开运行窗口，输入regedit 回车，这样就打开了注册表编辑器，然后，定位到以下位置：&lt;/p&gt;</description>
     </item>
     
@@ -751,8 +699,7 @@
       <pubDate>Thu, 27 Dec 2012 13:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/software/21.html</guid>
-      <description>&lt;p&gt;各种文件后缀名与打开方式大全,想知道某个文件要用什么软件打开就来这里查查吧.如果看不到文件的后缀名,在XP系统里打开我的电脑&amp;ndash;&amp;gt;工具&amp;ndash;&amp;gt;文件夹选项&amp;ndash;&amp;gt;查看&amp;ndash;&amp;gt;把&amp;rdquo;隐藏已知文件类型的扩展名&amp;rdquo;前面的勾去掉就行了.&lt;/p&gt;
-
+      <description>&lt;p&gt;各种文件后缀名与打开方式大全,想知道某个文件要用什么软件打开就来这里查查吧.如果看不到文件的后缀名,在XP系统里打开我的电脑&amp;ndash;&amp;gt;工具&amp;ndash;&amp;gt;文件夹选项&amp;ndash;&amp;gt;查看&amp;ndash;&amp;gt;把&amp;quot;隐藏已知文件类型的扩展名&amp;quot;前面的勾去掉就行了.&lt;/p&gt;
 &lt;p&gt;扩展名 ↓ 文件类型 ↓ 打开方式↓  (按照字母A-Z排列)&lt;/p&gt;</description>
     </item>
     
@@ -763,17 +710,11 @@
       
       <guid>http://blog.imfang.net/mo/20.html</guid>
       <description>&lt;p&gt;一、元旦：1月1日至3日放假调休，共3天。1月5日（星期六）、1月6日（星期日）上班。&lt;/p&gt;
-
 &lt;p&gt;二、春节：2月9日至15日放假调休，共7天。2月16日（星期六）、2月17日（星期日）上班。&lt;/p&gt;
-
 &lt;p&gt;三、清明节：4月4日至6日放假调休，共3天。4月7日（星期日）上班。&lt;/p&gt;
-
 &lt;p&gt;四、劳动节：4月29日至5月1日放假调休，共3天。4月27日（星期六）、4月28日（星期日）上班。&lt;/p&gt;
-
 &lt;p&gt;五、端午节：6月10日至12日放假调休，共3天。6月8日（星期六）、6月9日（星期日）上班。&lt;/p&gt;
-
 &lt;p&gt;六、中秋节：9月19日至21日放假调休，共3天。9月22日（星期日）上班。&lt;/p&gt;
-
 &lt;p&gt;七、国庆节：10月1日至7日放假调休，共7天。9月29日（星期日）、10月12日（星期六）上班。&lt;/p&gt;</description>
     </item>
     
@@ -811,7 +752,6 @@
       
       <guid>http://blog.imfang.net/wordpress/16.html</guid>
       <description>&lt;h3 id=&#34;隐藏wordpress的版本信息&#34;&gt;隐藏WordPress的版本信息&lt;/h3&gt;
-
 &lt;p&gt;有些主题会带有显示WordPress的版本信息的代码，有些恶意用户看到你的WordPress版本后，那他对特定版本的漏洞进行攻击就简单多了。那么我们就要去除WordPress的版本信息显示代码，首先，在主题的header.php中查找是否以下类似代码，如果有的话就将它去除，因为这是用来输出版本号的：&lt;/p&gt;</description>
     </item>
     
@@ -839,8 +779,7 @@
       <pubDate>Fri, 18 May 2012 13:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/web/9.html</guid>
-      <description>&lt;p&gt;&lt;strong&gt;百度网盘简介&lt;/strong&gt;&lt;/p&gt;
-
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;百度网盘简介&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 &lt;p&gt;百度网盘，是百度公司推出的一项提供用户Web、PC、Android手机客户端多平台数据共享的云存储服务。该服务依托于百度强大的云存储集群机制，发挥了百度强有力的云端存储优势，提供超大的网络存储空间，拥有更强大的数据安全保障，并且提供了把精彩内容轻松分享给好友的通道。&lt;/p&gt;</description>
     </item>
     
@@ -859,7 +798,7 @@
       <pubDate>Sat, 28 Apr 2012 13:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/nle/7.html</guid>
-      <description>&lt;p&gt;最近这段时间一直没时间更新博客,是因为本人对视频非编软件产生了兴趣,把时间都用在了折腾此类软件上面了.当然我只是个菜鸟所以选择软件方面也就是入门级的两个非编软件&amp;ndash;&amp;ldquo;会声会影&amp;rdquo;和&amp;rdquo;威力导演&amp;rdquo;,&lt;/p&gt;</description>
+      <description>&lt;p&gt;最近这段时间一直没时间更新博客,是因为本人对视频非编软件产生了兴趣,把时间都用在了折腾此类软件上面了.当然我只是个菜鸟所以选择软件方面也就是入门级的两个非编软件&amp;ndash;&amp;ldquo;会声会影&amp;quot;和&amp;quot;威力导演&amp;rdquo;,&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -868,8 +807,7 @@
       <pubDate>Tue, 10 Apr 2012 13:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/web/6.html</guid>
-      <description>&lt;h3&gt;介绍&lt;/h3&gt;
-
+      <description>&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;金山T盘是金山网络于2011年1月24日推出的一项免费网络硬盘服务。
 金山T盘采用国际顶尖的存储设备和高强度加密技术，确保用户数据不丢失。&lt;/p&gt;</description>
     </item>
@@ -961,16 +899,11 @@
       <pubDate>Sun, 05 Feb 2012 13:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/life/89.html</guid>
-      <description>&lt;p&gt;&lt;strong&gt;真三蓝宝石概念版V5信息&lt;/strong&gt;&lt;/p&gt;
-
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;真三蓝宝石概念版V5信息&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 &lt;p&gt;1.增加一个围成一个圈的RD模式&lt;/p&gt;
-
 &lt;p&gt;2.修复血池可以破7星,与能对孙权的大造成伤害&lt;/p&gt;
-
 &lt;p&gt;4.还原赵云能C倒树&lt;/p&gt;
-
 &lt;p&gt;5.增加一个新英雄小乔 (周瑜英雄设计感觉有问题,暂不放出)&lt;/p&gt;
-
 &lt;p&gt;9.修复魏国玩家-HC的BUG&lt;/p&gt;</description>
     </item>
     
@@ -1044,7 +977,6 @@
       
       <guid>http://blog.imfang.net/web/75.html</guid>
       <description>&lt;h3 id=&#34;什么是域名&#34;&gt;什么是域名？&lt;/h3&gt;
-
 &lt;p&gt;Internet域名是Internet网络上的一个服务器或一个网络系统的名字，在全世界，没有重复的域名。域名的形式是以若干个英文字母或数字组成，由“.”分隔成几部分，如oursoho.com就是一个域名。&lt;/p&gt;</description>
     </item>
     
@@ -1054,7 +986,7 @@
       <pubDate>Thu, 15 Dec 2011 13:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/web/74.html</guid>
-      <description>适用于在GoDaddy新注册的.com、.net、.org优惠30% 下面是优惠码： gdz1222p &amp;nbsp; 需要优惠码的朋友可以加本站QQ群：6464419，索要</description>
+      <description>适用于在GoDaddy新注册的.com、.net、.org优惠30% 下面是优惠码： 需要优惠码的朋友可以加本站QQ群：6464419，索要最新</description>
     </item>
     
     <item>
@@ -1073,9 +1005,7 @@
       
       <guid>http://blog.imfang.net/life/71.html</guid>
       <description>&lt;p&gt;国办发明电〔2011〕45号&lt;/p&gt;
-
 &lt;p&gt;各省、自治区、直辖市人民政府，国务院各部委、各直属机构：&lt;/p&gt;
-
 &lt;p&gt;根据国务院《关于修改〈全国年节及纪念日放假办法〉的决定》，为便于各地区、各部门及早合理安排节假日旅游、交通运输、生产经营等有关工作，经国务院批准，现将2012年元旦、春节、清明节、劳动节、端午节、中秋节和国庆节放假调休日期的具体安排通知如下。&lt;/p&gt;</description>
     </item>
     
@@ -1094,12 +1024,9 @@
       <pubDate>Mon, 05 Dec 2011 13:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/web/68.html</guid>
-      <description>&lt;h3 id=&#34;1-网站建设中要遵守和注意的事项&#34;&gt;1、网站建设中要遵守和注意的事项&lt;/h3&gt;
-
+      <description>&lt;h3 id=&#34;1网站建设中要遵守和注意的事项&#34;&gt;1、网站建设中要遵守和注意的事项&lt;/h3&gt;
 &lt;p&gt;（1）不论使用的是哪国主机空间，一定要遵守空间所在国的法律和中国的法律，否则被墙、被K、被闭、被封杀是一定的（必须的）；&lt;/p&gt;
-
 &lt;p&gt;（2）仔细查看和遵守空间提供商的规定，不然网站被关闭还不知道是怎么回事，一般空间商网站都会有详细说明；&lt;/p&gt;
-
 &lt;p&gt;（3）不要在空间里放病毒文件、不要在网页上放置恶意代码或挂马；&lt;/p&gt;</description>
     </item>
     
@@ -1118,8 +1045,7 @@
       <pubDate>Thu, 01 Dec 2011 13:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/web/61.html</guid>
-      <description>&lt;h3 id=&#34;1-什么是域名&#34;&gt;1、什么是域名？&lt;/h3&gt;
-
+      <description>&lt;h3 id=&#34;1什么是域名&#34;&gt;1、什么是域名？&lt;/h3&gt;
 &lt;p&gt;Internet域名是Internet网络上的一个服务器或一个网络系统的名字，在全世界，没有重复的域名。域名的形式是以若干个英文字母或数字组成，由“.”分隔成几部分，如本站的localhost/wordpress就是一个域名。因为网络上主机空间分配的是32bit地址（IP地址）如：61.135.132.6这很不利于人们的记忆，而域名的出现就大大方便了人们网络浏览。关于域名的更多知识本站稍晚将另写一篇文章：“关于域名的解释”，请大家关注一下。&lt;/p&gt;</description>
     </item>
     
@@ -1189,24 +1115,24 @@
       <pubDate>Sat, 19 Nov 2011 13:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/web/44.html</guid>
-      <description>&lt;h3 id=&#34;1-学习网站建设前应该掌握的基本技能&#34;&gt;1、学习网站建设前应该掌握的基本技能&lt;/h3&gt;
-
+      <description>&lt;h3 id=&#34;1学习网站建设前应该掌握的基本技能&#34;&gt;1、学习网站建设前应该掌握的基本技能&lt;/h3&gt;
 &lt;p&gt;练习打字，无论是上网干什么打字都是必备的基本功，拼音输入法比较容易学习，学好了,打字速度也很快，比如：智能ABC输入法，搜狗拼音输入法，紫光拼音输入法；&lt;/p&gt;
-
 &lt;p&gt;学会windows的基本操作，比如熟练掌握Ctrl+X剪切，Ctrl+V粘贴，Ctrl+Z撤消，Ctrl+N新建 等基本Windows操作；学会熟练拖动文件；学会安装软件、常用软件的使用等。&lt;/p&gt;
-
 &lt;p&gt;没错，上面就是建设网站最基本的技能了。&lt;/p&gt;
-
 &lt;p&gt;当然如果你还想更深入的学习网站技术，还要掌握下面几款软件的使用：&lt;/p&gt;
-
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;DreamWeaver（制作网页最常用的编辑软件）&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Notepad++(博主一直在用的HTML编辑器)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;EditPlus(功能强大的HTML编辑器)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;PhotoShop(专业图片编辑软件)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;DreamWeaver（制作网页最常用的编辑软件）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Notepad++(博主一直在用的HTML编辑器)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;EditPlus(功能强大的HTML编辑器)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;PhotoShop(专业图片编辑软件)&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     
@@ -1226,20 +1152,13 @@
       
       <guid>http://blog.imfang.net/web/35.html</guid>
       <description>&lt;h3 id=&#34;总目录&#34;&gt;总目录&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;一、网站建设教程简单讲解之[一]网站的概念&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://imfang.net/web/44.html&#34; target=&#34;_blank&#34;&gt;二、网站建设教程简单讲解之[二]建站的基本技能与知识&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://imfang.net/web/61.html&#34; target=&#34;_blank&#34;&gt;三、网站建设教程简单讲解之[三]域名与空间的选择&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://imfang.net/web/63.html&#34; target=&#34;_blank&#34;&gt;四、网站建设教程简单讲解之[四]个人网站程序的选择与安装&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://imfang.net/web/68.html&#34; target=&#34;_blank&#34;&gt;五、网站建设教程简单讲解之[五]网站建设应该要注意的事项&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;六、网站建设教程简单讲解之[六]网站推广与SEO(精力有限此章未写完)&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;七、网站建设教程简单讲解之[七]网站的营销(精力有限此章未写完)&lt;/strong&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;一、网站建设教程简单讲解之[一]网站的概念&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;二、网站建设教程简单讲解之[二]建站的基本技能与知识&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;三、网站建设教程简单讲解之[三]域名与空间的选择&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;四、网站建设教程简单讲解之[四]个人网站程序的选择与安装&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;五、网站建设教程简单讲解之[五]网站建设应该要注意的事项&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;六、网站建设教程简单讲解之[六]网站推广与SEO(精力有限此章未写完)&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;七、网站建设教程简单讲解之[七]网站的营销(精力有限此章未写完)&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -1248,8 +1167,7 @@
       <pubDate>Thu, 17 Nov 2011 13:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/wordpress/27.html</guid>
-      <description>&lt;p&gt;&lt;strong&gt;WP-PostViews&lt;/strong&gt;插件由 &lt;a href=&#34;http://lesterchan.net/&#34;&gt;GaMerZ&lt;/a&gt;开发，主要功能是实现文章阅读数统计、侧边栏 Widget 以及显示最受欢迎（阅读数最多）文章、某分类下最受欢迎（阅读数最多）文章等功能。&lt;/p&gt;
-
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;WP-PostViews&lt;!-- raw HTML omitted --&gt;插件由 &lt;!-- raw HTML omitted --&gt;GaMerZ&lt;!-- raw HTML omitted --&gt;开发，主要功能是实现文章阅读数统计、侧边栏 Widget 以及显示最受欢迎（阅读数最多）文章、某分类下最受欢迎（阅读数最多）文章等功能。&lt;/p&gt;
 &lt;p&gt;效果展示：见本站文章标题行。&lt;/p&gt;</description>
     </item>
     
@@ -1260,9 +1178,7 @@
       
       <guid>http://blog.imfang.net/life/14.html</guid>
       <description>&lt;p&gt;以前在网上看过的一些笑话，现在整理了一些最经典的放上来给大家乐呵乐呵。不是太全面，哪位朋友如果有更经典的，欢迎留言补充。&lt;/p&gt;
-
 &lt;h3 id=&#34;最经典的问答笑话&#34;&gt;最经典的问答笑话&lt;/h3&gt;
-
 &lt;p&gt;问：十瓶啤酒下去，你会怎样？
 答：再让它们上来。
 问：一男和一女住了一夜，什么都没干！你们相信吗？

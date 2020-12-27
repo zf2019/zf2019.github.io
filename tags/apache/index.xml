@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Apache on 方阁志</title>
@@ -6,18 +6,14 @@
     <description>Recent content in Apache on 方阁志</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 07 Jan 2015 13:05:22 +0800</lastBuildDate>
-    
-	<atom:link href="http://blog.imfang.net/tags/apache/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 07 Jan 2015 13:05:22 +0800</lastBuildDate><atom:link href="http://blog.imfang.net/tags/apache/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>在虚拟空间里关闭(禁用)error_log错误日志</title>
       <link>http://blog.imfang.net/web/51.html</link>
       <pubDate>Wed, 07 Jan 2015 13:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/web/51.html</guid>
-      <description>&lt;p&gt;最近在空间后台里发现磁盘占用大的惊人,600M的空间被使用了300多M,但是我这是一个小博客图片都是外链的,哪有可能占用这么多的磁盘空间呢?而且我最近也没有上传什么大文件啊,为什么空间占用一下这么多了呢?后来经过仔细检查发现这个&amp;rdquo;error_log&amp;rdquo;错误日志就占了200多M,&lt;/p&gt;</description>
+      <description>&lt;p&gt;最近在空间后台里发现磁盘占用大的惊人,600M的空间被使用了300多M,但是我这是一个小博客图片都是外链的,哪有可能占用这么多的磁盘空间呢?而且我最近也没有上传什么大文件啊,为什么空间占用一下这么多了呢?后来经过仔细检查发现这个&amp;quot;error_log&amp;quot;错误日志就占了200多M,&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -26,24 +22,24 @@
       <pubDate>Sat, 19 Nov 2011 13:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/web/44.html</guid>
-      <description>&lt;h3 id=&#34;1-学习网站建设前应该掌握的基本技能&#34;&gt;1、学习网站建设前应该掌握的基本技能&lt;/h3&gt;
-
+      <description>&lt;h3 id=&#34;1学习网站建设前应该掌握的基本技能&#34;&gt;1、学习网站建设前应该掌握的基本技能&lt;/h3&gt;
 &lt;p&gt;练习打字，无论是上网干什么打字都是必备的基本功，拼音输入法比较容易学习，学好了,打字速度也很快，比如：智能ABC输入法，搜狗拼音输入法，紫光拼音输入法；&lt;/p&gt;
-
 &lt;p&gt;学会windows的基本操作，比如熟练掌握Ctrl+X剪切，Ctrl+V粘贴，Ctrl+Z撤消，Ctrl+N新建 等基本Windows操作；学会熟练拖动文件；学会安装软件、常用软件的使用等。&lt;/p&gt;
-
 &lt;p&gt;没错，上面就是建设网站最基本的技能了。&lt;/p&gt;
-
 &lt;p&gt;当然如果你还想更深入的学习网站技术，还要掌握下面几款软件的使用：&lt;/p&gt;
-
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;DreamWeaver（制作网页最常用的编辑软件）&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Notepad++(博主一直在用的HTML编辑器)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;EditPlus(功能强大的HTML编辑器)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;PhotoShop(专业图片编辑软件)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;DreamWeaver（制作网页最常用的编辑软件）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Notepad++(博主一直在用的HTML编辑器)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;EditPlus(功能强大的HTML编辑器)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;PhotoShop(专业图片编辑软件)&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     

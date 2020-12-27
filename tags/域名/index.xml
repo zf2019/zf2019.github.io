@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>域名 on 方阁志</title>
@@ -6,11 +6,7 @@
     <description>Recent content in 域名 on 方阁志</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 04 Nov 2015 13:05:22 +0800</lastBuildDate>
-    
-	<atom:link href="http://blog.imfang.net/tags/%E5%9F%9F%E5%90%8D/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 04 Nov 2015 13:05:22 +0800</lastBuildDate><atom:link href="http://blog.imfang.net/tags/%E5%9F%9F%E5%90%8D/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hostinger推出的免费XYZ域名活动</title>
       <link>http://blog.imfang.net/web/62.html</link>
@@ -36,7 +32,6 @@
       
       <guid>http://blog.imfang.net/web/75.html</guid>
       <description>&lt;h3 id=&#34;什么是域名&#34;&gt;什么是域名？&lt;/h3&gt;
-
 &lt;p&gt;Internet域名是Internet网络上的一个服务器或一个网络系统的名字，在全世界，没有重复的域名。域名的形式是以若干个英文字母或数字组成，由“.”分隔成几部分，如oursoho.com就是一个域名。&lt;/p&gt;</description>
     </item>
     
@@ -46,8 +41,7 @@
       <pubDate>Thu, 01 Dec 2011 13:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/web/61.html</guid>
-      <description>&lt;h3 id=&#34;1-什么是域名&#34;&gt;1、什么是域名？&lt;/h3&gt;
-
+      <description>&lt;h3 id=&#34;1什么是域名&#34;&gt;1、什么是域名？&lt;/h3&gt;
 &lt;p&gt;Internet域名是Internet网络上的一个服务器或一个网络系统的名字，在全世界，没有重复的域名。域名的形式是以若干个英文字母或数字组成，由“.”分隔成几部分，如本站的localhost/wordpress就是一个域名。因为网络上主机空间分配的是32bit地址（IP地址）如：61.135.132.6这很不利于人们的记忆，而域名的出现就大大方便了人们网络浏览。关于域名的更多知识本站稍晚将另写一篇文章：“关于域名的解释”，请大家关注一下。&lt;/p&gt;</description>
     </item>
     

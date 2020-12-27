@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>留在网络 on 方阁志</title>
@@ -6,11 +6,7 @@
     <description>Recent content in 留在网络 on 方阁志</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 15 Nov 2011 13:05:22 +0800</lastBuildDate>
-    
-	<atom:link href="http://blog.imfang.net/tags/%E7%95%99%E5%9C%A8%E7%BD%91%E7%BB%9C/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 15 Nov 2011 13:05:22 +0800</lastBuildDate><atom:link href="http://blog.imfang.net/tags/%E7%95%99%E5%9C%A8%E7%BD%91%E7%BB%9C/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>换域名、换空间、神马都换了</title>
       <link>http://blog.imfang.net/mo/10.html</link>

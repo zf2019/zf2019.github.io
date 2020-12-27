@@ -3,42 +3,45 @@
 <head>
 
     <meta charset="utf-8">
-    <meta name="generator" content="Hugo 0.55.6" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    
 
     <title>DNS污染屏蔽的解决方法 | 方阁志</title>
     <meta property="og:title" content="DNS污染屏蔽的解决方法 - 方阁志">
     <meta property="og:type" content="article">
         
-    <meta property="article:published_time" content="2014-09-19T13:05:22&#43;08:00">
+    <meta property="article:published_time" content='2014-09-19T13:05:22&#43;08:00'>
         
         
-    <meta property="article:modified_time" content="2014-09-19T13:05:22&#43;08:00">
+    <meta property="article:modified_time" content='2014-09-19T13:05:22&#43;08:00'>
         
     <meta name="Keywords" content="方阁志,威力方工作室,周方博客,wordpress,hugo,计算机,网络,Photoshop,非线性编辑">
     <meta name="description" content="DNS污染屏蔽的解决方法">
         
     <meta name="author" content="威力方">
     <meta property="og:url" content="http://blog.imfang.net/web/40.html">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href='/favicon.ico'  type="image/x-icon">
 
-    <link rel="stylesheet" href="/css/normalize.css">
-    
-        <link rel="stylesheet" href="/css/prism.css">
-    
-    <link rel="stylesheet" href="/css/style.css">
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href='/css/normalize.css'>
+    <link rel="stylesheet" href='/css/style.css'>
+    <script type="text/javascript" src="//cdn.bootcdn.net/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     
-
-
+    
+    
+        <link href="https://cdn.bootcdn.net/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" rel="stylesheet">
+    
+    
     
     
 </head>
 
+
 <body>
-<header id="header" class="clearfix">
+    <header id="header" class="clearfix">
     <div class="container">
         <div class="col-group">
             <div class="site-name ">
@@ -65,87 +68,62 @@
     </div>
 </header>
 
+    <div id="body">
+        <div class="container">
+            <div class="col-group">
 
-<div id="body">
+                <div class="col-8" id="main">
+                    
+<div class="res-cons">
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">DNS污染屏蔽的解决方法</h1>
+        </header>
+        <date class="post-meta meta-date">
+            2014年9月19日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='/categories/%E7%BD%91%E7%BB%9C%E4%B8%8E%E7%BD%91%E7%AB%99'>网络与网站</a></span>
+            
+        </div>
         
         
-    <div class="container">
-        <div class="col-group">
-
-            <div class="col-8" id="main">
-                <div class="res-cons">
-                    <article class="post">
-                        <header>
-                            <h1 class="post-title">DNS污染屏蔽的解决方法</h1>
-                        </header>
-                        <date class="post-meta meta-date">
-                            2014年9月19日
-                        </date>
-                        
-                        <div class="post-meta">
-                            <span>|</span>
-                            
-                                <span class="meta-category"><a href="http://blog.imfang.net/categories/%E7%BD%91%E7%BB%9C%E4%B8%8E%E7%BD%91%E7%AB%99">网络与网站</a></span>
-                            
-                        </div>
-                        
-                        
-                        <div class="post-meta">
-                            <span id="busuanzi_container_page_pv">|<span id="busuanzi_value_page_pv"></span><span> 阅读</span></span>
-                        </div>
-                        
-                        
-                        <div class="post-content">
-                            <p>好久没用SkyDrive了,今天准备写个带图的文章,准备重新启用SkyDrive半天打不开才发现竟然也被屏蔽了,SkyDrive(现改名为:OneDrive,就算换了马夹也无法逃脱被屏蔽的恶运)的屏蔽方式是DNS污染.正所谓哪里有压迫哪里就有反抗,只要是人为的技术性屏蔽,就能用技术去解决它,只要你想去解决&ndash;这是马克思在相对论里的名言.</p>
-
+        <div class="post-meta">
+            <span id="busuanzi_container_page_pv">|<span id="busuanzi_value_page_pv"></span><span>
+                    阅读</span></span>
+        </div>
+        
+        
+        <div class="post-content">
+            <p>好久没用SkyDrive了,今天准备写个带图的文章,准备重新启用SkyDrive半天打不开才发现竟然也被屏蔽了,SkyDrive(现改名为:OneDrive,就算换了马夹也无法逃脱被屏蔽的恶运)的屏蔽方式是DNS污染.正所谓哪里有压迫哪里就有反抗,只要是人为的技术性屏蔽,就能用技术去解决它,只要你想去解决&ndash;这是马克思在相对论里的名言.</p>
 <p>在网上找了一圈终于被我找到了一个防止DNS污染的神器:DNSCrypt,简单的介绍下DNSCrypt使用类似于SSL的加密连接向DNS服务器拉取解析,所以能够有效对抗DNS劫持、DNS污染以及中间人攻击.</p>
-
 <p>DNSCrypt的Windows客户端版运行后,会自动在状态栏显示服务状态,并自动修改DNS服务器地址为127.0.0.1,通过本地加密的方式安全连接OpenDNS,这样,本地所有的DNS请求都会加密进行从而绕过DNS污染,最终顺利解析到正确IP地址,这个工具可以一劳永逸地解决所有DNS污染问题,包括此次针对OneDrive的DNS污染(或其他DNS污染问题).</p>
-
-<p><a href="https://zedq3w.dm2301.livefilestore.com/y2pQ4zgjzlysMtA_XxuI3A_nBYCDjs2K9CnT5eCO6dy8wu9WUzyQpoxMkno3UxdiOheDE0igRhY1-6hAL-pB_enrhgKxITyzCTNgaRtdyyMuVY/dnsc.jpg"><img class="alignnone" src="https://zedq3w.dm2301.livefilestore.com/y2pQ4zgjzlysMtA_XxuI3A_nBYCDjs2K9CnT5eCO6dy8wu9WUzyQpoxMkno3UxdiOheDE0igRhY1-6hAL-pB_enrhgKxITyzCTNgaRtdyyMuVY/dnsc.jpg" alt="" width="308" height="182" /></a></p>
-
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <p>下图为使用DNSCrypt之前和使用DNSCrypt之后PingOnedrive的结果,从截图可以看出,使用DNSCrypt之前,Onedrive被DNS攻击,域名解析到了一个韩国的无法访问的IP地址,启用DNSCrypt之后,OneDrive的IP才解析正常.幸好Onedrive的外链没有被屏蔽掉,如果外链也被屏蔽了,那Onedrive就真完蛋了,看样天朝也没敢把事情做绝,还是给微软留了点面子的.</p>
-
-<p><a href="https://zedq3w.dm2301.livefilestore.com/y2p73r-vcBELNvubj5FoxeGp4EnijIR5VNnommpBcDz2ivwUK6gBM1ULv18T7nGcfG01H64NZKlUpAbbVoGhUmh7Ru-ZpGQvwsUIj_38axFq-w/dns.jpg"><img class="alignnone" src="https://zedq3w.dm2301.livefilestore.com/y2p73r-vcBELNvubj5FoxeGp4EnijIR5VNnommpBcDz2ivwUK6gBM1ULv18T7nGcfG01H64NZKlUpAbbVoGhUmh7Ru-ZpGQvwsUIj_38axFq-w/dns.jpg" alt="" width="312" height="204" /></a></p>
-
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <p>DNSCrypt支持Mac OS和Windows</p>
+<p>Windows版下载地址：<!-- raw HTML omitted --><a href="http://shared.opendns.com/dnscrypt/packages/windows-client/DNSCryptWin-v0.0.6.exe">http://shared.opendns.com/dnscrypt/packages/windows-client/DNSCryptWin-v0.0.6.exe</a><!-- raw HTML omitted --></p>
+<p>DNSCrypt官方介绍页面：<!-- raw HTML omitted --><a href="http://www.opendns.com/about/innovations/dnscrypt/">http://www.opendns.com/about/innovations/dnscrypt/</a><!-- raw HTML omitted --></p>
+<p>关于SkyDrive(Onedrive)的介绍请移步我的另一篇文章:<!-- raw HTML omitted -->免费的博客外链图片存储空间Windows Live SkyDrive<!-- raw HTML omitted --></p>
+        </div>
 
-<p>Windows版下载地址：<a href="http://shared.opendns.com/dnscrypt/packages/windows-client/DNSCryptWin-v0.0.6.exe" target="_blank"><a href="http://shared.opendns.com/dnscrypt/packages/windows-client/DNSCryptWin-v0.0.6.exe">http://shared.opendns.com/dnscrypt/packages/windows-client/DNSCryptWin-v0.0.6.exe</a></a></p>
-
-<p>DNSCrypt官方介绍页面：<a href="http://www.opendns.com/about/innovations/dnscrypt/" target="_blank"><a href="http://www.opendns.com/about/innovations/dnscrypt/">http://www.opendns.com/about/innovations/dnscrypt/</a></a></p>
-
-<p>关于SkyDrive(Onedrive)的介绍请移步我的另一篇文章:<a href="http://imfang.net/web/41.html" target="_blank">免费的博客外链图片存储空间Windows Live SkyDrive</a></p>
-                        </div>
-
-                        
+        
 <div class="post-archive">
     <ul class="post-copyright">
         <li><strong>原文作者：</strong><a rel="author" href="http://blog.imfang.net">威力方</a></li>
         <li style="word-break:break-all"><strong>原文链接：</strong><a href="http://blog.imfang.net/web/40.html">http://blog.imfang.net/web/40.html</a></li>
-        <li><strong>版权声明：</strong>除非注明！本站文章均为原创。采用<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">《知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议》</a>进行许可，非商业转载请注明出处（作者，原文链接），商业转载请联系作者获得授权。</li>
+        <li><strong>版权声明：</strong>本作品采用<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">《知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议》</a>进行许可，非商业转载请注明出处（作者，原文链接），商业转载请联系作者获得授权。</li>
     </ul>
 </div>
-<div style="padding: 10px 0; margin: 20px auto; width: 100%; font-size:16px; text-align: center;">
-        <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
-            <span>打赏</span></button>
-        <div id="QR" style="display: none;">
-            <div id="wechat" style="display: inline-block">
-                <a class="fancybox" rel="group">
-                    <img id="wechat_qr" src="/images/weixin.png" alt="WeChat Pay"></a>
-                <p>微信打赏</p>
-            </div>
-            <div id="alipay" style="display: inline-block">
-                <a class="fancybox" rel="group">
-                    <img id="alipay_qr" src="/images/zhifubao.png" alt="Alipay"></a>
-                <p>支付宝打赏</p>
-            </div>
-        </div>
-</div>
-<br/>	
+<br/>
 
 
 
-                        
+        
 
 <div class="post-archive">
     <h2>See Also</h2>
@@ -165,45 +143,75 @@
 </div>
 
 
-                        <div class="post-meta meta-tags">
-                            
-                            <ul class="clearfix">
-                                
-                                <li><a href="http://blog.imfang.net/tags/dns%E6%B1%A1%E6%9F%93">DNS污染</a></li>
-                                
-                                <li><a href="http://blog.imfang.net/tags/skydrive">SkyDrive</a></li>
-                                
-                                <li><a href="http://blog.imfang.net/tags/%E5%A4%96%E9%93%BE%E5%9B%BE%E7%89%87">外链图片</a></li>
-                                
-                            </ul>
-                            
-                        </div>
-                    </article>
-                    
-  <span id="/web/40.html" class="leancloud_visitors" data-flag-title="DNS污染屏蔽的解决方法">
-    <h3><span class="post-meta-item-text">留言本（支持Markdown）</span></h3>
-    <p></p>
-  </span>
-  <div id="vcomments"></div>
-  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
-  <script type="text/javascript">
-    new Valine({
-        el: '#vcomments' ,
-        appId: 'teSRhj0VmmlUYBek5ciJnzWk-MdYXbMMI',
-        appKey: 'KSNbo03f2K33Lzu2Xxqbk6Js',
-        notify:  true , 
-        verify:  true , 
-        avatar:'mm', 
-        placeholder: '评论数据存储在第三方平台,请勿发表不当言论!',
-        visitor:  false 
-    });
-  </script>
+        <div class="post-meta meta-tags">
+            
+            <ul class="clearfix">
+                
+                <li><a href='/tags/dns%E6%B1%A1%E6%9F%93'>DNS污染</a></li>
+                
+                <li><a href='/tags/skydrive'>SkyDrive</a></li>
+                
+                <li><a href='/tags/%E5%A4%96%E9%93%BE%E5%9B%BE%E7%89%87'>外链图片</a></li>
+                
+            </ul>
+            
+        </div>
+    </article>
+    
+    
+
+    
+    
+</div>
+
+                    <footer id="footer">
+    <div>
+        &copy; 2011-2020 <a href="http://blog.imfang.net">方阁志 By 威力方</a>
+        
+        | <a rel="nofollow" target="_blank" href="http://www.beian.miit.gov.cn/">预ICP备88888888号-1</a>
+        
+    </div>
+    <br />
+    <div>
+        <div class="github-badge">
+            <a href="https://gohugo.io/" target="_black" rel="nofollow"><span class="badge-subject">Powered by</span><span class="badge-value bg-blue">Hugo</span></a>
+        </div>
+        <div class="github-badge">
+            <a href="https://www.flysnow.org/" target="_black"><span class="badge-subject">Design by</span><span class="badge-value bg-brightgreen">飞雪无情</span></a>
+        </div>
+        <div class="github-badge">
+            <a href="https://github.com/flysnow-org/maupassant-hugo" target="_black"><span class="badge-subject">Theme</span><span class="badge-value bg-yellowgreen">Maupassant</span></a>
+        </div>
+    </div>
+</footer>
+
+
+    
+    <script type="text/javascript">
+        window.MathJax = {
+            tex2jax: {
+                inlineMath: [['$', '$']],
+                processEscapes: true
+                }
+            };
+    </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script><script src="https://cdn.bootcdn.net/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+<a id="rocket" href="#top"></a>
+<script type="text/javascript" src='/js/totop.js?v=0.0.0' async=""></script>
+
+
+
+    <script type="text/javascript" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script>
+
+
+
+
                 </div>
-            </div>
-            <div id="secondary">
+
+                <div id="secondary">
     <section class="widget">
-        <form id="search" action="/search/" method="get" accept-charset="utf-8" target="_blank" _lpchecked="1">
+        <form id="search" action='http://blog.imfang.net/search/' method="get" accept-charset="utf-8" target="_blank" _lpchecked="1">
       
       <input type="text" name="q" maxlength="20" placeholder="Search">
       <input type="hidden" name="sitesearch" value="http://blog.imfang.net">
@@ -260,7 +268,7 @@
 
     
 <section class="widget">
-    <h3 class="widget-title" style="color:red">谢谢支持</h3>
+    <h3 class="widget-title" style="color:red">福利派送</h3>
     <ul class="widget-list">
         
         <li>
@@ -284,7 +292,7 @@
 
 
     <section class="widget">
-        <h3 class="widget-title">文章分类</h3>
+        <h3 class="widget-title"><a href='/categories/'>分类</a></h3>
 <ul class="widget-list">
     
     <li><a href="http://blog.imfang.net/categories/wordpress/">WordPress (17)</a></li>
@@ -295,7 +303,7 @@
     
     <li><a href="http://blog.imfang.net/categories/%E6%9C%AA%E5%88%86%E7%B1%BB/">未分类 (12)</a></li>
     
-    <li><a href="http://blog.imfang.net/categories/%E7%94%9F%E6%B4%BB%E7%9A%84%E7%82%B9%E6%BB%B4/">生活的点滴  (12)</a></li>
+    <li><a href="http://blog.imfang.net/categories/%E7%94%9F%E6%B4%BB%E7%9A%84%E7%82%B9%E6%BB%B4/">生活的点滴 (12)</a></li>
     
     <li><a href="http://blog.imfang.net/categories/%E7%BD%91%E7%BB%9C%E4%B8%8E%E7%BD%91%E7%AB%99/">网络与网站 (41)</a></li>
     
@@ -307,7 +315,7 @@
     </section>
 
     <section class="widget">
-        <h3 class="widget-title">文章标签</h3>
+        <h3 class="widget-title"><a href='/tags/'>标签</a></h3>
 <div class="tagcloud">
     
     <a href="http://blog.imfang.net/tags/.htaccess/">.htaccess</a>
@@ -370,7 +378,7 @@
     
     <a href="http://blog.imfang.net/tags/hostinger/">hostinger</a>
     
-    <a href="http://blog.imfang.net/tags/hugo/">hugo</a>
+    <a href="http://blog.imfang.net/tags/hugo/">Hugo</a>
     
     <a href="http://blog.imfang.net/tags/ip%E5%9C%B0%E5%9D%80/">IP地址</a>
     
@@ -422,7 +430,7 @@
     
     <a href="http://blog.imfang.net/tags/windows%E7%B3%BB%E7%BB%9F/">Windows系统</a>
     
-    <a href="http://blog.imfang.net/tags/wordpress/">wordpress</a>
+    <a href="http://blog.imfang.net/tags/wordpress/">WordPress</a>
     
     <a href="http://blog.imfang.net/tags/wordpress%E5%A4%B4%E5%83%8F/">WordPress头像</a>
     
@@ -581,132 +589,15 @@
 
 
     <section class="widget">
-        <h3 class="widget-title">其他链接</h3>
+        <h3 class="widget-title">其它</h3>
         <ul class="widget-list">
             <li><a href="http://blog.imfang.net/index.xml">文章 RSS</a></li>
-            <li><a href="https://imfang.avosapps.us/" target="_blank">评论管理</a></li>
         </ul>
-		    <a href="https://996.icu" target="_blank"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="996.icu"></a>
     </section>
 </div>
+            </div>
         </div>
     </div>
-</div>
-<footer id="footer">
-    <div class="container">
-        &copy; 2011-2020 <a href="http://blog.imfang.net">方阁志 By 威力方</a>.
-        Powered by <a rel="nofollow noreferer noopener" href="https://gohugo.io" target="_blank">Hugo</a>.
-        <a href="https://www.flysnow.org/" target="_blank">Theme</a> based on <a href="https://github.com/rujews/maupassant-hugo" target="_blank">maupassant</a>.
-        
-    </div>
-</footer>
-
-
-    
-    <script type="text/javascript">
-        
-        (function () {
-            $("pre code").parent().addClass("line-numbers")
-        }());
-
-        window.MathJax = {
-            tex2jax: {
-                inlineMath: [['$', '$']],
-                processEscapes: true
-                }
-            };
-    </script>
-    <script type="text/javascript" src="/js/prism.js" async="true"></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
-
-
-<a id="rocket" href="#top"></a>
-<script type="text/javascript" src="/js/totop.js?v=0.0.0" async=""></script>
-
-
-
-    <script type="text/javascript" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script>
-
-
-
-
-<script type="text/javascript">
-(function(){
-	if (typeof self === 'undefined' || !self.Prism || !self.document) {
-		return;
-	}
-
-	if (!Prism.plugins.toolbar) {
-		console.warn('Copy to Clipboard plugin loaded before Toolbar plugin.');
-
-		return;
-	}
-
-	var ClipboardJS = window.ClipboardJS || undefined;
-
-	if (!ClipboardJS && typeof require === 'function') {
-		ClipboardJS = require('clipboard');
-	}
-
-	var callbacks = [];
-
-	if (!ClipboardJS) {
-		var script = document.createElement('script');
-		var head = document.querySelector('head');
-
-		script.onload = function() {
-			ClipboardJS = window.ClipboardJS;
-
-			if (ClipboardJS) {
-				while (callbacks.length) {
-					callbacks.pop()();
-				}
-			}
-		};
-
-		script.src = 'https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js';
-		head.appendChild(script);
-	}
-
-	Prism.plugins.toolbar.registerButton('copy-to-clipboard', function (env) {
-		var linkCopy = document.createElement('button');
-		linkCopy.textContent = '复制代码';
-
-		if (!ClipboardJS) {
-			callbacks.push(registerClipboard);
-		} else {
-			registerClipboard();
-		}
-
-		return linkCopy;
-
-		function registerClipboard() {
-			var clip = new ClipboardJS(linkCopy, {
-				'text': function () {
-					return env.code;
-				}
-			});
-
-			clip.on('success', function() {
-				linkCopy.textContent = '复制成功!';
-
-				resetText();
-			});
-			clip.on('error', function () {
-				linkCopy.textContent = '按 Ctrl+C 复制';
-
-				resetText();
-			});
-		}
-
-		function resetText() {
-			setTimeout(function () {
-				linkCopy.textContent = '复制代码';
-			}, 5000);
-		}
-	});
-})();
-
-</script>
 </body>
+
 </html>

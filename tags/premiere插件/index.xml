@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Premiere插件 on 方阁志</title>
@@ -6,11 +6,7 @@
     <description>Recent content in Premiere插件 on 方阁志</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 08 Jul 2017 13:05:22 +0800</lastBuildDate>
-    
-	<atom:link href="http://blog.imfang.net/tags/premiere%E6%8F%92%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 08 Jul 2017 13:05:22 +0800</lastBuildDate><atom:link href="http://blog.imfang.net/tags/premiere%E6%8F%92%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[图]Magic Bullet Suite V11.4中文汉化版安装教程及EDIUS6.55桥接方法</title>
       <link>http://blog.imfang.net/nle/83.html</link>

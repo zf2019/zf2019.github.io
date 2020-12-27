@@ -3,42 +3,45 @@
 <head>
 
     <meta charset="utf-8">
-    <meta name="generator" content="Hugo 0.55.6" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    
 
     <title>Firefox浏览器内存占用大的解决办法 | 方阁志</title>
     <meta property="og:title" content="Firefox浏览器内存占用大的解决办法 - 方阁志">
     <meta property="og:type" content="article">
         
-    <meta property="article:published_time" content="2012-09-27T13:05:22&#43;08:00">
+    <meta property="article:published_time" content='2012-09-27T13:05:22&#43;08:00'>
         
         
-    <meta property="article:modified_time" content="2012-09-27T13:05:22&#43;08:00">
+    <meta property="article:modified_time" content='2012-09-27T13:05:22&#43;08:00'>
         
     <meta name="Keywords" content="方阁志,威力方工作室,周方博客,wordpress,hugo,计算机,网络,Photoshop,非线性编辑">
     <meta name="description" content="Firefox浏览器内存占用大的解决办法">
         
     <meta name="author" content="威力方">
     <meta property="og:url" content="http://blog.imfang.net/web/19.html">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href='/favicon.ico'  type="image/x-icon">
 
-    <link rel="stylesheet" href="/css/normalize.css">
-    
-        <link rel="stylesheet" href="/css/prism.css">
-    
-    <link rel="stylesheet" href="/css/style.css">
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href='/css/normalize.css'>
+    <link rel="stylesheet" href='/css/style.css'>
+    <script type="text/javascript" src="//cdn.bootcdn.net/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     
-
-
+    
+    
+        <link href="https://cdn.bootcdn.net/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" rel="stylesheet">
+    
+    
     
     
 </head>
 
+
 <body>
-<header id="header" class="clearfix">
+    <header id="header" class="clearfix">
     <div class="container">
         <div class="col-group">
             <div class="site-name ">
@@ -65,125 +68,81 @@
     </div>
 </header>
 
+    <div id="body">
+        <div class="container">
+            <div class="col-group">
 
-<div id="body">
+                <div class="col-8" id="main">
+                    
+<div class="res-cons">
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">Firefox浏览器内存占用大的解决办法</h1>
+        </header>
+        <date class="post-meta meta-date">
+            2012年9月27日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='/categories/%E7%BD%91%E7%BB%9C%E4%B8%8E%E7%BD%91%E7%AB%99'>网络与网站</a></span>
+            
+        </div>
         
         
-    <div class="container">
-        <div class="col-group">
-
-            <div class="col-8" id="main">
-                <div class="res-cons">
-                    <article class="post">
-                        <header>
-                            <h1 class="post-title">Firefox浏览器内存占用大的解决办法</h1>
-                        </header>
-                        <date class="post-meta meta-date">
-                            2012年9月27日
-                        </date>
-                        
-                        <div class="post-meta">
-                            <span>|</span>
-                            
-                                <span class="meta-category"><a href="http://blog.imfang.net/categories/%E7%BD%91%E7%BB%9C%E4%B8%8E%E7%BD%91%E7%AB%99">网络与网站</a></span>
-                            
-                        </div>
-                        
-                        
-                        <div class="post-meta">
-                            <span id="busuanzi_container_page_pv">|<span id="busuanzi_value_page_pv"></span><span> 阅读</span></span>
-                        </div>
-                        
-                        
-                        <div class="post-content">
-                            <p>本人上网一直比较喜欢使用Firefox(火狐狸)浏览器,不过Firefox浏览器内存占用过大一直是我比较头疼的地方,因为我的机子内存只有1G,而Firefox浏览器经常会占用150M左右的内存,而且打开的页面越多内存占用越大.以前也在网上找过相应的解决方法,不过Firefox一升级就又要重新再优化一次,每次都要到网上搜索很麻烦,这次索性把相关的内存优化方法转过来以备升级用,以下是Firefox浏览器的内存优化方法转自百度文库:</p>
-
+        <div class="post-meta">
+            <span id="busuanzi_container_page_pv">|<span id="busuanzi_value_page_pv"></span><span>
+                    阅读</span></span>
+        </div>
+        
+        
+        <div class="post-content">
+            <p>本人上网一直比较喜欢使用Firefox(火狐狸)浏览器,不过Firefox浏览器内存占用过大一直是我比较头疼的地方,因为我的机子内存只有1G,而Firefox浏览器经常会占用150M左右的内存,而且打开的页面越多内存占用越大.以前也在网上找过相应的解决方法,不过Firefox一升级就又要重新再优化一次,每次都要到网上搜索很麻烦,这次索性把相关的内存优化方法转过来以备升级用,以下是Firefox浏览器的内存优化方法转自百度文库:</p>
 <p>（在firefox地址栏中输入about:config）</p>
-
 <p>这里简单介绍一下推荐做的几个优化的地方：</p>
-
 <p>1、加入一个boolean（布尔）项：config.trim_on_minimize,并设置为true,这样就可以在最小化时自动释放内存。</p>
-
 <p>2、修改browser.sessionhistory.max_total_viewers修改值为5或更小{页面快进/快退功能中保存的页面总数，默认是-1(无限)}。</p>
-
 <p>3、创建一个browser.cache.memory.capacity设置firefox使用多少内存来进行缓存，默认值-1基于系统内存自动设置，18432=18MB一般适用于512M~1G内存。</p>
-
 <p>4、 browser.cache.memory.enable[布尔值]该项和browser.cache.memory.capacity联合起作用。如果设置为true，firefox将使用browser.cache.memory.capacity指定的内存大小来进行缓存。</p>
-
 <p>5、browser.urlbar.clickSelectsAll [布尔值]决定在地址栏单击时是高亮选中还是插入光标。</p>
-
 <p>6、browser.urlbar.hideGoButton [布尔值]决定是否显示地址栏右侧绿色的箭头（一般人都是敲回车的，这个实在是鸡肋）。</p>
-
 <p>7、创建config.trim_on_minimize[布尔值]（仅限于windows）决定是否象其它windows应用程序一样最小化到任务栏时释放内存，对于配置较低的电脑建议设置为true，配置还过的去的设置为false，这将加速firefox的最小化、最大化过程。</p>
-
 <p>8、 dom.disable_window_open_feature.*[布尔值]以 dom.disable_window_open_feature. 开头的设置总共有11个，*可以是 close，directories，location，menubar，minimizable，personalbar，resizable，scrollbars，status，titlebar，toolbar。 这些设置控制弹出窗口（主要是广告）的显示元素，比如将dom.disable_window_open_feature.close设置为true，则会强迫弹出窗口在右上角显示一个关闭按钮。建议将close和resizeable设置为true。</p>
-
 <p>9、dom.popup_maximum [整数]能够同时打开的弹出窗口的数目。经常有一些恶意站点会冒出一大堆弹出窗口，直到屏幕崩溃为止。建议将该值设置为5或更小。</p>
-
 <p>10、extensions.dss.enabled [布尔值]决定是否能够动态主题切换。假如设置为true，在安装或切换主题时，将立刻显现出新主题的效果，而不用关闭firefox后重新引导 firefox。</p>
-
 <p>11、 network.cookie.cookieBehavior[整数]决定firefox处理cookies的政策。设置为1允许所有的 cookies，设置为2禁止所有的cookies，设置为1仅允许原始站点的cookies，不允许第三方（大多是广告）的cookies。建议设置为 1。</p>
-
 <p>12、network.dnsCacheEntries [整数]（需创建）决定在firefox的DNS缓存中保存条目的数目。当在firefox中键入一个web地址时，它通过查询DNS服务器将web地址转化为IP，在当地缓存中保存一定数量的DNS条目，下次再键入同样的web地址时，就能加快浏览速度。默认firefox将该值设置为20，建议将该值设置为一般情况浏览web站点的数目。</p>
-
 <p>13、network.dnsCacheExpiration [整数]（需创建）决定缓存的DNS条目过期的时间。默认为60秒。</p>
-
 <p>14、 network.http.max-connections[整数]决定同时能够打开多少http连接。默认值是24，如果你的网络连接够快，可以尝试增大此值，最大值为65535。但要注意的是，增大该值仅仅增大了同时打开http连接数目的可能，你并不能强迫firefox每次都打开那么多的 http连接。</p>
-
 <p>15、network.http.max-connections-per-server[整数]决定在单个服务器能够同时打开的连接数。默认值为8，你可以增大此值来加快浏览速度，最大值为255。但要注意的是，此值改的太大，一些服务器会认为你在进行DDoS攻击，从而拒绝你的连接请求。事实上，如果所有的firefox用户都不理智的把此值改的太大，大多数站点的浏览速度不会得到提升，反而会非常慢。</p>
-
 <p>16、 network.http.max-persistent-connections-per-proxy[整数]假如你使用的是代理，该值决定同时有多少连接处于活动状态。默认值为4，可以适当增大此值加快浏览速度。但要注意的是，此值改的太大，会增大代理服务器的压力，从而影响每个使用该代理的用户的浏览速度。</p>
-
 <p>17、network.http.max-persistent-connections-per-server[整数]假如没有使用代理，该值决定在单个服务器上同时有多少连接处于活动状态。默认值为2，可以适当增大此值加快浏览速度，最大值为255。但要注意的是，此值改的太大会增大服务器的压力，从而有可能被该服务器拒绝连接请求。</p>
-
 <p>18、network.http.pipelining [布尔值]决定是否使用HTTP Pipelining特性，建议设置为true，加快浏览速度，尽管该特性不是所有的服务器和代理都支持。</p>
-
 <p>19、 network.http.pipelining.maxrequests [整数]决定使用HTTPPipelining特性时发送的最大连接请求。默认值为4，最大值为8，比8大的值会被忽略，1表示不使用 HTTPPipelining特性，建议将该值设置为8。</p>
-
 <p>20、network.http.proxy.pipelining [布尔值]决定是否在使用代理时使用HTTP Pipelining特性。建议设置为true，要注意的是，该值有效的前提是network.http.proxy.keep-alive值为 true。</p>
-
 <p>21、network.http.redirection-limit [整数]决定接受多少连续的重定向。比如说你进入一个站点旧的网址，可能会被重定向到一个新的网址，这叫一个重定向。</p>
-
 <p>22、network.prefetch-next [布尔值]决定是否使用Link Prefetching特性。建议设置为false。</p>
-
 <p>23、nglayout.initialpaint.delay [整数]（需创建）决定在显示页面内容时等待多少毫秒。适当的延迟可以让firefox引导和调整各种各样的页面元素以便正确显示。默认值是250毫秒，你可以增大或减小该值，当然，这取决于你的浏览习惯。</p>
-
 <p>24、plugin.default_plugin_disabled [布尔值]当浏览某个网页缺少某个插件（比如flash）时是否提示安装。</p>
-
 <p>25、privacy.popups.disable_from_plugins [整数]设置为0不阻止任何弹出窗口，设置为1阻止弹出窗口的最大数目取决于dom.popup_maximum，设置为3阻止所有的弹出窗口，设置为2 仅阻止来自插件的弹出窗口.</p>
-
 <p>注:以上方法本人只使用了一小部份,并未全部使用,不敢保证全部有效,有需要的朋友可以自己测试.</p>
-                        </div>
+        </div>
 
-                        
+        
 <div class="post-archive">
     <ul class="post-copyright">
         <li><strong>原文作者：</strong><a rel="author" href="http://blog.imfang.net">威力方</a></li>
         <li style="word-break:break-all"><strong>原文链接：</strong><a href="http://blog.imfang.net/web/19.html">http://blog.imfang.net/web/19.html</a></li>
-        <li><strong>版权声明：</strong>除非注明！本站文章均为原创。采用<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">《知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议》</a>进行许可，非商业转载请注明出处（作者，原文链接），商业转载请联系作者获得授权。</li>
+        <li><strong>版权声明：</strong>本作品采用<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">《知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议》</a>进行许可，非商业转载请注明出处（作者，原文链接），商业转载请联系作者获得授权。</li>
     </ul>
 </div>
-<div style="padding: 10px 0; margin: 20px auto; width: 100%; font-size:16px; text-align: center;">
-        <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
-            <span>打赏</span></button>
-        <div id="QR" style="display: none;">
-            <div id="wechat" style="display: inline-block">
-                <a class="fancybox" rel="group">
-                    <img id="wechat_qr" src="/images/weixin.png" alt="WeChat Pay"></a>
-                <p>微信打赏</p>
-            </div>
-            <div id="alipay" style="display: inline-block">
-                <a class="fancybox" rel="group">
-                    <img id="alipay_qr" src="/images/zhifubao.png" alt="Alipay"></a>
-                <p>支付宝打赏</p>
-            </div>
-        </div>
-</div>
-<br/>	
+<br/>
 
 
 
-                        
+        
 
 <div class="post-archive">
     <h2>See Also</h2>
@@ -203,45 +162,75 @@
 </div>
 
 
-                        <div class="post-meta meta-tags">
-                            
-                            <ul class="clearfix">
-                                
-                                <li><a href="http://blog.imfang.net/tags/firefox">Firefox</a></li>
-                                
-                                <li><a href="http://blog.imfang.net/tags/%E6%B5%8F%E8%A7%88%E5%99%A8">浏览器</a></li>
-                                
-                                <li><a href="http://blog.imfang.net/tags/%E7%81%AB%E7%8B%90%E7%8B%B8">火狐狸</a></li>
-                                
-                            </ul>
-                            
-                        </div>
-                    </article>
-                    
-  <span id="/web/19.html" class="leancloud_visitors" data-flag-title="Firefox浏览器内存占用大的解决办法">
-    <h3><span class="post-meta-item-text">留言本（支持Markdown）</span></h3>
-    <p></p>
-  </span>
-  <div id="vcomments"></div>
-  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
-  <script type="text/javascript">
-    new Valine({
-        el: '#vcomments' ,
-        appId: 'teSRhj0VmmlUYBek5ciJnzWk-MdYXbMMI',
-        appKey: 'KSNbo03f2K33Lzu2Xxqbk6Js',
-        notify:  true , 
-        verify:  true , 
-        avatar:'mm', 
-        placeholder: '评论数据存储在第三方平台,请勿发表不当言论!',
-        visitor:  false 
-    });
-  </script>
+        <div class="post-meta meta-tags">
+            
+            <ul class="clearfix">
+                
+                <li><a href='/tags/firefox'>Firefox</a></li>
+                
+                <li><a href='/tags/%E6%B5%8F%E8%A7%88%E5%99%A8'>浏览器</a></li>
+                
+                <li><a href='/tags/%E7%81%AB%E7%8B%90%E7%8B%B8'>火狐狸</a></li>
+                
+            </ul>
+            
+        </div>
+    </article>
+    
+    
+
+    
+    
+</div>
+
+                    <footer id="footer">
+    <div>
+        &copy; 2011-2020 <a href="http://blog.imfang.net">方阁志 By 威力方</a>
+        
+        | <a rel="nofollow" target="_blank" href="http://www.beian.miit.gov.cn/">预ICP备88888888号-1</a>
+        
+    </div>
+    <br />
+    <div>
+        <div class="github-badge">
+            <a href="https://gohugo.io/" target="_black" rel="nofollow"><span class="badge-subject">Powered by</span><span class="badge-value bg-blue">Hugo</span></a>
+        </div>
+        <div class="github-badge">
+            <a href="https://www.flysnow.org/" target="_black"><span class="badge-subject">Design by</span><span class="badge-value bg-brightgreen">飞雪无情</span></a>
+        </div>
+        <div class="github-badge">
+            <a href="https://github.com/flysnow-org/maupassant-hugo" target="_black"><span class="badge-subject">Theme</span><span class="badge-value bg-yellowgreen">Maupassant</span></a>
+        </div>
+    </div>
+</footer>
+
+
+    
+    <script type="text/javascript">
+        window.MathJax = {
+            tex2jax: {
+                inlineMath: [['$', '$']],
+                processEscapes: true
+                }
+            };
+    </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script><script src="https://cdn.bootcdn.net/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+<a id="rocket" href="#top"></a>
+<script type="text/javascript" src='/js/totop.js?v=0.0.0' async=""></script>
+
+
+
+    <script type="text/javascript" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script>
+
+
+
+
                 </div>
-            </div>
-            <div id="secondary">
+
+                <div id="secondary">
     <section class="widget">
-        <form id="search" action="/search/" method="get" accept-charset="utf-8" target="_blank" _lpchecked="1">
+        <form id="search" action='http://blog.imfang.net/search/' method="get" accept-charset="utf-8" target="_blank" _lpchecked="1">
       
       <input type="text" name="q" maxlength="20" placeholder="Search">
       <input type="hidden" name="sitesearch" value="http://blog.imfang.net">
@@ -298,7 +287,7 @@
 
     
 <section class="widget">
-    <h3 class="widget-title" style="color:red">谢谢支持</h3>
+    <h3 class="widget-title" style="color:red">福利派送</h3>
     <ul class="widget-list">
         
         <li>
@@ -322,7 +311,7 @@
 
 
     <section class="widget">
-        <h3 class="widget-title">文章分类</h3>
+        <h3 class="widget-title"><a href='/categories/'>分类</a></h3>
 <ul class="widget-list">
     
     <li><a href="http://blog.imfang.net/categories/wordpress/">WordPress (17)</a></li>
@@ -333,7 +322,7 @@
     
     <li><a href="http://blog.imfang.net/categories/%E6%9C%AA%E5%88%86%E7%B1%BB/">未分类 (12)</a></li>
     
-    <li><a href="http://blog.imfang.net/categories/%E7%94%9F%E6%B4%BB%E7%9A%84%E7%82%B9%E6%BB%B4/">生活的点滴  (12)</a></li>
+    <li><a href="http://blog.imfang.net/categories/%E7%94%9F%E6%B4%BB%E7%9A%84%E7%82%B9%E6%BB%B4/">生活的点滴 (12)</a></li>
     
     <li><a href="http://blog.imfang.net/categories/%E7%BD%91%E7%BB%9C%E4%B8%8E%E7%BD%91%E7%AB%99/">网络与网站 (41)</a></li>
     
@@ -345,7 +334,7 @@
     </section>
 
     <section class="widget">
-        <h3 class="widget-title">文章标签</h3>
+        <h3 class="widget-title"><a href='/tags/'>标签</a></h3>
 <div class="tagcloud">
     
     <a href="http://blog.imfang.net/tags/.htaccess/">.htaccess</a>
@@ -408,7 +397,7 @@
     
     <a href="http://blog.imfang.net/tags/hostinger/">hostinger</a>
     
-    <a href="http://blog.imfang.net/tags/hugo/">hugo</a>
+    <a href="http://blog.imfang.net/tags/hugo/">Hugo</a>
     
     <a href="http://blog.imfang.net/tags/ip%E5%9C%B0%E5%9D%80/">IP地址</a>
     
@@ -460,7 +449,7 @@
     
     <a href="http://blog.imfang.net/tags/windows%E7%B3%BB%E7%BB%9F/">Windows系统</a>
     
-    <a href="http://blog.imfang.net/tags/wordpress/">wordpress</a>
+    <a href="http://blog.imfang.net/tags/wordpress/">WordPress</a>
     
     <a href="http://blog.imfang.net/tags/wordpress%E5%A4%B4%E5%83%8F/">WordPress头像</a>
     
@@ -619,132 +608,15 @@
 
 
     <section class="widget">
-        <h3 class="widget-title">其他链接</h3>
+        <h3 class="widget-title">其它</h3>
         <ul class="widget-list">
             <li><a href="http://blog.imfang.net/index.xml">文章 RSS</a></li>
-            <li><a href="https://imfang.avosapps.us/" target="_blank">评论管理</a></li>
         </ul>
-		    <a href="https://996.icu" target="_blank"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="996.icu"></a>
     </section>
 </div>
+            </div>
         </div>
     </div>
-</div>
-<footer id="footer">
-    <div class="container">
-        &copy; 2011-2020 <a href="http://blog.imfang.net">方阁志 By 威力方</a>.
-        Powered by <a rel="nofollow noreferer noopener" href="https://gohugo.io" target="_blank">Hugo</a>.
-        <a href="https://www.flysnow.org/" target="_blank">Theme</a> based on <a href="https://github.com/rujews/maupassant-hugo" target="_blank">maupassant</a>.
-        
-    </div>
-</footer>
-
-
-    
-    <script type="text/javascript">
-        
-        (function () {
-            $("pre code").parent().addClass("line-numbers")
-        }());
-
-        window.MathJax = {
-            tex2jax: {
-                inlineMath: [['$', '$']],
-                processEscapes: true
-                }
-            };
-    </script>
-    <script type="text/javascript" src="/js/prism.js" async="true"></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
-
-
-<a id="rocket" href="#top"></a>
-<script type="text/javascript" src="/js/totop.js?v=0.0.0" async=""></script>
-
-
-
-    <script type="text/javascript" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script>
-
-
-
-
-<script type="text/javascript">
-(function(){
-	if (typeof self === 'undefined' || !self.Prism || !self.document) {
-		return;
-	}
-
-	if (!Prism.plugins.toolbar) {
-		console.warn('Copy to Clipboard plugin loaded before Toolbar plugin.');
-
-		return;
-	}
-
-	var ClipboardJS = window.ClipboardJS || undefined;
-
-	if (!ClipboardJS && typeof require === 'function') {
-		ClipboardJS = require('clipboard');
-	}
-
-	var callbacks = [];
-
-	if (!ClipboardJS) {
-		var script = document.createElement('script');
-		var head = document.querySelector('head');
-
-		script.onload = function() {
-			ClipboardJS = window.ClipboardJS;
-
-			if (ClipboardJS) {
-				while (callbacks.length) {
-					callbacks.pop()();
-				}
-			}
-		};
-
-		script.src = 'https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js';
-		head.appendChild(script);
-	}
-
-	Prism.plugins.toolbar.registerButton('copy-to-clipboard', function (env) {
-		var linkCopy = document.createElement('button');
-		linkCopy.textContent = '复制代码';
-
-		if (!ClipboardJS) {
-			callbacks.push(registerClipboard);
-		} else {
-			registerClipboard();
-		}
-
-		return linkCopy;
-
-		function registerClipboard() {
-			var clip = new ClipboardJS(linkCopy, {
-				'text': function () {
-					return env.code;
-				}
-			});
-
-			clip.on('success', function() {
-				linkCopy.textContent = '复制成功!';
-
-				resetText();
-			});
-			clip.on('error', function () {
-				linkCopy.textContent = '按 Ctrl+C 复制';
-
-				resetText();
-			});
-		}
-
-		function resetText() {
-			setTimeout(function () {
-				linkCopy.textContent = '复制代码';
-			}, 5000);
-		}
-	});
-})();
-
-</script>
 </body>
+
 </html>

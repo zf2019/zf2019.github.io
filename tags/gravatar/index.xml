@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gravatar on 方阁志</title>
@@ -6,18 +6,14 @@
     <description>Recent content in Gravatar on 方阁志</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 27 Dec 2014 13:05:22 +0800</lastBuildDate>
-    
-	<atom:link href="http://blog.imfang.net/tags/gravatar/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 27 Dec 2014 13:05:22 +0800</lastBuildDate><atom:link href="http://blog.imfang.net/tags/gravatar/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>使用https方式（SSL）调用Gravatar头像服务器地址</title>
       <link>http://blog.imfang.net/wordpress/49.html</link>
       <pubDate>Sat, 27 Dec 2014 13:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/wordpress/49.html</guid>
-      <description>&lt;p&gt;发现现在打开的我的博客老是提示:加载&amp;rdquo;0.gravatar.com&amp;rdquo;等,而且评论头像也无法正常显示了,可能是Gravatar头像服务器集体被墙了,无论是国内主机还是国外主机都受到了影响,严重的影响了使用此服务网站的打开速度和使用体验.当然网上有很多方法可以解决这一问题,有国内服务器替代法也有插件替代法,在这里我介绍下我使用的方法,打开速度还不错.&lt;/p&gt;</description>
+      <description>&lt;p&gt;发现现在打开的我的博客老是提示:加载&amp;quot;0.gravatar.com&amp;quot;等,而且评论头像也无法正常显示了,可能是Gravatar头像服务器集体被墙了,无论是国内主机还是国外主机都受到了影响,严重的影响了使用此服务网站的打开速度和使用体验.当然网上有很多方法可以解决这一问题,有国内服务器替代法也有插件替代法,在这里我介绍下我使用的方法,打开速度还不错.&lt;/p&gt;</description>
     </item>
     
     <item>

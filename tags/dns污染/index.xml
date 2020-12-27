@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DNS污染 on 方阁志</title>
@@ -6,11 +6,7 @@
     <description>Recent content in DNS污染 on 方阁志</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 19 Sep 2014 13:05:22 +0800</lastBuildDate>
-    
-	<atom:link href="http://blog.imfang.net/tags/dns%E6%B1%A1%E6%9F%93/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 19 Sep 2014 13:05:22 +0800</lastBuildDate><atom:link href="http://blog.imfang.net/tags/dns%E6%B1%A1%E6%9F%93/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DNS污染屏蔽的解决方法</title>
       <link>http://blog.imfang.net/web/40.html</link>

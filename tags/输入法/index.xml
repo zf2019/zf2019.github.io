@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>输入法 on 方阁志</title>
@@ -6,11 +6,7 @@
     <description>Recent content in 输入法 on 方阁志</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 26 Dec 2020 11:05:22 +0800</lastBuildDate>
-    
-	<atom:link href="http://blog.imfang.net/tags/%E8%BE%93%E5%85%A5%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 26 Dec 2020 11:05:22 +0800</lastBuildDate><atom:link href="http://blog.imfang.net/tags/%E8%BE%93%E5%85%A5%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>推荐：win10系统好用的五笔输入法</title>
       <link>http://blog.imfang.net/software/121.html</link>

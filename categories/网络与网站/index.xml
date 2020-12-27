@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>网络与网站 on 方阁志</title>
@@ -6,11 +6,7 @@
     <description>Recent content in 网络与网站 on 方阁志</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 18 Sep 2019 10:05:22 +0800</lastBuildDate>
-    
-	<atom:link href="http://blog.imfang.net/categories/%E7%BD%91%E7%BB%9C%E4%B8%8E%E7%BD%91%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 18 Sep 2019 10:05:22 +0800</lastBuildDate><atom:link href="http://blog.imfang.net/categories/%E7%BD%91%E7%BB%9C%E4%B8%8E%E7%BD%91%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>在HUGO文章底部添加打赏功能代码</title>
       <link>http://blog.imfang.net/web/119.html</link>
@@ -27,7 +23,7 @@
       <pubDate>Mon, 16 Sep 2019 10:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/web/118.html</guid>
-      <description>&lt;p&gt;早在去年我就想把博客启用更安全的HTTPS协议，不过考虑到博客里并不涉及什么敏感信息，而且当时使用的是WordPress如果半路配置HTTPS是相当繁琐的，最主要的是还需要额外购买证书，所以一直没有实施这个想法。&lt;br /&gt;
+      <description>&lt;p&gt;早在去年我就想把博客启用更安全的HTTPS协议，不过考虑到博客里并不涉及什么敏感信息，而且当时使用的是WordPress如果半路配置HTTPS是相当繁琐的，最主要的是还需要额外购买证书，所以一直没有实施这个想法。&lt;br&gt;
 直到现在把博客托管到GitHub Pages后发现他们提供免费的HTTPS服务，由于我当时对这项免费的服务并不了解所以并没有第一时间配置。在使用了GitHub一段时间后发现他们的免费服务还是靠普的，此时又有了给博客启用HTTPS的想法，
 我以为很简单直接在Settings里点选Enforce HTTPS不就完事了吗，哪知世上的事并不如人意。&lt;/p&gt;</description>
     </item>
@@ -66,9 +62,8 @@
       <pubDate>Fri, 27 Oct 2017 13:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/web/94.html</guid>
-      <description>&lt;h3 id=&#34;什么是动态页脚时间-动态时间戳&#34;&gt;什么是动态页脚时间（动态时间戳）？&lt;/h3&gt;
-
-&lt;p&gt;看一个网站是否还在更新？也许一两件事能表明这个网站还活着，但是当你发现页脚的版权声明 &lt;em&gt;&amp;ldquo;© 2010-2011 XXXX版权所有&amp;rdquo;&lt;/em&gt;
+      <description>&lt;h3 id=&#34;什么是动态页脚时间动态时间戳&#34;&gt;什么是动态页脚时间（动态时间戳）？&lt;/h3&gt;
+&lt;p&gt;看一个网站是否还在更新？也许一两件事能表明这个网站还活着，但是当你发现页脚的版权声明 &lt;!-- raw HTML omitted --&gt;&amp;ldquo;© 2010-2011 XXXX版权所有&amp;rdquo;&lt;!-- raw HTML omitted --&gt;
 当然这可能只是网站主忘记更新页脚时间，很多情况下是因为用了编码字符串。不过这种东西还是交给计算机自动维护比较好，使用本页面的动态时间戳会让网站主事半功倍。&lt;/p&gt;</description>
     </item>
     
@@ -105,7 +100,7 @@
       <pubDate>Wed, 07 Jan 2015 13:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/web/51.html</guid>
-      <description>&lt;p&gt;最近在空间后台里发现磁盘占用大的惊人,600M的空间被使用了300多M,但是我这是一个小博客图片都是外链的,哪有可能占用这么多的磁盘空间呢?而且我最近也没有上传什么大文件啊,为什么空间占用一下这么多了呢?后来经过仔细检查发现这个&amp;rdquo;error_log&amp;rdquo;错误日志就占了200多M,&lt;/p&gt;</description>
+      <description>&lt;p&gt;最近在空间后台里发现磁盘占用大的惊人,600M的空间被使用了300多M,但是我这是一个小博客图片都是外链的,哪有可能占用这么多的磁盘空间呢?而且我最近也没有上传什么大文件啊,为什么空间占用一下这么多了呢?后来经过仔细检查发现这个&amp;quot;error_log&amp;quot;错误日志就占了200多M,&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -123,7 +118,7 @@
       <pubDate>Sun, 14 Dec 2014 13:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/web/43.html</guid>
-      <description>&lt;p&gt;000webhost(三蛋)免费空间相信很多吊丝站长都知道并用过,他们提供的免费强大空间甚至比国内的很多收费空间还好,而且稳定值得信赖,被很多站长奉为免费空间的老大.我几年前也用过000webhost的免费空间,确实很稳定CP控制面板也非常强大,后来不知什么原因被关闭了就没有再使用.但是000webhost免费空间对中国的IP进行了屏蔽,中国的用户需要代理才能注册比较麻烦,而且英文页面对我们这些不懂英文的人来说也是个负担.就在昨天我收到了000webhost给我发来的邮件,&lt;del datetime=&#34;2018-06-25T09:39:36+00:00&#34;&gt;推荐了和他们同一家公司的Hostinger中国免费空间,据说是专门针对中国用户提供的免费空间,&lt;/del&gt;可能是他们终于发现了中国的庞大的用户群.下面是他们邮件里描述的空间配置表:&lt;/p&gt;</description>
+      <description>&lt;p&gt;000webhost(三蛋)免费空间相信很多吊丝站长都知道并用过,他们提供的免费强大空间甚至比国内的很多收费空间还好,而且稳定值得信赖,被很多站长奉为免费空间的老大.我几年前也用过000webhost的免费空间,确实很稳定CP控制面板也非常强大,后来不知什么原因被关闭了就没有再使用.但是000webhost免费空间对中国的IP进行了屏蔽,中国的用户需要代理才能注册比较麻烦,而且英文页面对我们这些不懂英文的人来说也是个负担.就在昨天我收到了000webhost给我发来的邮件,&lt;!-- raw HTML omitted --&gt;推荐了和他们同一家公司的Hostinger中国免费空间,据说是专门针对中国用户提供的免费空间,&lt;!-- raw HTML omitted --&gt;可能是他们终于发现了中国的庞大的用户群.下面是他们邮件里描述的空间配置表:&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -195,8 +190,7 @@
       <pubDate>Fri, 18 May 2012 13:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/web/9.html</guid>
-      <description>&lt;p&gt;&lt;strong&gt;百度网盘简介&lt;/strong&gt;&lt;/p&gt;
-
+      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;百度网盘简介&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 &lt;p&gt;百度网盘，是百度公司推出的一项提供用户Web、PC、Android手机客户端多平台数据共享的云存储服务。该服务依托于百度强大的云存储集群机制，发挥了百度强有力的云端存储优势，提供超大的网络存储空间，拥有更强大的数据安全保障，并且提供了把精彩内容轻松分享给好友的通道。&lt;/p&gt;</description>
     </item>
     
@@ -215,8 +209,7 @@
       <pubDate>Tue, 10 Apr 2012 13:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/web/6.html</guid>
-      <description>&lt;h3&gt;介绍&lt;/h3&gt;
-
+      <description>&lt;!-- raw HTML omitted --&gt;
 &lt;p&gt;金山T盘是金山网络于2011年1月24日推出的一项免费网络硬盘服务。
 金山T盘采用国际顶尖的存储设备和高强度加密技术，确保用户数据不丢失。&lt;/p&gt;</description>
     </item>
@@ -264,7 +257,6 @@
       
       <guid>http://blog.imfang.net/web/75.html</guid>
       <description>&lt;h3 id=&#34;什么是域名&#34;&gt;什么是域名？&lt;/h3&gt;
-
 &lt;p&gt;Internet域名是Internet网络上的一个服务器或一个网络系统的名字，在全世界，没有重复的域名。域名的形式是以若干个英文字母或数字组成，由“.”分隔成几部分，如oursoho.com就是一个域名。&lt;/p&gt;</description>
     </item>
     
@@ -274,7 +266,7 @@
       <pubDate>Thu, 15 Dec 2011 13:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/web/74.html</guid>
-      <description>适用于在GoDaddy新注册的.com、.net、.org优惠30% 下面是优惠码： gdz1222p &amp;nbsp; 需要优惠码的朋友可以加本站QQ群：6464419，索要</description>
+      <description>适用于在GoDaddy新注册的.com、.net、.org优惠30% 下面是优惠码： 需要优惠码的朋友可以加本站QQ群：6464419，索要最新</description>
     </item>
     
     <item>
@@ -292,12 +284,9 @@
       <pubDate>Mon, 05 Dec 2011 13:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/web/68.html</guid>
-      <description>&lt;h3 id=&#34;1-网站建设中要遵守和注意的事项&#34;&gt;1、网站建设中要遵守和注意的事项&lt;/h3&gt;
-
+      <description>&lt;h3 id=&#34;1网站建设中要遵守和注意的事项&#34;&gt;1、网站建设中要遵守和注意的事项&lt;/h3&gt;
 &lt;p&gt;（1）不论使用的是哪国主机空间，一定要遵守空间所在国的法律和中国的法律，否则被墙、被K、被闭、被封杀是一定的（必须的）；&lt;/p&gt;
-
 &lt;p&gt;（2）仔细查看和遵守空间提供商的规定，不然网站被关闭还不知道是怎么回事，一般空间商网站都会有详细说明；&lt;/p&gt;
-
 &lt;p&gt;（3）不要在空间里放病毒文件、不要在网页上放置恶意代码或挂马；&lt;/p&gt;</description>
     </item>
     
@@ -316,8 +305,7 @@
       <pubDate>Thu, 01 Dec 2011 13:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/web/61.html</guid>
-      <description>&lt;h3 id=&#34;1-什么是域名&#34;&gt;1、什么是域名？&lt;/h3&gt;
-
+      <description>&lt;h3 id=&#34;1什么是域名&#34;&gt;1、什么是域名？&lt;/h3&gt;
 &lt;p&gt;Internet域名是Internet网络上的一个服务器或一个网络系统的名字，在全世界，没有重复的域名。域名的形式是以若干个英文字母或数字组成，由“.”分隔成几部分，如本站的localhost/wordpress就是一个域名。因为网络上主机空间分配的是32bit地址（IP地址）如：61.135.132.6这很不利于人们的记忆，而域名的出现就大大方便了人们网络浏览。关于域名的更多知识本站稍晚将另写一篇文章：“关于域名的解释”，请大家关注一下。&lt;/p&gt;</description>
     </item>
     
@@ -372,24 +360,24 @@
       <pubDate>Sat, 19 Nov 2011 13:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/web/44.html</guid>
-      <description>&lt;h3 id=&#34;1-学习网站建设前应该掌握的基本技能&#34;&gt;1、学习网站建设前应该掌握的基本技能&lt;/h3&gt;
-
+      <description>&lt;h3 id=&#34;1学习网站建设前应该掌握的基本技能&#34;&gt;1、学习网站建设前应该掌握的基本技能&lt;/h3&gt;
 &lt;p&gt;练习打字，无论是上网干什么打字都是必备的基本功，拼音输入法比较容易学习，学好了,打字速度也很快，比如：智能ABC输入法，搜狗拼音输入法，紫光拼音输入法；&lt;/p&gt;
-
 &lt;p&gt;学会windows的基本操作，比如熟练掌握Ctrl+X剪切，Ctrl+V粘贴，Ctrl+Z撤消，Ctrl+N新建 等基本Windows操作；学会熟练拖动文件；学会安装软件、常用软件的使用等。&lt;/p&gt;
-
 &lt;p&gt;没错，上面就是建设网站最基本的技能了。&lt;/p&gt;
-
 &lt;p&gt;当然如果你还想更深入的学习网站技术，还要掌握下面几款软件的使用：&lt;/p&gt;
-
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;DreamWeaver（制作网页最常用的编辑软件）&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Notepad++(博主一直在用的HTML编辑器)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;EditPlus(功能强大的HTML编辑器)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;PhotoShop(专业图片编辑软件)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;DreamWeaver（制作网页最常用的编辑软件）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Notepad++(博主一直在用的HTML编辑器)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;EditPlus(功能强大的HTML编辑器)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;PhotoShop(专业图片编辑软件)&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     
@@ -409,20 +397,13 @@
       
       <guid>http://blog.imfang.net/web/35.html</guid>
       <description>&lt;h3 id=&#34;总目录&#34;&gt;总目录&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;一、网站建设教程简单讲解之[一]网站的概念&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://imfang.net/web/44.html&#34; target=&#34;_blank&#34;&gt;二、网站建设教程简单讲解之[二]建站的基本技能与知识&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://imfang.net/web/61.html&#34; target=&#34;_blank&#34;&gt;三、网站建设教程简单讲解之[三]域名与空间的选择&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://imfang.net/web/63.html&#34; target=&#34;_blank&#34;&gt;四、网站建设教程简单讲解之[四]个人网站程序的选择与安装&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;http://imfang.net/web/68.html&#34; target=&#34;_blank&#34;&gt;五、网站建设教程简单讲解之[五]网站建设应该要注意的事项&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;六、网站建设教程简单讲解之[六]网站推广与SEO(精力有限此章未写完)&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;七、网站建设教程简单讲解之[七]网站的营销(精力有限此章未写完)&lt;/strong&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;一、网站建设教程简单讲解之[一]网站的概念&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;二、网站建设教程简单讲解之[二]建站的基本技能与知识&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;三、网站建设教程简单讲解之[三]域名与空间的选择&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;四、网站建设教程简单讲解之[四]个人网站程序的选择与安装&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;五、网站建设教程简单讲解之[五]网站建设应该要注意的事项&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;六、网站建设教程简单讲解之[六]网站推广与SEO(精力有限此章未写完)&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;七、网站建设教程简单讲解之[七]网站的营销(精力有限此章未写完)&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
     
     <item>

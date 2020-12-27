@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>godaddy on 方阁志</title>
@@ -6,11 +6,7 @@
     <description>Recent content in godaddy on 方阁志</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 16 Oct 2015 13:05:22 +0800</lastBuildDate>
-    
-	<atom:link href="http://blog.imfang.net/tags/godaddy/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 16 Oct 2015 13:05:22 +0800</lastBuildDate><atom:link href="http://blog.imfang.net/tags/godaddy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Godaddy域名转移到NameSilo详细图文教程（2015新）</title>
       <link>http://blog.imfang.net/web/57.html</link>

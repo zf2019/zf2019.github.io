@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>动态时间戳 on 方阁志</title>
@@ -6,20 +6,15 @@
     <description>Recent content in 动态时间戳 on 方阁志</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 27 Oct 2017 13:05:22 +0800</lastBuildDate>
-    
-	<atom:link href="http://blog.imfang.net/tags/%E5%8A%A8%E6%80%81%E6%97%B6%E9%97%B4%E6%88%B3/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 27 Oct 2017 13:05:22 +0800</lastBuildDate><atom:link href="http://blog.imfang.net/tags/%E5%8A%A8%E6%80%81%E6%97%B6%E9%97%B4%E6%88%B3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>自动更新网站页脚版权时间的代码</title>
       <link>http://blog.imfang.net/web/94.html</link>
       <pubDate>Fri, 27 Oct 2017 13:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/web/94.html</guid>
-      <description>&lt;h3 id=&#34;什么是动态页脚时间-动态时间戳&#34;&gt;什么是动态页脚时间（动态时间戳）？&lt;/h3&gt;
-
-&lt;p&gt;看一个网站是否还在更新？也许一两件事能表明这个网站还活着，但是当你发现页脚的版权声明 &lt;em&gt;&amp;ldquo;© 2010-2011 XXXX版权所有&amp;rdquo;&lt;/em&gt;
+      <description>&lt;h3 id=&#34;什么是动态页脚时间动态时间戳&#34;&gt;什么是动态页脚时间（动态时间戳）？&lt;/h3&gt;
+&lt;p&gt;看一个网站是否还在更新？也许一两件事能表明这个网站还活着，但是当你发现页脚的版权声明 &lt;!-- raw HTML omitted --&gt;&amp;ldquo;© 2010-2011 XXXX版权所有&amp;rdquo;&lt;!-- raw HTML omitted --&gt;
 当然这可能只是网站主忘记更新页脚时间，很多情况下是因为用了编码字符串。不过这种东西还是交给计算机自动维护比较好，使用本页面的动态时间戳会让网站主事半功倍。&lt;/p&gt;</description>
     </item>
     

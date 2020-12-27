@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>固定链接 on 方阁志</title>
@@ -6,11 +6,7 @@
     <description>Recent content in 固定链接 on 方阁志</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 23 Mar 2012 13:05:22 +0800</lastBuildDate>
-    
-	<atom:link href="http://blog.imfang.net/tags/%E5%9B%BA%E5%AE%9A%E9%93%BE%E6%8E%A5/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 23 Mar 2012 13:05:22 +0800</lastBuildDate><atom:link href="http://blog.imfang.net/tags/%E5%9B%BA%E5%AE%9A%E9%93%BE%E6%8E%A5/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>不改代码不安插件完美解决WordPress文章ID不连续问题</title>
       <link>http://blog.imfang.net/wordpress/2.html</link>

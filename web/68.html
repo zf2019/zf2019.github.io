@@ -3,42 +3,45 @@
 <head>
 
     <meta charset="utf-8">
-    <meta name="generator" content="Hugo 0.55.6" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    
 
     <title>网站建设教程简单讲解之[五]网站建设要注意的事项及其它细节 | 方阁志</title>
     <meta property="og:title" content="网站建设教程简单讲解之[五]网站建设要注意的事项及其它细节 - 方阁志">
     <meta property="og:type" content="article">
         
-    <meta property="article:published_time" content="2011-12-05T13:05:22&#43;08:00">
+    <meta property="article:published_time" content='2011-12-05T13:05:22&#43;08:00'>
         
         
-    <meta property="article:modified_time" content="2011-12-05T13:05:22&#43;08:00">
+    <meta property="article:modified_time" content='2011-12-05T13:05:22&#43;08:00'>
         
     <meta name="Keywords" content="方阁志,威力方工作室,周方博客,wordpress,hugo,计算机,网络,Photoshop,非线性编辑">
     <meta name="description" content="网站建设教程简单讲解之[五]网站建设要注意的事项及其它细节">
         
     <meta name="author" content="威力方">
     <meta property="og:url" content="http://blog.imfang.net/web/68.html">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href='/favicon.ico'  type="image/x-icon">
 
-    <link rel="stylesheet" href="/css/normalize.css">
-    
-        <link rel="stylesheet" href="/css/prism.css">
-    
-    <link rel="stylesheet" href="/css/style.css">
-    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href='/css/normalize.css'>
+    <link rel="stylesheet" href='/css/style.css'>
+    <script type="text/javascript" src="//cdn.bootcdn.net/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     
-
-
+    
+    
+        <link href="https://cdn.bootcdn.net/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" rel="stylesheet">
+    
+    
     
     
 </head>
 
+
 <body>
-<header id="header" class="clearfix">
+    <header id="header" class="clearfix">
     <div class="container">
         <div class="col-group">
             <div class="site-name ">
@@ -65,288 +68,209 @@
     </div>
 </header>
 
+    <div id="body">
+        <div class="container">
+            <div class="col-group">
 
-<div id="body">
-        
-        <div id="virtual_toc_list" style="display: none">
-            <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li>
-<ul>
-<li><a href="#1-网站建设中要遵守和注意的事项">1、网站建设中要遵守和注意的事项</a></li>
-<li><a href="#2-建站其它细节讲解">2、建站其它细节讲解</a>
-<ul>
-<li><a href="#1-相对路径和绝对路径的理解">（1）相对路径和绝对路径的理解</a></li>
-<li><a href="#2-使用网站计数器统计网站的访问量">（2）使用网站计数器统计网站的访问量</a></li>
-<li><a href="#3-关于备案">（3）关于备案</a></li>
-<li><a href="#4-关于版权与共享">（4）关于版权与共享</a></li>
-</ul></li>
-<li><a href="#后记">后记：</a></li>
-</ul></li>
-</ul></li>
-</ul>
+                <div class="col-8" id="main">
+                    
+<div class="res-cons">
+    <style type="text/css">
+    .post-toc {
+        position: fixed;
+        width: 200px;
+        margin-left: -210px;
+        padding: 5px 10px;
+        font-family: Athelas, STHeiti, Microsoft Yahei, serif;
+        font-size: 12px;
+        border: 1px solid rgba(0, 0, 0, .07);
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0.98);
+        background-clip: padding-box;
+        -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, .125);
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, .125);
+        word-wrap: break-word;
+        white-space: nowrap;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        z-index: 999;
+        cursor: pointer;
+        max-height: 70%;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .post-toc .post-toc-title {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 20px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .post-toc .post-toc-content {
+        font-size: 15px;
+    }
+
+    .post-toc .post-toc-content>nav>ul {
+        margin: 10px 0;
+    }
+
+    .post-toc .post-toc-content ul {
+        padding-left: 20px;
+        list-style: square;
+        margin: 0.5em;
+        line-height: 1.8em;
+    }
+
+    .post-toc .post-toc-content ul ul {
+        padding-left: 15px;
+        display: none;
+    }
+
+    @media print,
+    screen and (max-width:1057px) {
+        .post-toc {
+            display: none;
+        }
+    }
+</style>
+<div class="post-toc" style="position: absolute; top: 188px;">
+    <h2 class="post-toc-title">文章目录</h2>
+    <div class="post-toc-content">
+        <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#1网站建设中要遵守和注意的事项">1、网站建设中要遵守和注意的事项</a></li>
+        <li><a href="#2建站其它细节讲解">2、建站其它细节讲解</a></li>
+        <li><a href="#后记">后记：</a></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
-        </div>
-        <div id="float_toc_div" style="margin: 10px;border: 1px solid gray;z-index:99999;display: none;">
-            <header style="background-color: #f3f3f3;color: black;border-bottom: 1px solid gray;padding: 10px 10px 10px 10px;">
-                <strong id="toc_btn_open" style="color: black;font-size: large;">目录</strong>
-                <strong id="toc_btn_close" style="color: black;font-size: large;float: right">╳</strong>
-            </header>
-            <div id="toc_list" style="background-color: #f3f3f3;color: black;padding: 10px;">
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var postToc = $(".post-toc");
+        if (postToc.length) {
+            var leftPos = $("#main").offset().left;
+            if(leftPos<220){
+                postToc.css({"width":leftPos-10,"margin-left":(0-leftPos)})
+            }
+
+            var t = postToc.offset().top - 20,
+                a = {
+                    start: {
+                        position: "absolute",
+                        top: t
+                    },
+                    process: {
+                        position: "fixed",
+                        top: 20
+                    },
+                };
+            $(window).scroll(function () {
+                var e = $(window).scrollTop();
+                e < t ? postToc.css(a.start) : postToc.css(a.process)
+            })
+        }
+    })
+</script>
+    <article class="post">
+        <header>
+            <h1 class="post-title">网站建设教程简单讲解之[五]网站建设要注意的事项及其它细节</h1>
+        </header>
+        <date class="post-meta meta-date">
+            2011年12月5日
+        </date>
         
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='/categories/%E7%BD%91%E7%BB%9C%E4%B8%8E%E7%BD%91%E7%AB%99'>网络与网站</a></span>
+            
+        </div>
+        
+        
+        <div class="post-meta">
+            <span id="busuanzi_container_page_pv">|<span id="busuanzi_value_page_pv"></span><span>
+                    阅读</span></span>
+        </div>
+        
+        
+        <div class="clear" style="display: none">
+            <div class="toc-article">
+                <div class="toc-title">文章目录</div>
             </div>
         </div>
-        <style type="text/css">
-            #float_toc_div {
-                position: fixed;
-                display: none;
-                 
-                height: auto;
-                font-size: 13px;
-            }
         
-            #toc_list a:hover,
-            #toc_list a:active {
-                color: #ba3925;
-            }
-        </style>
-        <script>
-            window.onload = function () {
-                let tocNavElem = document.getElementById("TableOfContents");
-                let floatTocDivElem = document.getElementById("float_toc_div");
-                let tocListElem = floatTocDivElem.getElementsByTagName('div')[0];
-                let colGroupElem = document.getElementById("body").getElementsByClassName("col-group")[0]
-                let floatTocWidth = (document.body.clientWidth - colGroupElem.offsetWidth) / 2 - 16;
-                var useFloatToc = false;
-
-                if (floatTocWidth >= 100) {
-                    useFloatToc = true;
-                    document.getElementById("toc_list").appendChild(tocNavElem);
-                    floatTocDivElem.style.display = 'block';
-                    floatTocDivElem.style.width = floatTocWidth + 'px';
-                    top();
-                    floatTocDivElem.style.left = '0px';
-
-                    function top() {
-                        if (document.getElementsByClassName('container')[0].offsetWidth <= 720) {
-                            floatTocDivElem.style.top = '0px';
-                        } else {
-                            floatTocDivElem.style.top = window.innerHeight / 9 + 'px';
-                        }
-                    }
-
-                    function ishide() {
-                        if (document.getElementsByClassName('container')[0].offsetWidth <= 720) {
-                            floatTocDivElem.style.top = '0px';
-                        } else {
-                            floatTocDivElem.style.display = 'block';
-                        }
-                    }
-
-                    window.onscroll = function () {
-                        ishide();
-                        if ((document.documentElement.scrollTop != 0) && (floatTocDivElem.style.display == 'block')) {
-                            top();
-                        }
-                    };
-
-                    window.onresize = function () {
-                        ishide();
-                    }
-
-                    document.getElementById("toc_btn_open").addEventListener('click', function () {
-                        switch (tocListElem.style.display) {
-                            case "none":
-                                document.getElementById("toc_btn_close").style.display = "";
-                                tocListElem.style.display = "";
-                                floatTocDivElem.getElementsByTagName("header")[0].style.borderBottom = "1px solid gray";
-                                break;
-                            default:
-                                break;
-                        }
-                    }, false);
-
-                    document.getElementById("toc_btn_close").addEventListener('click', function () {
-                        switch (tocListElem.style.display) {
-                            case "":
-                                document.getElementById("toc_btn_close").style.display = "none";
-                                tocListElem.style.display = "none";
-                                floatTocDivElem.getElementsByTagName("header")[0].style.borderBottom = "";
-                                break;
-                            default:
-                                break;
-                        }
-                    }, false);
-                } else {
-                    let fixedTocElem = document.getElementsByClassName("toc-article")[0];
-                    fixedTocElem.appendChild(tocNavElem);
-                    fixedTocElem.parentElement.style.display = "";
-                }
-                document.getElementById("virtual_toc_list").remove();
-            };   
-        </script>
-        
-    <div class="container">
-        <div class="col-group">
-
-            <div class="col-8" id="main">
-                <div class="res-cons">
-                    <article class="post">
-                        <header>
-                            <h1 class="post-title">网站建设教程简单讲解之[五]网站建设要注意的事项及其它细节</h1>
-                        </header>
-                        <date class="post-meta meta-date">
-                            2011年12月5日
-                        </date>
-                        
-                        <div class="post-meta">
-                            <span>|</span>
-                            
-                                <span class="meta-category"><a href="http://blog.imfang.net/categories/%E7%BD%91%E7%BB%9C%E4%B8%8E%E7%BD%91%E7%AB%99">网络与网站</a></span>
-                            
-                        </div>
-                        
-                        
-                        <div class="post-meta">
-                            <span id="busuanzi_container_page_pv">|<span id="busuanzi_value_page_pv"></span><span> 阅读</span></span>
-                        </div>
-                        
-                        
-                        <div class="clear" style="display: none">
-                            <div class="toc-article">
-                                <div class="toc-title">文章目录</div>
-                            </div>
-                        </div>
-                        
-                        <div class="post-content">
-                            <h3 id="1-网站建设中要遵守和注意的事项">1、网站建设中要遵守和注意的事项</h3>
-
+        <div class="post-content">
+            <h3 id="1网站建设中要遵守和注意的事项">1、网站建设中要遵守和注意的事项</h3>
 <p>（1）不论使用的是哪国主机空间，一定要遵守空间所在国的法律和中国的法律，否则被墙、被K、被闭、被封杀是一定的（必须的）；</p>
-
 <p>（2）仔细查看和遵守空间提供商的规定，不然网站被关闭还不知道是怎么回事，一般空间商网站都会有详细说明；</p>
-
 <p>（3）不要在空间里放病毒文件、不要在网页上放置恶意代码或挂马；</p>
-
 <p>（4）不要做一些网址导航类或采集类垃级站，这对你的学习一点用处都没有，更无任何发展空间，做这些垃级站纯粹是浪费时间；</p>
-
 <p>（5）一定要养成定期备份网站的习惯，否则当有一天发现网站被闭了（或被黑了），你哭都来不及；</p>
-
 <p>（6）如果是低配置的空间最好不要提供视频类或下载类服务，因为这样做会严重占用空间带宽增加服务器的压力，建议有这方面需要的朋友可以使用第三方提供的服务；</p>
-
 <p>（7）其它站长应遵守和注意的事项（这一条也很重要，因为我发现很多法律法规最后都加上这一条）。</p>
-
 <p>注：前三条很重要一定要紧记</p>
-
-<h3 id="2-建站其它细节讲解">2、建站其它细节讲解</h3>
-
-<h4 id="1-相对路径和绝对路径的理解">（1）相对路径和绝对路径的理解</h4>
-
+<h3 id="2建站其它细节讲解">2、建站其它细节讲解</h3>
+<h4 id="1相对路径和绝对路径的理解">（1）相对路径和绝对路径的理解</h4>
 <p>有很多人对这两个概念不是很清楚，这会出现在编辑网页的时候里面的内容显示正确而上传到空间里就显示不正确的情况（比如图片无法显示等），下面以实例讲解这两种路径的区别。</p>
-
 <p>1）相对路径(Relative Path)的表示方法</p>
-
 <p>大家都知道网站中包含了很多目录（文件夹），那么如何表示同级目录的文件呢？
 实例：2.html和3.html在同一个文件夹www下， 如果2.html链接到3.html，可以在2.html中这样写:</p>
-
-<pre><code class="language-haml">&lt;a href=“3.html”&gt;链接到同目录中的3.html&lt;/a&gt;
-</code></pre>
-
-<p>如何表示上级目录的文件
+<pre><code class="language-haml" data-lang="haml">&lt;a href=“3.html”&gt;链接到同目录中的3.html&lt;/a&gt;
+</code></pre><p>如何表示上级目录的文件
 实例：1.html是2.html和3.html的上级目录中的文件，如果2.html或3.html链接到1.html，可以在2.html或3.html中这样写</p>
-
-<pre><code class="language-haml">&lt;a href=“../1.html”&gt;链接到上级目录中的1.html&lt;/a&gt;
-</code></pre>
-
-<p>../ 代表一级上级目录(间隔一个目录) ../../代表二级上级目录(间隔两个目录)，4.html是2.html或3.html下级目录中second的文件，如果4.html链接到1.html，可以在4.html中这样写</p>
-
-<pre><code class="language-haml">&lt;a href=“../../1.html”&gt;链接到上级目录的上级目录中的1.html&lt;/a&gt;
-</code></pre>
-
-<p>如何表示下级目录的文件</p>
-
+<pre><code class="language-haml" data-lang="haml">&lt;a href=“../1.html”&gt;链接到上级目录中的1.html&lt;/a&gt;
+</code></pre><p>../ 代表一级上级目录(间隔一个目录) ../../代表二级上级目录(间隔两个目录)，4.html是2.html或3.html下级目录中second的文件，如果4.html链接到1.html，可以在4.html中这样写</p>
+<pre><code class="language-haml" data-lang="haml">&lt;a href=“../../1.html”&gt;链接到上级目录的上级目录中的1.html&lt;/a&gt;
+</code></pre><p>如何表示下级目录的文件</p>
 <p>实例：2.html和3.html是1.html的下级目录first中的文件，如果在1.html中链接到2.html， 可以在1.html中这样写</p>
-
-<pre><code class="language-haml">&lt;a href=“first/2.html”&gt;链接到下级目录(first)中的2.html&lt;/a&gt;
-</code></pre>
-
-<p>如果在1.html中链接到4.html，可以在1.html中这样写</p>
-
-<pre><code class="language-haml">&lt;a href=“first/second/4.html”&gt;链接到下级目录(first/second/)中的4.html&lt;/a&gt;
-</code></pre>
-
-<p>注：相对路径的好处是网站内容方便移植(比如把网站做为另一个网站的一部份，直接移动到另外一个网站中的文件夹中就可以了，不需要再去频繁的更改路径。)，缺点表示路径比较繁琐，需根据所处的位置不同而更改路径。</p>
-
+<pre><code class="language-haml" data-lang="haml">&lt;a href=“first/2.html”&gt;链接到下级目录(first)中的2.html&lt;/a&gt;
+</code></pre><p>如果在1.html中链接到4.html，可以在1.html中这样写</p>
+<pre><code class="language-haml" data-lang="haml">&lt;a href=“first/second/4.html”&gt;链接到下级目录(first/second/)中的4.html&lt;/a&gt;
+</code></pre><p>注：相对路径的好处是网站内容方便移植(比如把网站做为另一个网站的一部份，直接移动到另外一个网站中的文件夹中就可以了，不需要再去频繁的更改路径。)，缺点表示路径比较繁琐，需根据所处的位置不同而更改路径。</p>
 <p>2）绝对路径(Absolute Path)</p>
-
 <p>是带有网址的路径，比如你有一个域名localhost/wordpress，和一个网站空间，上面的四个文件就可以这么表示。</p>
-
-<pre><code class="language-haml">&lt;a href=“http://localhost/wordpress/www/1.html&quot;&gt;链接到1.html&lt;/a&gt; 
+<pre><code class="language-haml" data-lang="haml">&lt;a href=“http://localhost/wordpress/www/1.html&quot;&gt;链接到1.html&lt;/a&gt; 
 &lt;a href=“http://localhost/wordpress/www/first/2.html&quot;&gt;链接到2.html&lt;/a&gt; 
 &lt;a href=“http://localhost/wordpress/www/first/3.html&quot;&gt;链接到3.html&lt;/a&gt; 
 &lt;a href=“http://localhost/wordpress/www/first/second/4.html&quot;&gt;链接到4.html&lt;/a&gt;
-</code></pre>
-
-<p>注：使用绝对路径的好处是表示路径比较简单，不用再去根据目录的不同而更改路径，缺点是程序不容易移植。</p>
-
-<h4 id="2-使用网站计数器统计网站的访问量">（2）使用网站计数器统计网站的访问量</h4>
-
+</code></pre><p>注：使用绝对路径的好处是表示路径比较简单，不用再去根据目录的不同而更改路径，缺点是程序不容易移植。</p>
+<h4 id="2使用网站计数器统计网站的访问量">（2）使用网站计数器统计网站的访问量</h4>
 <p>网站建成后站长想知道网站的具体流量数据的话，就必需使用网站流量统计工具了。流量统计可以使站长了解到有多少人访问过网站，什么时候访问的，以及具体的来源页面等，让站长对自己的网站做到心中有数，是站长们最重要的工具之一。流量统计软件(网站计数器)可以自己编写，但是很耗时，而且很难做完善，网上有很多免费的流量统计工具，建议大家使用。</p>
-
 <p>几个常用的流量统计工具：</p>
-
 <p>百度统计 &ndash; Baidu的统计系统。</p>
-
 <p>我要啦免费统计 &ndash; 一个不错强大的流量统计工具。</p>
-
 <p>中国站长联盟 &ndash; 一个不错强大的流量统计工具。</p>
-
 <p>这些流量统计工具使用起来都很简单，一般都是在自己网站的首页加上他们提供的统计代码就可以了，如果不会用可以通过相关网站的教程学习。流量统计是站长们最重要的工具之一也是做SEO的重要工具之一，它可以使你知道网站的访问量，访问量的来源（比如是google搜索来的，还是别的链接上来的），搜索关键字的使用量，浏览者所在地等重要信息，站长们可以通过流量统计的数据，分析网站访问者的喜好，从而改变网站发展的策略。</p>
-
-<h4 id="3-关于备案">（3）关于备案</h4>
-
+<h4 id="3关于备案">（3）关于备案</h4>
 <p>在中国建网站是必需强制性备案的，当然如果你的网站空间在国外也可以不备案，我在这里只所以提到这个问题是想说明一点，不论你的服务器是在哪国，你网站针对的目标人群一定90%是中国人吧（为什么？因为你正在看我的教程），既然是针对中国人群就算你不备案也会受到限制，所以就算没有备案也一定要遵守中国的相关规定，不然你的网站就只能给老外看了。其实我也很烦备案，因为我有切身的体会，如果走正常程序的话你一个月内能备下来就算是很快的了，我曾经备案一个网站花了三个月时间，修改了N次才提交成功（如果找黄牛的话听说最多三天搞定，网上有很多人从事这个职业），不过现在在国内买空间的话空间商一般会有免费提供备案的服务。如果你想了解备案的具体流程，可以到网上搜索相关的教程，我在这里就不多说了。</p>
-
-<h4 id="4-关于版权与共享">（4）关于版权与共享</h4>
-
+<h4 id="4关于版权与共享">（4）关于版权与共享</h4>
 <p>如果是做博客站的话，都会遇到版权与共享的问题，现在国内加大了对知识产权的保护力度，当然在网上的自由度就开放多了，有很多信息是可以共享发布的。我的个人建议是：在转载别人文章的时候一定要看他们相关的版权信息（一般是在文章底部或网站底部），如果有可以转载的声明才可以转载但是一定要加上文章转载处信息如“转载自某某网站，原文网址”，这是对别人劳动成果的充份尊重，当然最好是多发自己的原创文章让别人转载。
 在自己的网站中最好也加上版权信息，个人博客推荐使用creativecommons.org提供的License共享协议，其中有很多共享条目可以根据自己的实际情况任意组合，然后把链接放到网站上提醒别人遵守。</p>
-
 <h3 id="后记">后记：</h3>
-
 <p>由于本人知识和精力有限，本教程暂时就写到这里吧。本来是打算再写点SEO网站推广方面的东东的，实在是SEO包括的知识面太广了，我自己一时半会真的很难写全，怕写出来有误导观众的嫌疑，等以后条件成熟了再写这个系列教程吧。</p>
-                        </div>
+        </div>
 
-                        
+        
 <div class="post-archive">
     <ul class="post-copyright">
         <li><strong>原文作者：</strong><a rel="author" href="http://blog.imfang.net">威力方</a></li>
         <li style="word-break:break-all"><strong>原文链接：</strong><a href="http://blog.imfang.net/web/68.html">http://blog.imfang.net/web/68.html</a></li>
-        <li><strong>版权声明：</strong>除非注明！本站文章均为原创。采用<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">《知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议》</a>进行许可，非商业转载请注明出处（作者，原文链接），商业转载请联系作者获得授权。</li>
+        <li><strong>版权声明：</strong>本作品采用<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">《知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议》</a>进行许可，非商业转载请注明出处（作者，原文链接），商业转载请联系作者获得授权。</li>
     </ul>
 </div>
-<div style="padding: 10px 0; margin: 20px auto; width: 100%; font-size:16px; text-align: center;">
-        <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
-            <span>打赏</span></button>
-        <div id="QR" style="display: none;">
-            <div id="wechat" style="display: inline-block">
-                <a class="fancybox" rel="group">
-                    <img id="wechat_qr" src="/images/weixin.png" alt="WeChat Pay"></a>
-                <p>微信打赏</p>
-            </div>
-            <div id="alipay" style="display: inline-block">
-                <a class="fancybox" rel="group">
-                    <img id="alipay_qr" src="/images/zhifubao.png" alt="Alipay"></a>
-                <p>支付宝打赏</p>
-            </div>
-        </div>
-</div>
-<br/>	
+<br/>
 
 
 
-                        
+        
 
 <div class="post-archive">
     <h2>See Also</h2>
@@ -366,41 +290,71 @@
 </div>
 
 
-                        <div class="post-meta meta-tags">
-                            
-                            <ul class="clearfix">
-                                
-                                <li><a href="http://blog.imfang.net/tags/%E5%BB%BA%E7%AB%99%E6%95%99%E7%A8%8B">建站教程</a></li>
-                                
-                            </ul>
-                            
-                        </div>
-                    </article>
-                    
-  <span id="/web/68.html" class="leancloud_visitors" data-flag-title="网站建设教程简单讲解之[五]网站建设要注意的事项及其它细节">
-    <h3><span class="post-meta-item-text">留言本（支持Markdown）</span></h3>
-    <p></p>
-  </span>
-  <div id="vcomments"></div>
-  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
-  <script type="text/javascript">
-    new Valine({
-        el: '#vcomments' ,
-        appId: 'teSRhj0VmmlUYBek5ciJnzWk-MdYXbMMI',
-        appKey: 'KSNbo03f2K33Lzu2Xxqbk6Js',
-        notify:  true , 
-        verify:  true , 
-        avatar:'mm', 
-        placeholder: '评论数据存储在第三方平台,请勿发表不当言论!',
-        visitor:  false 
-    });
-  </script>
+        <div class="post-meta meta-tags">
+            
+            <ul class="clearfix">
+                
+                <li><a href='/tags/%E5%BB%BA%E7%AB%99%E6%95%99%E7%A8%8B'>建站教程</a></li>
+                
+            </ul>
+            
+        </div>
+    </article>
+    
+    
+
+    
+    
+</div>
+
+                    <footer id="footer">
+    <div>
+        &copy; 2011-2020 <a href="http://blog.imfang.net">方阁志 By 威力方</a>
+        
+        | <a rel="nofollow" target="_blank" href="http://www.beian.miit.gov.cn/">预ICP备88888888号-1</a>
+        
+    </div>
+    <br />
+    <div>
+        <div class="github-badge">
+            <a href="https://gohugo.io/" target="_black" rel="nofollow"><span class="badge-subject">Powered by</span><span class="badge-value bg-blue">Hugo</span></a>
+        </div>
+        <div class="github-badge">
+            <a href="https://www.flysnow.org/" target="_black"><span class="badge-subject">Design by</span><span class="badge-value bg-brightgreen">飞雪无情</span></a>
+        </div>
+        <div class="github-badge">
+            <a href="https://github.com/flysnow-org/maupassant-hugo" target="_black"><span class="badge-subject">Theme</span><span class="badge-value bg-yellowgreen">Maupassant</span></a>
+        </div>
+    </div>
+</footer>
+
+
+    
+    <script type="text/javascript">
+        window.MathJax = {
+            tex2jax: {
+                inlineMath: [['$', '$']],
+                processEscapes: true
+                }
+            };
+    </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script><script src="https://cdn.bootcdn.net/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+
+<a id="rocket" href="#top"></a>
+<script type="text/javascript" src='/js/totop.js?v=0.0.0' async=""></script>
+
+
+
+    <script type="text/javascript" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script>
+
+
+
+
                 </div>
-            </div>
-            <div id="secondary">
+
+                <div id="secondary">
     <section class="widget">
-        <form id="search" action="/search/" method="get" accept-charset="utf-8" target="_blank" _lpchecked="1">
+        <form id="search" action='http://blog.imfang.net/search/' method="get" accept-charset="utf-8" target="_blank" _lpchecked="1">
       
       <input type="text" name="q" maxlength="20" placeholder="Search">
       <input type="hidden" name="sitesearch" value="http://blog.imfang.net">
@@ -457,7 +411,7 @@
 
     
 <section class="widget">
-    <h3 class="widget-title" style="color:red">谢谢支持</h3>
+    <h3 class="widget-title" style="color:red">福利派送</h3>
     <ul class="widget-list">
         
         <li>
@@ -481,7 +435,7 @@
 
 
     <section class="widget">
-        <h3 class="widget-title">文章分类</h3>
+        <h3 class="widget-title"><a href='/categories/'>分类</a></h3>
 <ul class="widget-list">
     
     <li><a href="http://blog.imfang.net/categories/wordpress/">WordPress (17)</a></li>
@@ -492,7 +446,7 @@
     
     <li><a href="http://blog.imfang.net/categories/%E6%9C%AA%E5%88%86%E7%B1%BB/">未分类 (12)</a></li>
     
-    <li><a href="http://blog.imfang.net/categories/%E7%94%9F%E6%B4%BB%E7%9A%84%E7%82%B9%E6%BB%B4/">生活的点滴  (12)</a></li>
+    <li><a href="http://blog.imfang.net/categories/%E7%94%9F%E6%B4%BB%E7%9A%84%E7%82%B9%E6%BB%B4/">生活的点滴 (12)</a></li>
     
     <li><a href="http://blog.imfang.net/categories/%E7%BD%91%E7%BB%9C%E4%B8%8E%E7%BD%91%E7%AB%99/">网络与网站 (41)</a></li>
     
@@ -504,7 +458,7 @@
     </section>
 
     <section class="widget">
-        <h3 class="widget-title">文章标签</h3>
+        <h3 class="widget-title"><a href='/tags/'>标签</a></h3>
 <div class="tagcloud">
     
     <a href="http://blog.imfang.net/tags/.htaccess/">.htaccess</a>
@@ -567,7 +521,7 @@
     
     <a href="http://blog.imfang.net/tags/hostinger/">hostinger</a>
     
-    <a href="http://blog.imfang.net/tags/hugo/">hugo</a>
+    <a href="http://blog.imfang.net/tags/hugo/">Hugo</a>
     
     <a href="http://blog.imfang.net/tags/ip%E5%9C%B0%E5%9D%80/">IP地址</a>
     
@@ -619,7 +573,7 @@
     
     <a href="http://blog.imfang.net/tags/windows%E7%B3%BB%E7%BB%9F/">Windows系统</a>
     
-    <a href="http://blog.imfang.net/tags/wordpress/">wordpress</a>
+    <a href="http://blog.imfang.net/tags/wordpress/">WordPress</a>
     
     <a href="http://blog.imfang.net/tags/wordpress%E5%A4%B4%E5%83%8F/">WordPress头像</a>
     
@@ -778,132 +732,15 @@
 
 
     <section class="widget">
-        <h3 class="widget-title">其他链接</h3>
+        <h3 class="widget-title">其它</h3>
         <ul class="widget-list">
             <li><a href="http://blog.imfang.net/index.xml">文章 RSS</a></li>
-            <li><a href="https://imfang.avosapps.us/" target="_blank">评论管理</a></li>
         </ul>
-		    <a href="https://996.icu" target="_blank"><img src="https://img.shields.io/badge/link-996.icu-red.svg" alt="996.icu"></a>
     </section>
 </div>
+            </div>
         </div>
     </div>
-</div>
-<footer id="footer">
-    <div class="container">
-        &copy; 2011-2020 <a href="http://blog.imfang.net">方阁志 By 威力方</a>.
-        Powered by <a rel="nofollow noreferer noopener" href="https://gohugo.io" target="_blank">Hugo</a>.
-        <a href="https://www.flysnow.org/" target="_blank">Theme</a> based on <a href="https://github.com/rujews/maupassant-hugo" target="_blank">maupassant</a>.
-        
-    </div>
-</footer>
-
-
-    
-    <script type="text/javascript">
-        
-        (function () {
-            $("pre code").parent().addClass("line-numbers")
-        }());
-
-        window.MathJax = {
-            tex2jax: {
-                inlineMath: [['$', '$']],
-                processEscapes: true
-                }
-            };
-    </script>
-    <script type="text/javascript" src="/js/prism.js" async="true"></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
-
-
-<a id="rocket" href="#top"></a>
-<script type="text/javascript" src="/js/totop.js?v=0.0.0" async=""></script>
-
-
-
-    <script type="text/javascript" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script>
-
-
-
-
-<script type="text/javascript">
-(function(){
-	if (typeof self === 'undefined' || !self.Prism || !self.document) {
-		return;
-	}
-
-	if (!Prism.plugins.toolbar) {
-		console.warn('Copy to Clipboard plugin loaded before Toolbar plugin.');
-
-		return;
-	}
-
-	var ClipboardJS = window.ClipboardJS || undefined;
-
-	if (!ClipboardJS && typeof require === 'function') {
-		ClipboardJS = require('clipboard');
-	}
-
-	var callbacks = [];
-
-	if (!ClipboardJS) {
-		var script = document.createElement('script');
-		var head = document.querySelector('head');
-
-		script.onload = function() {
-			ClipboardJS = window.ClipboardJS;
-
-			if (ClipboardJS) {
-				while (callbacks.length) {
-					callbacks.pop()();
-				}
-			}
-		};
-
-		script.src = 'https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js';
-		head.appendChild(script);
-	}
-
-	Prism.plugins.toolbar.registerButton('copy-to-clipboard', function (env) {
-		var linkCopy = document.createElement('button');
-		linkCopy.textContent = '复制代码';
-
-		if (!ClipboardJS) {
-			callbacks.push(registerClipboard);
-		} else {
-			registerClipboard();
-		}
-
-		return linkCopy;
-
-		function registerClipboard() {
-			var clip = new ClipboardJS(linkCopy, {
-				'text': function () {
-					return env.code;
-				}
-			});
-
-			clip.on('success', function() {
-				linkCopy.textContent = '复制成功!';
-
-				resetText();
-			});
-			clip.on('error', function () {
-				linkCopy.textContent = '按 Ctrl+C 复制';
-
-				resetText();
-			});
-		}
-
-		function resetText() {
-			setTimeout(function () {
-				linkCopy.textContent = '复制代码';
-			}, 5000);
-		}
-	});
-})();
-
-</script>
 </body>
+
 </html>
