@@ -75,7 +75,106 @@
                 <div class="col-8" id="main">
                     
 <div class="res-cons">
-    
+    <style type="text/css">
+    .post-toc {
+        position: fixed;
+        width: 200px;
+        margin-left: -210px;
+        padding: 5px 10px;
+        font-family: Athelas, STHeiti, Microsoft Yahei, serif;
+        font-size: 12px;
+        border: 1px solid rgba(0, 0, 0, .07);
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0.98);
+        background-clip: padding-box;
+        -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, .125);
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, .125);
+        word-wrap: break-word;
+        white-space: nowrap;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        z-index: 999;
+        cursor: pointer;
+        max-height: 70%;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .post-toc .post-toc-title {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 20px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .post-toc .post-toc-content {
+        font-size: 15px;
+    }
+
+    .post-toc .post-toc-content>nav>ul {
+        margin: 10px 0;
+    }
+
+    .post-toc .post-toc-content ul {
+        padding-left: 20px;
+        list-style: square;
+        margin: 0.5em;
+        line-height: 1.8em;
+    }
+
+    .post-toc .post-toc-content ul ul {
+        padding-left: 15px;
+        display: none;
+    }
+
+    @media print,
+    screen and (max-width:1057px) {
+        .post-toc {
+            display: none;
+        }
+    }
+</style>
+<div class="post-toc" style="position: absolute; top: 188px;">
+    <h2 class="post-toc-title">文章目录</h2>
+    <div class="post-toc-content">
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#手表参数">手表参数</a></li>
+    <li><a href="#下面讲讲怎么调日期">下面讲讲怎么调日期</a></li>
+    <li><a href="#下面是精工5号星期中文对照表">下面是精工5号星期中文对照表:</a></li>
+  </ul>
+</nav>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var postToc = $(".post-toc");
+        if (postToc.length) {
+            var leftPos = $("#main").offset().left;
+            if(leftPos<220){
+                postToc.css({"width":leftPos-10,"margin-left":(0-leftPos)})
+            }
+
+            var t = postToc.offset().top - 20,
+                a = {
+                    start: {
+                        position: "absolute",
+                        top: t
+                    },
+                    process: {
+                        position: "fixed",
+                        top: 20
+                    },
+                };
+            $(window).scroll(function () {
+                var e = $(window).scrollTop();
+                e < t ? postToc.css(a.start) : postToc.css(a.process)
+            })
+        }
+    })
+</script>
     <article class="post">
         <header>
             <h1 class="post-title">精工5号snke01自动机械表(小五第一帅)</h1>
@@ -98,33 +197,64 @@
         </div>
         
         
+        <div class="clear" style="display: none">
+            <div class="toc-article">
+                <div class="toc-title">文章目录</div>
+            </div>
+        </div>
+        
         <div class="post-content">
             <p>这段时间一直想买手表，不过对于像我这样手头钱不多的人来说，动辄几千上万的机械表还真是买不起，便宜的石英表又不想带。在网上看了看，发现精工5号真是平民级的性价比之王，有非常多的型号都是1000元以下的，而且款式也不错，网友们的口碑也非常好,精工表不但设计精美还耐糙,号称10不用上油也不影响正常使用。就动心了，</p>
 <p>个人很喜欢黑色表盘，就网购了一款具称是精工小五第一帅“snke01”，黑色表盘彰显稳重，看起来也非常酷。</p>
-<p><!-- raw HTML omitted -->手表参数<!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
+<h2 id="手表参数">手表参数</h2>
+<blockquote>
+<p>机芯类型：7S26自动上链机芯； 手表尺寸：37<em>29</em>12mm； 防水深度：50米； 手表重量：117g； 表盘镜面：矿物质强化玻璃＋透明背盖； 表带表盘：不锈钢； 其他功能：超强夜光、时间＋日期＋星期显示功能</p>
+</blockquote>
 <p>刚收到货就开始折腾起来了，因为精工5号的表盘都是矿石合成的很容易括花，所以我准备给表盘前后玻璃都贴上膜，这样就可以保证表盘玻璃永不括花了，这个方法也是参考了网上某位爱折腾的网友思路。下面看图</p>
 <p>刚到手的小五第一帅（黑色表盘，带夜光很酷）：</p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>
+        <a data-fancybox="gallery" href="https://p2huug.dm2301.livefilestore.com/y2pdQhC5m0DJ8-pYBd_H2XfUnWN8MeurljpBt9rz6XlIwqswHllA0cqN52nHBxt5Lygj9djlxMZah844BzER5GtyBU_GlMOlh5EoErH_2vwYxU/DVCI0043.jpg">
+            <img class="mx-auto" alt="" src="https://p2huug.dm2301.livefilestore.com/y2pdQhC5m0DJ8-pYBd_H2XfUnWN8MeurljpBt9rz6XlIwqswHllA0cqN52nHBxt5Lygj9djlxMZah844BzER5GtyBU_GlMOlh5EoErH_2vwYxU/DVCI0043.jpg" />
+        </a>
+    </p>
 <p>侧面照（包钢表链不是很好，精工5号都这样）：</p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>
+        <a data-fancybox="gallery" href="https://p2huug.dm1.livefilestore.com/y2pVre00jY8LAlmWKPvGbaSppw6S5YXptTiNm2yuMTymMCT0pwzZl3hiEmuJnzzY7moJzSZIDpRtOLD_9f6fv85-59PNYEUA-5LgHdb08fo9Lo/DVCI0044.jpg">
+            <img class="mx-auto" alt="" src="https://p2huug.dm1.livefilestore.com/y2pVre00jY8LAlmWKPvGbaSppw6S5YXptTiNm2yuMTymMCT0pwzZl3hiEmuJnzzY7moJzSZIDpRtOLD_9f6fv85-59PNYEUA-5LgHdb08fo9Lo/DVCI0044.jpg" />
+        </a>
+    </p>
 <p>背面照（7s26c机芯，很多国产表都在用）：</p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>
+        <a data-fancybox="gallery" href="https://p2huug.dm2301.livefilestore.com/y2pWjNEUnyqlxvz_Ppfv-9JdRpQ20L5_DtZN5MYfiiK0dAS2z8Nq2JcCCQTtxlZsUGd_s_mbmtENs12lH9yZUuhOA2mh4-yiEzJSdYhpUk_kYs/DVCI00045.jpg">
+            <img class="mx-auto" alt="" src="https://p2huug.dm2301.livefilestore.com/y2pWjNEUnyqlxvz_Ppfv-9JdRpQ20L5_DtZN5MYfiiK0dAS2z8Nq2JcCCQTtxlZsUGd_s_mbmtENs12lH9yZUuhOA2mh4-yiEzJSdYhpUk_kYs/DVCI00045.jpg" />
+        </a>
+    </p>
 <p>带在手上照（37MM的表盘正适合我的手腕）：</p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>
+        <a data-fancybox="gallery" href="https://p2huug.dm2301.livefilestore.com/y2paiQeDLx7ujmsPD8qiBWyW0J8A_4o2cOnbrNjGMkEqRIpJqAQvCh1irp6glZX9qZx7T4esC-_mQKf7T_YAl3ZagHERRfyJEKGvt941zInnNo/DVCI0046.jpg">
+            <img class="mx-auto" alt="" src="https://p2huug.dm2301.livefilestore.com/y2paiQeDLx7ujmsPD8qiBWyW0J8A_4o2cOnbrNjGMkEqRIpJqAQvCh1irp6glZX9qZx7T4esC-_mQKf7T_YAl3ZagHERRfyJEKGvt941zInnNo/DVCI0046.jpg" />
+        </a>
+    </p>
 <p>贴膜后的照片（贴的好的话基本上看不出来）：</p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p>
+        <a data-fancybox="gallery" href="https://p2huug.dm2301.livefilestore.com/y2p0zYvh8N8a4Ns5EQ9Pegoi3qlPSdWGS-AcpS0d8S9XZ57xjnjK4QIm3pOgsSCgj_XNOvLSIuP1XgsXXKmqgLahDoLMKvXht_qJAAKo0zLnEw/DVCI0045.jpg">
+            <img class="mx-auto" alt="" src="https://p2huug.dm2301.livefilestore.com/y2p0zYvh8N8a4Ns5EQ9Pegoi3qlPSdWGS-AcpS0d8S9XZ57xjnjK4QIm3pOgsSCgj_XNOvLSIuP1XgsXXKmqgLahDoLMKvXht_qJAAKo0zLnEw/DVCI0045.jpg" />
+        </a>
+    </p>
 <p>贴膜也很简单，把手表的表盘直经量一下，使用圆规和剪刀在硬纸片上做出一个和表盘相等的圆形，再把这个圆形纸片放在普通的手机膜上剪出相应的圆形，然后贴上就OK了，这个方法防括花效果非常好。不光是低档表可以贴，高档表也可以贴，当然买高档表的人一般也不用这么折腾，那些表盘都是永不磨损的蓝宝石镜面，我属于越穷越折腾的。</p>
-<p><!-- raw HTML omitted -->下面讲讲怎么调日期<!-- raw HTML omitted --></p>
+<h2 id="下面讲讲怎么调日期">下面讲讲怎么调日期</h2>
 <p>精工5号表把分两挡,表把拉出一格是第一挡调日期,再拉出一格是第二挡调时间,正确的调整方法是:先把手表时间调到早上6点钟,问题是刚买的手表怎么知道是早上6点呢?其实方法很简单,现在不论你的手表显示的是几点,先顺时针调整时间当过12点时看日期有没有跳,如果日期跳了就是新的一天了,此时调到6点就是上午6点钟了.那么好了现在就可以调日期了,退回一格至调日期挡,向上旋转是调日期,向下旋转是调星期,日期调好后就可以调时间了.
 下面是调日期的几点注意事项:</p>
 <p>1.晚上9点到早上4点不要调日期,因为此期间日历功能正在进行运作，同时也是齿轮齿合度较低的时候，频繁的动作会损伤手表的内部零件,而且7S26机芯的日期齿轮是塑料的.</p>
 <p>2.调时间一定要顺时针调整,偶尔一次逆向调整没关系,但应尽量避免长期的逆向调时间.</p>
 <p>3.日历是晚上12点跳,星期是凌晨3点跳.</p>
 <p>4.调完时间表把一定要归位.</p>
-<p><!-- raw HTML omitted -->下面是精工5号星期中文对照表:<!-- raw HTML omitted --></p>
+<h2 id="下面是精工5号星期中文对照表">下面是精工5号星期中文对照表:</h2>
 <p>由于精工5号表的星期是双语显示的,所以在调整星期的时候会交替出现英文和法文14个字母缩写,如果想用英文显示则调至对应的英文星期就可以了,反之一样.</p>
-<!-- raw HTML omitted -->
+<blockquote>
+<p>英文:星期一MON、星期二TUE、星期三WED、星期四THU、星期五FRI、星期六SAT、星期天SUN.
+法文:星期一LUN、星期二MAR、星期三MER、星期四JEU、星期五VEN、星期六SAB、星期天DOM.</p>
+</blockquote>
         </div>
 
         
@@ -132,10 +262,26 @@
     <ul class="post-copyright">
         <li><strong>原文作者：</strong><a rel="author" href="http://blog.imfang.net">威力方</a></li>
         <li style="word-break:break-all"><strong>原文链接：</strong><a href="http://blog.imfang.net/life/29.html">http://blog.imfang.net/life/29.html</a></li>
-        <li><strong>版权声明：</strong>本作品采用<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">《知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议》</a>进行许可，非商业转载请注明出处（作者，原文链接），商业转载请联系作者获得授权。</li>
+        <li><strong>版权声明：</strong>除非注明！本站文章均为原创。采用<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">《知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议》</a>进行许可，非商业转载请注明出处（作者，原文链接），商业转载请联系作者获得授权。</li>
     </ul>
 </div>
-<br/>
+<div style="padding: 10px 0; margin: 20px auto; width: 100%; font-size:16px; text-align: center;">
+        <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+            <span>打赏</span></button>
+        <div id="QR" style="display: none;">
+            <div id="wechat" style="display: inline-block">
+                <a class="fancybox" rel="group">
+                    <img id="wechat_qr" src="/images/weixin.png" alt="WeChat Pay"></a>
+                <p>微信打赏</p>
+            </div>
+            <div id="alipay" style="display: inline-block">
+                <a class="fancybox" rel="group">
+                    <img id="alipay_qr" src="/images/zhifubao.png" alt="Alipay"></a>
+                <p>支付宝打赏</p>
+            </div>
+        </div>
+</div>
+<br/>	
 
 
 
@@ -170,15 +316,30 @@
         </div>
     </article>
     
-    
-
-    
-    
+  <span id="/life/29.html" class="leancloud_visitors" data-flag-title="精工5号snke01自动机械表(小五第一帅)">
+    <h3><span class="post-meta-item-text">留言本（支持Markdown）</span></h3>
+    <p></p>
+  </span>
+  <div id="vcomments"></div>
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+  <script type="text/javascript">
+    new Valine({
+        el: '#vcomments' ,
+        appId: 'teSRhj0VmmlUYBek5ciJnzWk-MdYXbMMI',
+        appKey: 'KSNbo03f2K33Lzu2Xxqbk6Js',
+        notify:  true , 
+        verify:  true , 
+        avatar:'mm', 
+        placeholder: '评论数据存储在第三方平台,请勿发表不当言论!',
+        visitor:  false 
+    });
+  </script>
 </div>
 
                     <footer id="footer">
     <div>
-        &copy; 2011-2020 <a href="http://blog.imfang.net">方阁志 By 威力方</a>
+        &copy; 2011-2021 <a href="http://blog.imfang.net">方阁志 By 威力方</a>
         
         | <a rel="nofollow" target="_blank" href="http://www.beian.miit.gov.cn/">预ICP备88888888号-1</a>
         
@@ -280,7 +441,7 @@
 
     
 <section class="widget">
-    <h3 class="widget-title" style="color:red">福利派送</h3>
+    <h3 class="widget-title" style="color:red">广告位置</h3>
     <ul class="widget-list">
         
         <li>
@@ -304,7 +465,7 @@
 
 
     <section class="widget">
-        <h3 class="widget-title"><a href='/categories/'>分类</a></h3>
+        <h3 class="widget-title"><a href='/categories/'>分类目录</a></h3>
 <ul class="widget-list">
     
     <li><a href="http://blog.imfang.net/categories/wordpress/">WordPress (17)</a></li>
@@ -327,7 +488,7 @@
     </section>
 
     <section class="widget">
-        <h3 class="widget-title"><a href='/tags/'>标签</a></h3>
+        <h3 class="widget-title"><a href='/tags/'>标签云</a></h3>
 <div class="tagcloud">
     
     <a href="http://blog.imfang.net/tags/.htaccess/">.htaccess</a>

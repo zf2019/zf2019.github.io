@@ -13,7 +13,7 @@
       <pubDate>Fri, 27 Oct 2017 13:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/web/94.html</guid>
-      <description>&lt;h3 id=&#34;什么是动态页脚时间动态时间戳&#34;&gt;什么是动态页脚时间（动态时间戳）？&lt;/h3&gt;
+      <description>&lt;h2 id=&#34;什么是动态页脚时间动态时间戳&#34;&gt;什么是动态页脚时间（动态时间戳）？&lt;/h2&gt;
 &lt;p&gt;看一个网站是否还在更新？也许一两件事能表明这个网站还活着，但是当你发现页脚的版权声明 &lt;!-- raw HTML omitted --&gt;&amp;ldquo;© 2010-2011 XXXX版权所有&amp;rdquo;&lt;!-- raw HTML omitted --&gt;
 当然这可能只是网站主忘记更新页脚时间，很多情况下是因为用了编码字符串。不过这种东西还是交给计算机自动维护比较好，使用本页面的动态时间戳会让网站主事半功倍。&lt;/p&gt;</description>
     </item>

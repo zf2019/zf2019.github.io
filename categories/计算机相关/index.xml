@@ -187,7 +187,7 @@
       
       <guid>http://blog.imfang.net/software/33.html</guid>
       <description>&lt;p&gt;用笔记本电脑玩游戏时，当切换到全屏时游戏显示不是满屏的，而是左右两边出现了黑边，这看起来很不爽。那么这种问题怎么解决呢？下面就给出几种解决办法：&lt;/p&gt;
-&lt;h3 id=&#34;一windows7下游戏全屏问题通用解决方法推荐使用&#34;&gt;一、Windows7下游戏全屏问题通用解决方法（推荐使用）：&lt;/h3&gt;
+&lt;h2 id=&#34;一windows7下游戏全屏问题通用解决方法推荐使用&#34;&gt;一、Windows7下游戏全屏问题通用解决方法（推荐使用）：&lt;/h2&gt;
 &lt;p&gt;Win键+R键，打开运行窗口，输入regedit 回车，这样就打开了注册表编辑器，然后，定位到以下位置：&lt;/p&gt;</description>
     </item>
     

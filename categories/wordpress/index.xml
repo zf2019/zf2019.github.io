@@ -68,7 +68,7 @@
       <pubDate>Sun, 03 Feb 2013 13:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/wordpress/22.html</guid>
-      <description>&lt;p&gt;最近有很多网友在本站评论时加了超链接就走,让我是删也不是不删也不是,在网上找了个屏蔽评论上超链接的方法,现在分享出来给和我有同样困扰的朋友们. 在WordPress安装文件夹下找到：wp-includes文件夹，然后在里面找到评论模板文件：comment-template.php,打开comment-template.php，搜索$return，找到如下代码：&lt;/p&gt;</description>
+      <description>&lt;p&gt;最近有很多网友在本站评论时加了超链接就走,让我是删也不是不删也不是,在网上找了个屏蔽评论上超链接的方法,现在分享出来给和我有同样困扰的朋友们.以下方法只针对使用wordpress博客的网站！ 在WordPress安装文件夹下找到：wp-includes文件夹，然后在里面找到评论模板文件：comment-template.php,打开comment-template.php，搜索$return，找到如下代码：&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -95,7 +95,7 @@
       <pubDate>Thu, 02 Aug 2012 13:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/wordpress/16.html</guid>
-      <description>&lt;h3 id=&#34;隐藏wordpress的版本信息&#34;&gt;隐藏WordPress的版本信息&lt;/h3&gt;
+      <description>&lt;h2 id=&#34;隐藏wordpress的版本信息&#34;&gt;隐藏WordPress的版本信息&lt;/h2&gt;
 &lt;p&gt;有些主题会带有显示WordPress的版本信息的代码，有些恶意用户看到你的WordPress版本后，那他对特定版本的漏洞进行攻击就简单多了。那么我们就要去除WordPress的版本信息显示代码，首先，在主题的header.php中查找是否以下类似代码，如果有的话就将它去除，因为这是用来输出版本号的：&lt;/p&gt;</description>
     </item>
     
@@ -159,7 +159,7 @@
       <pubDate>Thu, 17 Nov 2011 13:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/wordpress/27.html</guid>
-      <description>&lt;p&gt;&lt;!-- raw HTML omitted --&gt;WP-PostViews&lt;!-- raw HTML omitted --&gt;插件由 &lt;!-- raw HTML omitted --&gt;GaMerZ&lt;!-- raw HTML omitted --&gt;开发，主要功能是实现文章阅读数统计、侧边栏 Widget 以及显示最受欢迎（阅读数最多）文章、某分类下最受欢迎（阅读数最多）文章等功能。&lt;/p&gt;
+      <description>&lt;p&gt;&lt;strong&gt;WP-PostViews&lt;/strong&gt;插件由 &lt;a href=&#34;http://lesterchan.net/&#34;&gt;GaMerZ&lt;/a&gt;开发，主要功能是实现文章阅读数统计、侧边栏 Widget 以及显示最受欢迎（阅读数最多）文章、某分类下最受欢迎（阅读数最多）文章等功能。&lt;/p&gt;
 &lt;p&gt;效果展示：见本站文章标题行。&lt;/p&gt;</description>
     </item>
     

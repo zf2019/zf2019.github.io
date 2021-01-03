@@ -13,7 +13,7 @@
       <pubDate>Thu, 02 Aug 2012 13:05:22 +0800</pubDate>
       
       <guid>http://blog.imfang.net/wordpress/16.html</guid>
-      <description>&lt;h3 id=&#34;隐藏wordpress的版本信息&#34;&gt;隐藏WordPress的版本信息&lt;/h3&gt;
+      <description>&lt;h2 id=&#34;隐藏wordpress的版本信息&#34;&gt;隐藏WordPress的版本信息&lt;/h2&gt;
 &lt;p&gt;有些主题会带有显示WordPress的版本信息的代码，有些恶意用户看到你的WordPress版本后，那他对特定版本的漏洞进行攻击就简单多了。那么我们就要去除WordPress的版本信息显示代码，首先，在主题的header.php中查找是否以下类似代码，如果有的话就将它去除，因为这是用来输出版本号的：&lt;/p&gt;</description>
     </item>
     
