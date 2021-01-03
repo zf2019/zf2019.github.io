@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>后缀名 on 方阁志</title>
-    <link>http://blog.imfang.net/tags/%E5%90%8E%E7%BC%80%E5%90%8D/</link>
+    <link>https://blog.imfang.net/tags/%E5%90%8E%E7%BC%80%E5%90%8D/</link>
     <description>Recent content in 后缀名 on 方阁志</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 27 Dec 2012 13:05:22 +0800</lastBuildDate><atom:link href="http://blog.imfang.net/tags/%E5%90%8E%E7%BC%80%E5%90%8D/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Dec 2012 13:05:22 +0800</lastBuildDate><atom:link href="https://blog.imfang.net/tags/%E5%90%8E%E7%BC%80%E5%90%8D/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>各种电脑文件后缀名与打开方式(供查寻)</title>
-      <link>http://blog.imfang.net/software/21.html</link>
+      <link>https://blog.imfang.net/software/21.html</link>
       <pubDate>Thu, 27 Dec 2012 13:05:22 +0800</pubDate>
       
-      <guid>http://blog.imfang.net/software/21.html</guid>
+      <guid>https://blog.imfang.net/software/21.html</guid>
       <description>&lt;p&gt;各种文件后缀名与打开方式大全,想知道某个文件要用什么软件打开就来这里查查吧.如果看不到文件的后缀名,在XP系统里打开我的电脑&amp;ndash;&amp;gt;工具&amp;ndash;&amp;gt;文件夹选项&amp;ndash;&amp;gt;查看&amp;ndash;&amp;gt;把&amp;quot;隐藏已知文件类型的扩展名&amp;quot;前面的勾去掉就行了.&lt;/p&gt;
 &lt;p&gt;扩展名 ↓ 文件类型 ↓ 打开方式↓  (按照字母A-Z排列)&lt;/p&gt;</description>
     </item>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>.htaccess on 方阁志</title>
-    <link>http://blog.imfang.net/tags/.htaccess/</link>
+    <link>https://blog.imfang.net/tags/.htaccess/</link>
     <description>Recent content in .htaccess on 方阁志</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 13 Dec 2011 13:05:22 +0800</lastBuildDate><atom:link href="http://blog.imfang.net/tags/.htaccess/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Dec 2011 13:05:22 +0800</lastBuildDate><atom:link href="https://blog.imfang.net/tags/.htaccess/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>推荐一个.htaccess文件在线生成器</title>
-      <link>http://blog.imfang.net/web/72.html</link>
+      <link>https://blog.imfang.net/web/72.html</link>
       <pubDate>Tue, 13 Dec 2011 13:05:22 +0800</pubDate>
       
-      <guid>http://blog.imfang.net/web/72.html</guid>
+      <guid>https://blog.imfang.net/web/72.html</guid>
       <description>&lt;p&gt;目前来说使用Unix或Linux系统的主机，或任何版本的Apache网络服务器，从理论上都是支持.htaccess的。利用.htaccess可以实现很多的实用功能，当然对于我这个新手来说编辑.htaccess文件是比较困难的，那么本文中介绍的这款生成器正好派上用场。&lt;/p&gt;</description>
     </item>
     

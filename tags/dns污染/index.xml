@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DNS污染 on 方阁志</title>
-    <link>http://blog.imfang.net/tags/dns%E6%B1%A1%E6%9F%93/</link>
+    <link>https://blog.imfang.net/tags/dns%E6%B1%A1%E6%9F%93/</link>
     <description>Recent content in DNS污染 on 方阁志</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 19 Sep 2014 13:05:22 +0800</lastBuildDate><atom:link href="http://blog.imfang.net/tags/dns%E6%B1%A1%E6%9F%93/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Sep 2014 13:05:22 +0800</lastBuildDate><atom:link href="https://blog.imfang.net/tags/dns%E6%B1%A1%E6%9F%93/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DNS污染屏蔽的解决方法</title>
-      <link>http://blog.imfang.net/web/40.html</link>
+      <link>https://blog.imfang.net/web/40.html</link>
       <pubDate>Fri, 19 Sep 2014 13:05:22 +0800</pubDate>
       
-      <guid>http://blog.imfang.net/web/40.html</guid>
+      <guid>https://blog.imfang.net/web/40.html</guid>
       <description>&lt;p&gt;好久没用SkyDrive了,今天准备写个带图的文章,准备重新启用SkyDrive半天打不开才发现竟然也被屏蔽了,SkyDrive(现改名为:OneDrive,就算换了马夹也无法逃脱被屏蔽的恶运)的屏蔽方式是DNS污染.正所谓哪里有压迫哪里就有反抗,只要是人为的技术性屏蔽,就能用技术去解决它,只要你想去解决&amp;ndash;这是马克思在相对论里的名言.&lt;/p&gt;</description>
     </item>
     

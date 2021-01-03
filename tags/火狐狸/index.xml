@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>火狐狸 on 方阁志</title>
-    <link>http://blog.imfang.net/tags/%E7%81%AB%E7%8B%90%E7%8B%B8/</link>
+    <link>https://blog.imfang.net/tags/%E7%81%AB%E7%8B%90%E7%8B%B8/</link>
     <description>Recent content in 火狐狸 on 方阁志</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 27 Sep 2012 13:05:22 +0800</lastBuildDate><atom:link href="http://blog.imfang.net/tags/%E7%81%AB%E7%8B%90%E7%8B%B8/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Sep 2012 13:05:22 +0800</lastBuildDate><atom:link href="https://blog.imfang.net/tags/%E7%81%AB%E7%8B%90%E7%8B%B8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Firefox浏览器内存占用大的解决办法</title>
-      <link>http://blog.imfang.net/web/19.html</link>
+      <link>https://blog.imfang.net/web/19.html</link>
       <pubDate>Thu, 27 Sep 2012 13:05:22 +0800</pubDate>
       
-      <guid>http://blog.imfang.net/web/19.html</guid>
+      <guid>https://blog.imfang.net/web/19.html</guid>
       <description>&lt;p&gt;本人上网一直比较喜欢使用Firefox(火狐狸)浏览器,不过Firefox浏览器内存占用过大一直是我比较头疼的地方,因为我的机子内存只有1G,而Firefox浏览器经常会占用150M左右的内存,而且打开的页面越多内存占用越大.以前也在网上找过相应的解决方法,不过Firefox一升级就又要重新再优化一次,每次都要到网上搜索很麻烦,这次索性把相关的内存优化方法转过来以备升级用,以下是Firefox浏览器的内存优化方法转自百度文库:&lt;/p&gt;</description>
     </item>
     

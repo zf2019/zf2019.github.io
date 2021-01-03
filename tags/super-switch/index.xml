@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Super Switch on 方阁志</title>
-    <link>http://blog.imfang.net/tags/super-switch/</link>
+    <link>https://blog.imfang.net/tags/super-switch/</link>
     <description>Recent content in Super Switch on 方阁志</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 06 Dec 2011 13:05:22 +0800</lastBuildDate><atom:link href="http://blog.imfang.net/tags/super-switch/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Dec 2011 13:05:22 +0800</lastBuildDate><atom:link href="https://blog.imfang.net/tags/super-switch/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WordPress插件推荐：Super Switch可禁用版本修定和自动保存等功能</title>
-      <link>http://blog.imfang.net/wordpress/70.html</link>
+      <link>https://blog.imfang.net/wordpress/70.html</link>
       <pubDate>Tue, 06 Dec 2011 13:05:22 +0800</pubDate>
       
-      <guid>http://blog.imfang.net/wordpress/70.html</guid>
+      <guid>https://blog.imfang.net/wordpress/70.html</guid>
       <description>&lt;p&gt;wordpress有很多功能看起来很人性化，但并不适用于所有人，比如我就被保存修订版本、自动保存这些功能搞的头大．有了这些功能导至文章ID不能连续，而且还占用大量数据库空间，我在网上找了很多方法都不能理想的解决这个问题，最后终于找到了这个插件Super Switch(超级工具)，如果有和我一样困惑的朋友不仿试试．&lt;/p&gt;</description>
     </item>
     

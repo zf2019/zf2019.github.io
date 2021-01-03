@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>固定IP on 方阁志</title>
-    <link>http://blog.imfang.net/tags/%E5%9B%BA%E5%AE%9Aip/</link>
+    <link>https://blog.imfang.net/tags/%E5%9B%BA%E5%AE%9Aip/</link>
     <description>Recent content in 固定IP on 方阁志</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 28 Nov 2011 13:05:22 +0800</lastBuildDate><atom:link href="http://blog.imfang.net/tags/%E5%9B%BA%E5%AE%9Aip/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Nov 2011 13:05:22 +0800</lastBuildDate><atom:link href="https://blog.imfang.net/tags/%E5%9B%BA%E5%AE%9Aip/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>宽带连接打开太慢的解决方法</title>
-      <link>http://blog.imfang.net/web/59.html</link>
+      <link>https://blog.imfang.net/web/59.html</link>
       <pubDate>Mon, 28 Nov 2011 13:05:22 +0800</pubDate>
       
-      <guid>http://blog.imfang.net/web/59.html</guid>
+      <guid>https://blog.imfang.net/web/59.html</guid>
       <description>&lt;p&gt;最近优化了启动项，电脑开机只要30几秒，不过新问题又来了，虽然电脑启动完成了，可是要打开宽带连接确非常慢（非病毒、非启动项过多），大概要等上2-3分钟的时间。这种问题以前我好像也遇到过，不过重装完系统就解决了。而现在人也变懒了不想遇到些小问题就重装系统，所以就在网上搜了一家伙，结果还真找出了解决的办法来。下面就讲一下解决的方法：&lt;/p&gt;</description>
     </item>
     

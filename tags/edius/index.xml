@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Edius on 方阁志</title>
-    <link>http://blog.imfang.net/tags/edius/</link>
+    <link>https://blog.imfang.net/tags/edius/</link>
     <description>Recent content in Edius on 方阁志</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 10 Jul 2017 13:05:22 +0800</lastBuildDate><atom:link href="http://blog.imfang.net/tags/edius/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Jul 2017 13:05:22 +0800</lastBuildDate><atom:link href="https://blog.imfang.net/tags/edius/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[图]Edius6.55可用插件和特效预设汇总</title>
-      <link>http://blog.imfang.net/nle/85.html</link>
+      <link>https://blog.imfang.net/nle/85.html</link>
       <pubDate>Mon, 10 Jul 2017 13:05:22 +0800</pubDate>
       
-      <guid>http://blog.imfang.net/nle/85.html</guid>
+      <guid>https://blog.imfang.net/nle/85.html</guid>
       <description>&lt;p&gt;本文分享的软件都是我自己正在使用的一些Edius6实用插件和特效预设,在这里分享给有缘人.所有插件都是我花费业余时间在网上找到的,可以完美支持或桥接Edius6.55及Edius6所有版本,其他Edius版本未测试需要的请自行安装测试.我使用的非编系统是WIN10专业版,建议使用WIN10或WIN7系统安装使用,下面是软件的详细介绍.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>[图]EDIUS_6.55免费注册版带视频安装教程</title>
-      <link>http://blog.imfang.net/nle/84.html</link>
+      <link>https://blog.imfang.net/nle/84.html</link>
       <pubDate>Sun, 09 Jul 2017 13:05:22 +0800</pubDate>
       
-      <guid>http://blog.imfang.net/nle/84.html</guid>
+      <guid>https://blog.imfang.net/nle/84.html</guid>
       <description>&lt;p&gt;现在EDIUS都更新到8了,我为什么还要推荐使用EDIUS6.55呢?因为EDIUS8目前支持的插件太少了,很多以前EDIUS6用顺手的插件都被EDIUS8抛弃了.比如雷特字幕2.3.5,PluralEyes多机位音频对齐插件,抠像插件ISP ROBUSKEY For Video,以及N多的EDIUS6特效预设等等.那么我为什么不用更加稳定的EDIUS6.08而选择EDIUS6.55呢?因为我的系统是WIN10专业版的,EDIUS6.08只能在XP或WIN7系统上安装,而EDIUS6.55是EDIUS6的最后一版是6和7之间的过渡版本,虽然是32位软件但是可以安装在WIN10系统上并使用,&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Edius 6.X常用快捷键列表</title>
-      <link>http://blog.imfang.net/nle/37.html</link>
+      <link>https://blog.imfang.net/nle/37.html</link>
       <pubDate>Mon, 16 Jun 2014 13:05:22 +0800</pubDate>
       
-      <guid>http://blog.imfang.net/nle/37.html</guid>
+      <guid>https://blog.imfang.net/nle/37.html</guid>
       <description>&lt;p&gt;视频后期剪辑是一项很麻烦很费时间的工作,不过混编之王Edius却可以让繁琐的工作更加有效率,原因就是它提供的大量快捷键功能.相信用过Edius的朋友都知道,Edius不但功能强大还提供了大量的快捷键操作,如果熟练的掌握了这些快捷键将最大化提高视频编辑的工作效率,所以熟练的使用这些快捷键也是学习Edius的必修课之一&lt;/p&gt;</description>
     </item>
     

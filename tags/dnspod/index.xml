@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DNSPod on 方阁志</title>
-    <link>http://blog.imfang.net/tags/dnspod/</link>
+    <link>https://blog.imfang.net/tags/dnspod/</link>
     <description>Recent content in DNSPod on 方阁志</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 09 Feb 2012 13:05:22 +0800</lastBuildDate><atom:link href="http://blog.imfang.net/tags/dnspod/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Feb 2012 13:05:22 +0800</lastBuildDate><atom:link href="https://blog.imfang.net/tags/dnspod/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>免费稳定的DNS解析服务器大全</title>
-      <link>http://blog.imfang.net/web/90.html</link>
+      <link>https://blog.imfang.net/web/90.html</link>
       <pubDate>Thu, 09 Feb 2012 13:05:22 +0800</pubDate>
       
-      <guid>http://blog.imfang.net/web/90.html</guid>
+      <guid>https://blog.imfang.net/web/90.html</guid>
       <description>&lt;p&gt;DNS服务器是(Domain Name System或者Domain Name Service)域名系统或者域名服务,域名系统为Internet上的主机分配域名地址和IP地址。用户使用域名地址，该系统就会自动把域名地址转为IP地址。域名服务是运行域名系统的Internet工具。执行域名服务的服务器称之为DNS服务器，通过DNS服务器来应答域名服务的查询。做网站的朋友都会用到这些服务，下面就为大家推荐一些免费稳定的DNS服务器资源提供给大家参考。&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>免费智能DNS解析DNSPod教程</title>
-      <link>http://blog.imfang.net/web/47.html</link>
+      <link>https://blog.imfang.net/web/47.html</link>
       <pubDate>Sun, 20 Nov 2011 13:05:22 +0800</pubDate>
       
-      <guid>http://blog.imfang.net/web/47.html</guid>
+      <guid>https://blog.imfang.net/web/47.html</guid>
       <description>&lt;p&gt;DNSPod以稳定性、安全性、功能强大、智能免费、高速等优势深得广大站长的喜爱,DNSPod除了实时生效，不限制用户添加的域名和记录数量外，还率先提供了IPv6的支持和动态域名解析的功能，另外还支持DNS轮询、URL转发、API接口、批量修改管理等先进功能,并且所有功能都是免费提供。&lt;/p&gt;</description>
     </item>
     
