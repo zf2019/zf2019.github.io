@@ -37,6 +37,10 @@
     
     
     
+        <link rel="stylesheet" href='/css/douban.css'>
+    
+        <link rel="stylesheet" href='/css/other.css'>
+    
 </head>
 
 
@@ -105,8 +109,15 @@
 <p>我建站刚开始使用的是微软的SkyDrive（后改名为OneDrive）存储服务详情请参考这篇文章<a href="http://imfang.net/web/41.html">《免费的博客外链图片存储空间Windows Live SkyDrive》</a><!-- raw HTML omitted -->，虽然微软的产品毋庸质疑应该是很稳定的，不过在国内使用还是时不时的出点状况（后来速度也变慢了）。</p>
 <p>后来改用了新浪微博的外链图床，那速度是相当快的而且稳定。但是新浪一开始就不情愿别人外链他的图片，一直也不对外公开他们的外链接口，不过我们通过复制粘贴图片地址还是可以使用的，直到今年（2019年）开始新浪开启了防盗链技术导致很多网站上的微博外链图片都打不开了，但是通过复制图片地址在浏览器中打开还是可以显示的，下面通过一个简单的方法来暂时解决微博外链图片不显示的问题。</p>
 <p>1.在网站的头部加上这段防盗链代码</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#f92672">&lt;</span><span style="color:#a6e22e">meta</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;referrer&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;no-referrer&#34;</span> <span style="color:#f92672">/&gt;</span>
-</code></pre></div><p>2.必须是每个页面都要加上，如果是WordPress程序的话，只需要在主题的header.php文件内<!-- raw HTML omitted -->标签的前面加上即可全站加载！其他程序同理。</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#000;font-weight:bold">&lt;</span>meta name<span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;referrer&#34;</span> content<span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;no-referrer&#34;</span> <span style="color:#000;font-weight:bold">/&gt;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>2.必须是每个页面都要加上，如果是WordPress程序的话，只需要在主题的header.php文件内<!-- raw HTML omitted -->标签的前面加上即可全站加载！其他程序同理。</p>
 <p>PS：但是使用这种方法有个副作用就是我在百度统计里无法查看来源分析了，其他统计功能都正常，如果很在乎这项统计功能的朋友请谨慎使用。</p>
         </div>
 
@@ -236,6 +247,8 @@
 
 
 
+
+    <script src='/js/douban.js'></script>
 
                 </div>
 
@@ -603,7 +616,7 @@
         </li>
         
         <li>
-            <a target="_blank" href="https://doufu.ru" title="Linux系统运维相关的经验和技巧，以及各种运维资源分享，建站教程">Ryan&#39;s 博客</a>
+            <a target="_blank" href="http://www.zyidai.com/" title="裂变增长实验室联创始人、易粉活码合系统创始人、网赚操盘手">丁少奇的博客</a>
         </li>
         
         <li>

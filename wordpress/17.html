@@ -37,6 +37,10 @@
     
     
     
+        <link rel="stylesheet" href='/css/douban.css'>
+    
+        <link rel="stylesheet" href='/css/other.css'>
+    
 </head>
 
 
@@ -112,84 +116,192 @@
 <p>现给出解决方法，此方法适用于所有升级到wp3.4版本的主题。</p>
 <p>1、在你的WordPress安装文件夹中找到wp-content\languages\里的zh_CN.php文件，下载并且打开它。</p>
 <p>2、找到以下内容：</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">wp_embed_handler_tudou</span>( $matches, $attr, $url, $rawattr ) {
-$embed <span style="color:#f92672">=</span> <span style="color:#a6e22e">sprintf</span>(
-<span style="color:#e6db74">&#39;&lt;embed src=&#34;http://www.tudou.com/v/%1$s/&amp;resourceId=0_05_05_99&amp;bid=05/v.swf&#34; type=&#34;application/x-shockwave-flash&#34; allowscriptaccess=&#34;always&#34; allowfullscreen=&#34;true&#34; wmode=&#34;opaque&#34; width=&#34;480&#34; height=&#34;400&#34;&gt;&lt;/embed&gt;&#39;</span>,
-<span style="color:#a6e22e">esc_attr</span>( $matches[<span style="color:#e6db74">&#39;video_id&#39;</span>] ) );
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#000;font-weight:bold">function</span> <span style="color:#900;font-weight:bold">wp_embed_handler_tudou</span>( <span style="color:#008080">$matches</span>, <span style="color:#008080">$attr</span>, <span style="color:#008080">$url</span>, <span style="color:#008080">$rawattr</span> ) {
+<span style="color:#008080">$embed</span> <span style="color:#000;font-weight:bold">=</span> sprintf(
+<span style="color:#d14">&#39;&lt;embed src=&#34;http://www.tudou.com/v/%1$s/&amp;resourceId=0_05_05_99&amp;bid=05/v.swf&#34; type=&#34;application/x-shockwave-flash&#34; allowscriptaccess=&#34;always&#34; allowfullscreen=&#34;true&#34; wmode=&#34;opaque&#34; width=&#34;480&#34; height=&#34;400&#34;&gt;&lt;/embed&gt;&#39;</span>,
+esc_attr( <span style="color:#008080">$matches</span>[<span style="color:#d14">&#39;video_id&#39;</span>] ) );
 
-<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">apply_filters</span>( <span style="color:#e6db74">&#39;embed_tudou&#39;</span>, $embed, $matches, $attr, $url, $rawattr );
+<span style="color:#000;font-weight:bold">return</span> apply_filters( <span style="color:#d14">&#39;embed_tudou&#39;</span>, <span style="color:#008080">$embed</span>, <span style="color:#008080">$matches</span>, <span style="color:#008080">$attr</span>, <span style="color:#008080">$url</span>, <span style="color:#008080">$rawattr</span> );
 }
-<span style="color:#a6e22e">wp_embed_register_handler</span>( <span style="color:#e6db74">&#39;tudou&#39;</span>,
-<span style="color:#e6db74">&#39;#https?://(?:www\.)?tudou\.com/(?:programs/view|listplay/(?&lt;list_id&gt;[a-z0-9_=\-]+))/(?&lt;video_id&gt;[a-z0-9_=\-]+)#i&#39;</span>,
-<span style="color:#e6db74">&#39;wp_embed_handler_tudou&#39;</span> );
-</code></pre></div><p>3.把找到的内容替换为：</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php">        <span style="color:#e6db74">/**
-</span><span style="color:#e6db74">    function wp_embed_handler_tudou( $matches, $attr, $url, $rawattr ) {
-</span><span style="color:#e6db74">    $embed = sprintf(
-</span><span style="color:#e6db74">    &#39;&lt;object width=&#34;480&#34; height=&#34;400&#34; classid=&#34;clsid:d27cdb6e-ae6d-11cf-96b8-444553540000&#34; codebase=&#34;http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0&#34;&gt;&lt;param name=&#34;src&#34; value=&#34;http://www.tudou.com/v/%1$s/&amp;amp;resourceId=0_05_05_99&amp;amp;bid=05/v.swf&#34; /&gt;&lt;param name=&#34;allowscriptaccess&#34; value=&#34;always&#34; /&gt;&lt;param name=&#34;allowfullscreen&#34; value=&#34;true&#34; /&gt;&lt;param name=&#34;wmode&#34; value=&#34;opaque&#34; /&gt;&lt;embed width=&#34;480&#34; height=&#34;400&#34; type=&#34;application/x-shockwave-flash&#34; src=&#34;http://www.tudou.com/v/%1$s/&amp;amp;resourceId=0_05_05_99&amp;amp;bid=05/v.swf&#34; allowscriptaccess=&#34;always&#34; allowfullscreen=&#34;true&#34; wmode=&#34;opaque&#34; /&gt;&lt;/object&gt;&#39;,
-</span><span style="color:#e6db74">    esc_attr( $matches[&#39;video_id&#39;] ) );
-</span><span style="color:#e6db74">
-</span><span style="color:#e6db74">    return apply_filters( &#39;embed_tudou&#39;, $embed, $matches, $attr, $url, $rawattr );
-</span><span style="color:#e6db74">    }
-</span><span style="color:#e6db74">    wp_embed_register_handler( &#39;tudou&#39;,
-</span><span style="color:#e6db74">    &#39;#https?://(?:www\.)?tudou\.com/(?:programs/view|listplay/(?[a-z0-9_=\-]+))/(?[a-z0-9_=\-]+)#i&#39;,
-</span><span style="color:#e6db74">    &#39;wp_embed_handler_tudou&#39; );
-</span><span style="color:#e6db74">    */</span>
-</code></pre></div><p>4、找到以下内容：</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php">    <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">wp_embed_handler_56com</span>( $matches, $attr, $url, $rawattr ) {
-    $matches[<span style="color:#e6db74">&#39;video_id&#39;</span>] <span style="color:#f92672">=</span> $matches[<span style="color:#e6db74">&#39;video_id1&#39;</span>] <span style="color:#f92672">==</span> <span style="color:#e6db74">&#39;&#39;</span> <span style="color:#f92672">?</span>
-    $matches[<span style="color:#e6db74">&#39;video_id2&#39;</span>] <span style="color:#f92672">:</span> $matches[<span style="color:#e6db74">&#39;video_id1&#39;</span>];
+wp_embed_register_handler( <span style="color:#d14">&#39;tudou&#39;</span>,
+<span style="color:#d14">&#39;#https?://(?:www\.)?tudou\.com/(?:programs/view|listplay/(?&lt;list_id&gt;[a-z0-9_=\-]+))/(?&lt;video_id&gt;[a-z0-9_=\-]+)#i&#39;</span>,
+<span style="color:#d14">&#39;wp_embed_handler_tudou&#39;</span> );
+</code></pre></td></tr></table>
+</div>
+</div><p>3.把找到的内容替换为：</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php">        <span style="color:#d14">/**
+</span><span style="color:#d14">    function wp_embed_handler_tudou( $matches, $attr, $url, $rawattr ) {
+</span><span style="color:#d14">    $embed = sprintf(
+</span><span style="color:#d14">    &#39;&lt;object width=&#34;480&#34; height=&#34;400&#34; classid=&#34;clsid:d27cdb6e-ae6d-11cf-96b8-444553540000&#34; codebase=&#34;http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0&#34;&gt;&lt;param name=&#34;src&#34; value=&#34;http://www.tudou.com/v/%1$s/&amp;amp;resourceId=0_05_05_99&amp;amp;bid=05/v.swf&#34; /&gt;&lt;param name=&#34;allowscriptaccess&#34; value=&#34;always&#34; /&gt;&lt;param name=&#34;allowfullscreen&#34; value=&#34;true&#34; /&gt;&lt;param name=&#34;wmode&#34; value=&#34;opaque&#34; /&gt;&lt;embed width=&#34;480&#34; height=&#34;400&#34; type=&#34;application/x-shockwave-flash&#34; src=&#34;http://www.tudou.com/v/%1$s/&amp;amp;resourceId=0_05_05_99&amp;amp;bid=05/v.swf&#34; allowscriptaccess=&#34;always&#34; allowfullscreen=&#34;true&#34; wmode=&#34;opaque&#34; /&gt;&lt;/object&gt;&#39;,
+</span><span style="color:#d14">    esc_attr( $matches[&#39;video_id&#39;] ) );
+</span><span style="color:#d14">
+</span><span style="color:#d14">    return apply_filters( &#39;embed_tudou&#39;, $embed, $matches, $attr, $url, $rawattr );
+</span><span style="color:#d14">    }
+</span><span style="color:#d14">    wp_embed_register_handler( &#39;tudou&#39;,
+</span><span style="color:#d14">    &#39;#https?://(?:www\.)?tudou\.com/(?:programs/view|listplay/(?[a-z0-9_=\-]+))/(?[a-z0-9_=\-]+)#i&#39;,
+</span><span style="color:#d14">    &#39;wp_embed_handler_tudou&#39; );
+</span><span style="color:#d14">    */</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>4、找到以下内容：</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php">    <span style="color:#000;font-weight:bold">function</span> <span style="color:#900;font-weight:bold">wp_embed_handler_56com</span>( <span style="color:#008080">$matches</span>, <span style="color:#008080">$attr</span>, <span style="color:#008080">$url</span>, <span style="color:#008080">$rawattr</span> ) {
+    <span style="color:#008080">$matches</span>[<span style="color:#d14">&#39;video_id&#39;</span>] <span style="color:#000;font-weight:bold">=</span> <span style="color:#008080">$matches</span>[<span style="color:#d14">&#39;video_id1&#39;</span>] <span style="color:#000;font-weight:bold">==</span> <span style="color:#d14">&#39;&#39;</span> <span style="color:#000;font-weight:bold">?</span>
+    <span style="color:#008080">$matches</span>[<span style="color:#d14">&#39;video_id2&#39;</span>] <span style="color:#000;font-weight:bold">:</span> <span style="color:#008080">$matches</span>[<span style="color:#d14">&#39;video_id1&#39;</span>];
 
-    $embed <span style="color:#f92672">=</span> <span style="color:#a6e22e">sprintf</span>(
-    <span style="color:#e6db74">&#34;&amp;lt;object width=&#34;</span><span style="color:#ae81ff">480</span><span style="color:#e6db74">&#34; height=&#34;</span><span style="color:#ae81ff">405</span><span style="color:#e6db74">&#34; classid=&#34;</span><span style="color:#a6e22e">clsid</span><span style="color:#f92672">:</span><span style="color:#a6e22e">d27cdb6e</span><span style="color:#f92672">-</span><span style="color:#a6e22e">ae6d</span><span style="color:#f92672">-</span><span style="color:#ae81ff">11</span><span style="color:#a6e22e">cf</span><span style="color:#f92672">-</span><span style="color:#ae81ff">96</span><span style="color:#a6e22e">b8</span><span style="color:#f92672">-</span><span style="color:#ae81ff">444553540000</span><span style="color:#e6db74">&#34; codebase=&#34;</span><span style="color:#a6e22e">http</span><span style="color:#f92672">://</span><span style="color:#a6e22e">download</span><span style="color:#f92672">.</span><span style="color:#a6e22e">macromedia</span><span style="color:#f92672">.</span><span style="color:#a6e22e">com</span><span style="color:#f92672">/</span><span style="color:#a6e22e">pub</span><span style="color:#f92672">/</span><span style="color:#a6e22e">shockwave</span><span style="color:#f92672">/</span><span style="color:#a6e22e">cabs</span><span style="color:#f92672">/</span><span style="color:#a6e22e">flash</span><span style="color:#f92672">/</span><span style="color:#a6e22e">swflash</span><span style="color:#f92672">.</span><span style="color:#a6e22e">cab</span><span style="color:#75715e">#version=6,0,40,0&#34;&amp;gt;&amp;lt;param name=&#34;src&#34; value=&#34;http://player.56.com/v_%1\$s.swf&#34; /&amp;gt;&amp;lt;param name=&#34;allowfullscreen&#34; value=&#34;true&#34; /&amp;gt;&amp;lt;param name=&#34;allownetworking&#34; value=&#34;all&#34; /&amp;gt;&amp;lt;param name=&#34;allowscriptaccess&#34; value=&#34;always&#34; /&amp;gt;&amp;lt;embed width=&#34;480&#34; height=&#34;405&#34; type=&#34;application/x-shockwave-flash&#34; src=&#34;http://player.56.com/v_%1\$s.swf&#34; allowfullscreen=&#34;true&#34; allownetworking=&#34;all&#34; allowscriptaccess=&#34;always&#34; /&amp;gt;&amp;lt;/object&amp;gt;&#34;,
-</span><span style="color:#75715e"></span>    <span style="color:#a6e22e">esc_attr</span>( $matches[<span style="color:#e6db74">&#39;video_id&#39;</span>] ) );
+    <span style="color:#008080">$embed</span> <span style="color:#000;font-weight:bold">=</span> sprintf(
+    <span style="color:#d14">&#34;&amp;lt;object width=&#34;</span><span style="color:#099">480</span><span style="color:#d14">&#34; height=&#34;</span><span style="color:#099">405</span><span style="color:#d14">&#34; classid=&#34;</span>clsid<span style="color:#000;font-weight:bold">:</span>d27cdb6e<span style="color:#000;font-weight:bold">-</span>ae6d<span style="color:#000;font-weight:bold">-</span><span style="color:#099">11</span>cf<span style="color:#000;font-weight:bold">-</span><span style="color:#099">96</span>b8<span style="color:#000;font-weight:bold">-</span><span style="color:#099">444553540000</span><span style="color:#d14">&#34; codebase=&#34;</span>http<span style="color:#000;font-weight:bold">://</span>download<span style="color:#000;font-weight:bold">.</span>macromedia<span style="color:#000;font-weight:bold">.</span>com<span style="color:#000;font-weight:bold">/</span>pub<span style="color:#000;font-weight:bold">/</span>shockwave<span style="color:#000;font-weight:bold">/</span>cabs<span style="color:#000;font-weight:bold">/</span>flash<span style="color:#000;font-weight:bold">/</span>swflash<span style="color:#000;font-weight:bold">.</span>cab<span style="color:#998;font-style:italic">#version=6,0,40,0&#34;&amp;gt;&amp;lt;param name=&#34;src&#34; value=&#34;http://player.56.com/v_%1\$s.swf&#34; /&amp;gt;&amp;lt;param name=&#34;allowfullscreen&#34; value=&#34;true&#34; /&amp;gt;&amp;lt;param name=&#34;allownetworking&#34; value=&#34;all&#34; /&amp;gt;&amp;lt;param name=&#34;allowscriptaccess&#34; value=&#34;always&#34; /&amp;gt;&amp;lt;embed width=&#34;480&#34; height=&#34;405&#34; type=&#34;application/x-shockwave-flash&#34; src=&#34;http://player.56.com/v_%1\$s.swf&#34; allowfullscreen=&#34;true&#34; allownetworking=&#34;all&#34; allowscriptaccess=&#34;always&#34; /&amp;gt;&amp;lt;/object&amp;gt;&#34;,
+</span><span style="color:#998;font-style:italic"></span>    esc_attr( <span style="color:#008080">$matches</span>[<span style="color:#d14">&#39;video_id&#39;</span>] ) );
 
-    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">apply_filters</span>( <span style="color:#e6db74">&#39;embed_56com&#39;</span>, $embed, $matches, $attr, $url, $rawattr );
+    <span style="color:#000;font-weight:bold">return</span> apply_filters( <span style="color:#d14">&#39;embed_56com&#39;</span>, <span style="color:#008080">$embed</span>, <span style="color:#008080">$matches</span>, <span style="color:#008080">$attr</span>, <span style="color:#008080">$url</span>, <span style="color:#008080">$rawattr</span> );
     }
-    <span style="color:#a6e22e">wp_embed_register_handler</span>( <span style="color:#e6db74">&#39;56com&#39;</span>,
-    <span style="color:#e6db74">&#39;#https?://(?:www\.)?56\.com/[a-z0-9]+/(?:play_album\-aid\-[0-9]+_vid\-(?[a-z0-9_=\-]+)|v_(?[a-z0-9_=\-]+))#i&#39;</span>,
-    <span style="color:#e6db74">&#39;wp_embed_handler_56com&#39;</span> );
-</code></pre></div><p>5、替换为：</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php">    <span style="color:#e6db74">/**
-</span><span style="color:#e6db74">    function wp_embed_handler_56com( $matches, $attr, $url, $rawattr ) {
-</span><span style="color:#e6db74">    $matches[&#39;video_id&#39;] = $matches[&#39;video_id1&#39;] == &#39;&#39; ?
-</span><span style="color:#e6db74">    $matches[&#39;video_id2&#39;] : $matches[&#39;video_id1&#39;];
-</span><span style="color:#e6db74">
-</span><span style="color:#e6db74">    $embed = sprintf(
-</span><span style="color:#e6db74">    &#34;&amp;lt;object width=&#34;480&#34; height=&#34;405&#34; classid=&#34;clsid:d27cdb6e-ae6d-11cf-96b8-444553540000&#34; codebase=&#34;http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0&#34;&amp;gt;&amp;lt;param name=&#34;src&#34; value=&#34;http://player.56.com/v_%1\$s.swf&#34; /&amp;gt;&amp;lt;param name=&#34;allowfullscreen&#34; value=&#34;true&#34; /&amp;gt;&amp;lt;param name=&#34;allownetworking&#34; value=&#34;all&#34; /&amp;gt;&amp;lt;param name=&#34;allowscriptaccess&#34; value=&#34;always&#34; /&amp;gt;&amp;lt;embed width=&#34;480&#34; height=&#34;405&#34; type=&#34;application/x-shockwave-flash&#34; src=&#34;http://player.56.com/v_%1\$s.swf&#34; allowfullscreen=&#34;true&#34; allownetworking=&#34;all&#34; allowscriptaccess=&#34;always&#34; /&amp;gt;&amp;lt;/object&amp;gt;&#34;,
-</span><span style="color:#e6db74">    esc_attr( $matches[&#39;video_id&#39;] ) );
-</span><span style="color:#e6db74">
-</span><span style="color:#e6db74">    return apply_filters( &#39;embed_56com&#39;, $embed, $matches, $attr, $url, $rawattr );
-</span><span style="color:#e6db74">    }
-</span><span style="color:#e6db74">    wp_embed_register_handler( &#39;56com&#39;,
-</span><span style="color:#e6db74">    &#39;#https?://(?:www\.)?56\.com/[a-z0-9]+/(?:play_album\-aid\-[0-9]+_vid\-(?[a-z0-9_=\-]+)|v_(?[a-z0-9_=\-]+))#i&#39;,
-</span><span style="color:#e6db74">    &#39;wp_embed_handler_56com&#39; );
-</span><span style="color:#e6db74">    */</span>
-</code></pre></div><p>6、找到以下内容：</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php">    <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">wp_embed_handler_youku</span>( $matches, $attr, $url, $rawattr ) {
-    $embed <span style="color:#f92672">=</span> <span style="color:#a6e22e">sprintf</span>(
-    <span style="color:#e6db74">&#39;&amp;lt;object width=&#34;480&#34; height=&#34;400&#34; classid=&#34;clsid:d27cdb6e-ae6d-11cf-96b8-444553540000&#34; codebase=&#34;http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0&#34; align=&#34;middle&#34;&amp;gt;&amp;lt;param name=&#34;src&#34; value=&#34;http://player.youku.com/player.php/sid/%1$s/v.swf&#34; /&amp;gt;&amp;lt;param name=&#34;allowfullscreen&#34; value=&#34;true&#34; /&amp;gt;&amp;lt;param name=&#34;quality&#34; value=&#34;high&#34; /&amp;gt;&amp;lt;param name=&#34;allowscriptaccess&#34; value=&#34;always&#34; /&amp;gt;&amp;lt;embed width=&#34;480&#34; height=&#34;400&#34; type=&#34;application/x-shockwave-flash&#34; src=&#34;http://player.youku.com/player.php/sid/%1$s/v.swf&#34; allowfullscreen=&#34;true&#34; quality=&#34;high&#34; allowscriptaccess=&#34;always&#34; align=&#34;middle&#34; /&amp;gt;&amp;lt;/object&amp;gt;&#39;</span>,
-    <span style="color:#a6e22e">esc_attr</span>( $matches[<span style="color:#e6db74">&#39;video_id&#39;</span>] ) );
+    wp_embed_register_handler( <span style="color:#d14">&#39;56com&#39;</span>,
+    <span style="color:#d14">&#39;#https?://(?:www\.)?56\.com/[a-z0-9]+/(?:play_album\-aid\-[0-9]+_vid\-(?[a-z0-9_=\-]+)|v_(?[a-z0-9_=\-]+))#i&#39;</span>,
+    <span style="color:#d14">&#39;wp_embed_handler_56com&#39;</span> );
+</code></pre></td></tr></table>
+</div>
+</div><p>5、替换为：</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php">    <span style="color:#d14">/**
+</span><span style="color:#d14">    function wp_embed_handler_56com( $matches, $attr, $url, $rawattr ) {
+</span><span style="color:#d14">    $matches[&#39;video_id&#39;] = $matches[&#39;video_id1&#39;] == &#39;&#39; ?
+</span><span style="color:#d14">    $matches[&#39;video_id2&#39;] : $matches[&#39;video_id1&#39;];
+</span><span style="color:#d14">
+</span><span style="color:#d14">    $embed = sprintf(
+</span><span style="color:#d14">    &#34;&amp;lt;object width=&#34;480&#34; height=&#34;405&#34; classid=&#34;clsid:d27cdb6e-ae6d-11cf-96b8-444553540000&#34; codebase=&#34;http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0&#34;&amp;gt;&amp;lt;param name=&#34;src&#34; value=&#34;http://player.56.com/v_%1\$s.swf&#34; /&amp;gt;&amp;lt;param name=&#34;allowfullscreen&#34; value=&#34;true&#34; /&amp;gt;&amp;lt;param name=&#34;allownetworking&#34; value=&#34;all&#34; /&amp;gt;&amp;lt;param name=&#34;allowscriptaccess&#34; value=&#34;always&#34; /&amp;gt;&amp;lt;embed width=&#34;480&#34; height=&#34;405&#34; type=&#34;application/x-shockwave-flash&#34; src=&#34;http://player.56.com/v_%1\$s.swf&#34; allowfullscreen=&#34;true&#34; allownetworking=&#34;all&#34; allowscriptaccess=&#34;always&#34; /&amp;gt;&amp;lt;/object&amp;gt;&#34;,
+</span><span style="color:#d14">    esc_attr( $matches[&#39;video_id&#39;] ) );
+</span><span style="color:#d14">
+</span><span style="color:#d14">    return apply_filters( &#39;embed_56com&#39;, $embed, $matches, $attr, $url, $rawattr );
+</span><span style="color:#d14">    }
+</span><span style="color:#d14">    wp_embed_register_handler( &#39;56com&#39;,
+</span><span style="color:#d14">    &#39;#https?://(?:www\.)?56\.com/[a-z0-9]+/(?:play_album\-aid\-[0-9]+_vid\-(?[a-z0-9_=\-]+)|v_(?[a-z0-9_=\-]+))#i&#39;,
+</span><span style="color:#d14">    &#39;wp_embed_handler_56com&#39; );
+</span><span style="color:#d14">    */</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>6、找到以下内容：</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php">    <span style="color:#000;font-weight:bold">function</span> <span style="color:#900;font-weight:bold">wp_embed_handler_youku</span>( <span style="color:#008080">$matches</span>, <span style="color:#008080">$attr</span>, <span style="color:#008080">$url</span>, <span style="color:#008080">$rawattr</span> ) {
+    <span style="color:#008080">$embed</span> <span style="color:#000;font-weight:bold">=</span> sprintf(
+    <span style="color:#d14">&#39;&amp;lt;object width=&#34;480&#34; height=&#34;400&#34; classid=&#34;clsid:d27cdb6e-ae6d-11cf-96b8-444553540000&#34; codebase=&#34;http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0&#34; align=&#34;middle&#34;&amp;gt;&amp;lt;param name=&#34;src&#34; value=&#34;http://player.youku.com/player.php/sid/%1$s/v.swf&#34; /&amp;gt;&amp;lt;param name=&#34;allowfullscreen&#34; value=&#34;true&#34; /&amp;gt;&amp;lt;param name=&#34;quality&#34; value=&#34;high&#34; /&amp;gt;&amp;lt;param name=&#34;allowscriptaccess&#34; value=&#34;always&#34; /&amp;gt;&amp;lt;embed width=&#34;480&#34; height=&#34;400&#34; type=&#34;application/x-shockwave-flash&#34; src=&#34;http://player.youku.com/player.php/sid/%1$s/v.swf&#34; allowfullscreen=&#34;true&#34; quality=&#34;high&#34; allowscriptaccess=&#34;always&#34; align=&#34;middle&#34; /&amp;gt;&amp;lt;/object&amp;gt;&#39;</span>,
+    esc_attr( <span style="color:#008080">$matches</span>[<span style="color:#d14">&#39;video_id&#39;</span>] ) );
 
-    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">apply_filters</span>( <span style="color:#e6db74">&#39;embed_youku&#39;</span>, $embed, $matches, $attr, $url, $rawattr );
+    <span style="color:#000;font-weight:bold">return</span> apply_filters( <span style="color:#d14">&#39;embed_youku&#39;</span>, <span style="color:#008080">$embed</span>, <span style="color:#008080">$matches</span>, <span style="color:#008080">$attr</span>, <span style="color:#008080">$url</span>, <span style="color:#008080">$rawattr</span> );
     }
-    <span style="color:#a6e22e">wp_embed_register_handler</span>( <span style="color:#e6db74">&#39;youku&#39;</span>,
-    <span style="color:#e6db74">&#39;#https?://v\.youku\.com/v_show/id_(?[a-z0-9_=\-]+)#i&#39;</span>,
-    <span style="color:#e6db74">&#39;wp_embed_handler_youku&#39;</span> );
-</code></pre></div><p>7、替换为：</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php">    <span style="color:#e6db74">/**
-</span><span style="color:#e6db74">    function wp_embed_handler_youku( $matches, $attr, $url, $rawattr ) {
-</span><span style="color:#e6db74">    $embed = sprintf(
-</span><span style="color:#e6db74">    &#39;&amp;lt;object width=&#34;480&#34; height=&#34;400&#34; classid=&#34;clsid:d27cdb6e-ae6d-11cf-96b8-444553540000&#34; codebase=&#34;http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0&#34; align=&#34;middle&#34;&amp;gt;&amp;lt;param name=&#34;src&#34; value=&#34;http://player.youku.com/player.php/sid/%1$s/v.swf&#34; /&amp;gt;&amp;lt;param name=&#34;allowfullscreen&#34; value=&#34;true&#34; /&amp;gt;&amp;lt;param name=&#34;quality&#34; value=&#34;high&#34; /&amp;gt;&amp;lt;param name=&#34;allowscriptaccess&#34; value=&#34;always&#34; /&amp;gt;&amp;lt;embed width=&#34;480&#34; height=&#34;400&#34; type=&#34;application/x-shockwave-flash&#34; src=&#34;http://player.youku.com/player.php/sid/%1$s/v.swf&#34; allowfullscreen=&#34;true&#34; quality=&#34;high&#34; allowscriptaccess=&#34;always&#34; align=&#34;middle&#34; /&amp;gt;&amp;lt;/object&amp;gt;&#39;,
-</span><span style="color:#e6db74">    esc_attr( $matches[&#39;video_id&#39;] ) );
-</span><span style="color:#e6db74">
-</span><span style="color:#e6db74">    return apply_filters( &#39;embed_youku&#39;, $embed, $matches, $attr, $url, $rawattr );
-</span><span style="color:#e6db74">    }
-</span><span style="color:#e6db74">    wp_embed_register_handler( &#39;youku&#39;,
-</span><span style="color:#e6db74">    &#39;#https?://v\.youku\.com/v_show/id_(?[a-z0-9_=\-]+)#i&#39;,
-</span><span style="color:#e6db74">    &#39;wp_embed_handler_youku&#39; );
-</span><span style="color:#e6db74">    */</span>
-</code></pre></div><p>8、保存文件，并且将其上传到wp-content\languages\中。覆盖相同的文件。</p>
+    wp_embed_register_handler( <span style="color:#d14">&#39;youku&#39;</span>,
+    <span style="color:#d14">&#39;#https?://v\.youku\.com/v_show/id_(?[a-z0-9_=\-]+)#i&#39;</span>,
+    <span style="color:#d14">&#39;wp_embed_handler_youku&#39;</span> );
+</code></pre></td></tr></table>
+</div>
+</div><p>7、替换为：</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php">    <span style="color:#d14">/**
+</span><span style="color:#d14">    function wp_embed_handler_youku( $matches, $attr, $url, $rawattr ) {
+</span><span style="color:#d14">    $embed = sprintf(
+</span><span style="color:#d14">    &#39;&amp;lt;object width=&#34;480&#34; height=&#34;400&#34; classid=&#34;clsid:d27cdb6e-ae6d-11cf-96b8-444553540000&#34; codebase=&#34;http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0&#34; align=&#34;middle&#34;&amp;gt;&amp;lt;param name=&#34;src&#34; value=&#34;http://player.youku.com/player.php/sid/%1$s/v.swf&#34; /&amp;gt;&amp;lt;param name=&#34;allowfullscreen&#34; value=&#34;true&#34; /&amp;gt;&amp;lt;param name=&#34;quality&#34; value=&#34;high&#34; /&amp;gt;&amp;lt;param name=&#34;allowscriptaccess&#34; value=&#34;always&#34; /&amp;gt;&amp;lt;embed width=&#34;480&#34; height=&#34;400&#34; type=&#34;application/x-shockwave-flash&#34; src=&#34;http://player.youku.com/player.php/sid/%1$s/v.swf&#34; allowfullscreen=&#34;true&#34; quality=&#34;high&#34; allowscriptaccess=&#34;always&#34; align=&#34;middle&#34; /&amp;gt;&amp;lt;/object&amp;gt;&#39;,
+</span><span style="color:#d14">    esc_attr( $matches[&#39;video_id&#39;] ) );
+</span><span style="color:#d14">
+</span><span style="color:#d14">    return apply_filters( &#39;embed_youku&#39;, $embed, $matches, $attr, $url, $rawattr );
+</span><span style="color:#d14">    }
+</span><span style="color:#d14">    wp_embed_register_handler( &#39;youku&#39;,
+</span><span style="color:#d14">    &#39;#https?://v\.youku\.com/v_show/id_(?[a-z0-9_=\-]+)#i&#39;,
+</span><span style="color:#d14">    &#39;wp_embed_handler_youku&#39; );
+</span><span style="color:#d14">    */</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>8、保存文件，并且将其上传到wp-content\languages\中。覆盖相同的文件。</p>
 <p>以上过程是注释掉了WP中文版本自带的嵌入功能，而使用主题自带的嵌入视频功能。如果以后你更换主题，而新的主题并没有自带的嵌入方式， 可你仍想保留视频的显示，那么还原以上操作即可。</p>
         </div>
 
@@ -315,6 +427,8 @@ $embed <span style="color:#f92672">=</span> <span style="color:#a6e22e">sprintf<
 
 
 
+
+    <script src='/js/douban.js'></script>
 
                 </div>
 
@@ -682,7 +796,7 @@ $embed <span style="color:#f92672">=</span> <span style="color:#a6e22e">sprintf<
         </li>
         
         <li>
-            <a target="_blank" href="https://doufu.ru" title="Linux系统运维相关的经验和技巧，以及各种运维资源分享，建站教程">Ryan&#39;s 博客</a>
+            <a target="_blank" href="http://www.zyidai.com/" title="裂变增长实验室联创始人、易粉活码合系统创始人、网赚操盘手">丁少奇的博客</a>
         </li>
         
         <li>

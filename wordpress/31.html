@@ -37,6 +37,10 @@
     
     
     
+        <link rel="stylesheet" href='/css/douban.css'>
+    
+        <link rel="stylesheet" href='/css/other.css'>
+    
 </head>
 
 
@@ -106,17 +110,40 @@
 <p>这让我很烦，又怀念起有滑动解锁的时光了，后来在网上看到了一款插件“myQaptcha”也可以实现滑动解锁的功能，而且还是纯绿色的，毫不犹豫我就安装上了，可是装好后发现评论框并没有显示滑动解锁，在插件作者的博客中看到这段话：</p>
 <p>PS:近期很多朋友问知更鸟主题不显示滑动条.因为知更鸟主题,内置了jquery,但是没有判断jquery重复加载情况.而且版本较老.
 解决办法,请打开主题中header.php,找到并删除下面的代码即可.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#f92672">&lt;</span><span style="color:#a6e22e">script</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text/javascript&#34;</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&lt;?php bloginfo(&#39;stylesheet_directory&#39;); ?&gt;/js/jquery.min.js&#34;</span> <span style="color:#f92672">&gt;&lt;/</span><span style="color:#a6e22e">script</span><span style="color:#f92672">&gt;</span>
-</code></pre></div><p>请自行备份,如果将来要卸载插件请恢复这行代码.</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#000;font-weight:bold">&lt;</span>script type<span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;text/javascript&#34;</span> src<span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;&lt;?php bloginfo(&#39;stylesheet_directory&#39;); ?&gt;/js/jquery.min.js&#34;</span> <span style="color:#000;font-weight:bold">&gt;&lt;/</span>script<span style="color:#000;font-weight:bold">&gt;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>请自行备份,如果将来要卸载插件请恢复这行代码.</p>
 <p>在我的主题里只找到了个类似的：</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#f92672">&lt;</span><span style="color:#a6e22e">script</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text/javascript&#34;</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;&lt;?php bloginfo(&#39;template_directory&#39;); ?&gt;/comments-ajax.js&#34;</span><span style="color:#f92672">&gt;&lt;/</span><span style="color:#a6e22e">script</span><span style="color:#f92672">&gt;</span>
-</code></pre></div><p>这段代码删除了，可是滑动解锁还是无法显示出来。
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#000;font-weight:bold">&lt;</span>script type<span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;text/javascript&#34;</span> src<span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;&lt;?php bloginfo(&#39;template_directory&#39;); ?&gt;/comments-ajax.js&#34;</span><span style="color:#000;font-weight:bold">&gt;&lt;/</span>script<span style="color:#000;font-weight:bold">&gt;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>这段代码删除了，可是滑动解锁还是无法显示出来。
 后来偶然看到了IT厨子的一篇文章：<!-- raw HTML omitted -->loper1.3 myQapTcha 冲突解决过程<!-- raw HTML omitted -->
 虽然里面的文章写的有点乱，不过我按照文章里面的方法，把footer.php里的第60行处这段</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#f92672">&lt;?</span><span style="color:#a6e22e">php</span> <span style="color:#66d9ef">endif</span>; <span style="color:#75715e">?&gt;</span><span style="color:#960050;background-color:#1e0010">&lt;/pre&gt;
-</span><span style="color:#960050;background-color:#1e0010">改为
-</span><span style="color:#960050;background-color:#1e0010">&lt;pre lang=&#34;LANGUAGE&#34; line=&#34;0&#34;&gt;&lt;?php endif;wp_reset_query(); ?&gt;
-</span></code></pre></div><p>问题解决了，注意：上面讲到的header.php文件里的那段代码也需要删除。</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#000;font-weight:bold">&lt;?</span>php <span style="color:#000;font-weight:bold">endif</span>; <span style="color:#999;font-weight:bold;font-style:italic">?&gt;</span><span style="color:#a61717;background-color:#e3d2d2">&lt;/pre&gt;
+</span><span style="color:#a61717;background-color:#e3d2d2">改为
+</span><span style="color:#a61717;background-color:#e3d2d2">&lt;pre lang=&#34;LANGUAGE&#34; line=&#34;0&#34;&gt;&lt;?php endif;wp_reset_query(); ?&gt;
+</span></code></pre></td></tr></table>
+</div>
+</div><p>问题解决了，注意：上面讲到的header.php文件里的那段代码也需要删除。</p>
 <p>PS：IT厨子的钻研精神让我佩服，有点像几年前的我，呵呵。</p>
         </div>
 
@@ -246,6 +273,8 @@
 
 
 
+
+    <script src='/js/douban.js'></script>
 
                 </div>
 
@@ -613,7 +642,7 @@
         </li>
         
         <li>
-            <a target="_blank" href="https://doufu.ru" title="Linux系统运维相关的经验和技巧，以及各种运维资源分享，建站教程">Ryan&#39;s 博客</a>
+            <a target="_blank" href="http://www.zyidai.com/" title="裂变增长实验室联创始人、易粉活码合系统创始人、网赚操盘手">丁少奇的博客</a>
         </li>
         
         <li>

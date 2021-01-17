@@ -37,6 +37,10 @@
     
     
     
+        <link rel="stylesheet" href='/css/douban.css'>
+    
+        <link rel="stylesheet" href='/css/other.css'>
+    
 </head>
 
 
@@ -103,24 +107,60 @@
         <div class="post-content">
             <p>以前针对WordPress的安全方面做了些修改,首先就是隐藏WordPress的版本信息,这使有些恶意用户想针对特定版本的漏洞进行攻击就不那么容易了,相信很多WordPress用户都做过此类修改吧.
 但是最近我发现网站的源码里有这么一段代码:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#f92672">&lt;</span><span style="color:#a6e22e">p</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;margin:0;padding:0;height:1px;&#34;</span><span style="color:#f92672">&gt;</span>
-<span style="color:#f92672">&lt;</span><span style="color:#a6e22e">script</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text/javascript&#34;</span><span style="color:#f92672">&gt;&lt;!--</span>
-        <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">wumiiSitePrefix</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;http://imfang.net&#34;</span>;
-        <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">wumiiEnableCustomPos</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">false</span>;
-        <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">wumiiParams</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&amp;num=8&amp;mode=3&amp;displayInFeed=1&amp;version=1.0.5.7&amp;pf=WordPress3.9&#34;</span>;
-        <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">wumiiCategories</span> <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#34;\u514d\u8d39\u4e00\u7f51\u6253\u5c3d&#34;</span>];
-<span style="color:#75715e">//--&gt;&lt;/script&gt;
-</span><span style="color:#75715e"></span><span style="color:#f92672">&lt;</span><span style="color:#a6e22e">script</span> <span style="color:#a6e22e">type</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;text/javascript&#34;</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;http://widget.wumii.com/ext/relatedItemsWidget.htm?type=1&amp;amp;num=4&amp;amp;mode=3&amp;amp;pf=WordPress&amp;amp;theme=loper&#34;</span><span style="color:#f92672">&gt;&lt;/</span><span style="color:#a6e22e">script</span><span style="color:#f92672">&gt;&lt;</span><span style="color:#a6e22e">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;http://www.wumii.com/widget/relatedItems&#34;</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;border:0;&#34;</span><span style="color:#f92672">&gt;&lt;</span><span style="color:#a6e22e">img</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;http://static.wumii.cn/images/pixel.png&#34;</span> <span style="color:#a6e22e">alt</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;无觅相关文章插件，快速提升流量&#34;</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;border:0;padding:0;margin:0;&#34;</span> <span style="color:#f92672">/&gt;&lt;/</span><span style="color:#a6e22e">a</span><span style="color:#f92672">&gt;</span>
-<span style="color:#f92672">&lt;/</span><span style="color:#a6e22e">p</span><span style="color:#f92672">&gt;</span>
-</code></pre></div><p>其中下面的这段代码明显的暴露了WordPress的版本号:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">wumiiParams</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&amp;num=8&amp;mode=3&amp;displayInFeed=1&amp;version=1.0.5.7&amp;pf=WordPress3.9&#34;</span>;
-</code></pre></div><p>从代码分析来看,应该是后来安装的无觅相关文章插件的代码.我找到了无觅插件文件夹里的&quot;wumii-related-posts.php&quot;这个文件,试着修改和删除</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">wumiiParams</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">$queryParams</span><span style="color:#e6db74">&#34;</span>;
-</code></pre></div><p>这段代码,结果都不行,
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">9
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#000;font-weight:bold">&lt;</span>p style<span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;margin:0;padding:0;height:1px;&#34;</span><span style="color:#000;font-weight:bold">&gt;</span>
+<span style="color:#000;font-weight:bold">&lt;</span>script type<span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;text/javascript&#34;</span><span style="color:#000;font-weight:bold">&gt;&lt;!--</span>
+        <span style="color:#000;font-weight:bold">var</span> wumiiSitePrefix <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#34;http://imfang.net&#34;</span>;
+        <span style="color:#000;font-weight:bold">var</span> wumiiEnableCustomPos <span style="color:#000;font-weight:bold">=</span> <span style="color:#000;font-weight:bold">false</span>;
+        <span style="color:#000;font-weight:bold">var</span> wumiiParams <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#34;&amp;num=8&amp;mode=3&amp;displayInFeed=1&amp;version=1.0.5.7&amp;pf=WordPress3.9&#34;</span>;
+        <span style="color:#000;font-weight:bold">var</span> wumiiCategories <span style="color:#000;font-weight:bold">=</span> [<span style="color:#d14">&#34;\u514d\u8d39\u4e00\u7f51\u6253\u5c3d&#34;</span>];
+<span style="color:#998;font-style:italic">//--&gt;&lt;/script&gt;
+</span><span style="color:#998;font-style:italic"></span><span style="color:#000;font-weight:bold">&lt;</span>script type<span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;text/javascript&#34;</span> src<span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;http://widget.wumii.com/ext/relatedItemsWidget.htm?type=1&amp;amp;num=4&amp;amp;mode=3&amp;amp;pf=WordPress&amp;amp;theme=loper&#34;</span><span style="color:#000;font-weight:bold">&gt;&lt;/</span>script<span style="color:#000;font-weight:bold">&gt;&lt;</span>a href<span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;http://www.wumii.com/widget/relatedItems&#34;</span> style<span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;border:0;&#34;</span><span style="color:#000;font-weight:bold">&gt;&lt;</span>img src<span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;http://static.wumii.cn/images/pixel.png&#34;</span> alt<span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;无觅相关文章插件，快速提升流量&#34;</span> style<span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;border:0;padding:0;margin:0;&#34;</span> <span style="color:#000;font-weight:bold">/&gt;&lt;/</span>a<span style="color:#000;font-weight:bold">&gt;</span>
+<span style="color:#000;font-weight:bold">&lt;/</span>p<span style="color:#000;font-weight:bold">&gt;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>其中下面的这段代码明显的暴露了WordPress的版本号:</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#000;font-weight:bold">var</span> wumiiParams <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#34;&amp;num=8&amp;mode=3&amp;displayInFeed=1&amp;version=1.0.5.7&amp;pf=WordPress3.9&#34;</span>;
+</code></pre></td></tr></table>
+</div>
+</div><p>从代码分析来看,应该是后来安装的无觅相关文章插件的代码.我找到了无觅插件文件夹里的&quot;wumii-related-posts.php&quot;这个文件,试着修改和删除</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#000;font-weight:bold">var</span> wumiiParams <span style="color:#000;font-weight:bold">=</span> <span style="color:#d14">&#34;</span><span style="color:#d14">$queryParams</span><span style="color:#d14">&#34;</span>;
+</code></pre></td></tr></table>
+</div>
+</div><p>这段代码,结果都不行,
 不论是删除或修改了这段代码的值都会导至无觅插件不能正常显示.无奈只有到网上看看有没有好的解决办法,很遗憾网上竟然没有关于无觅这段代码的问题!可能大家都不在乎这个问题吧,也可能是我大惊小怪吧.
 意外的发现了无觅插件代码里的一段暗链:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#f92672">&lt;</span><span style="color:#a6e22e">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;http://www.wumii.com/widget/relatedItems&#34;</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;border:0;&#34;</span><span style="color:#f92672">&gt;&lt;</span><span style="color:#a6e22e">img</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;http://static.wumii.cn/images/pixel.png&#34;</span> <span style="color:#a6e22e">alt</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;无觅相关文章插件，快速提升流量&#34;</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;border:0;padding:0;margin:0;&#34;</span> <span style="color:#f92672">/&gt;&lt;/</span><span style="color:#a6e22e">a</span><span style="color:#f92672">&gt;</span>
-</code></pre></div><p>有网友专门针对此暗链咨询了无觅客服,客服也给出了解释此暗链可以删除,我也试着删除了此暗链发现对无觅插件无任何影响,不过我的问题还是没有解决.
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#000;font-weight:bold">&lt;</span>a href<span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;http://www.wumii.com/widget/relatedItems&#34;</span> style<span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;border:0;&#34;</span><span style="color:#000;font-weight:bold">&gt;&lt;</span>img src<span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;http://static.wumii.cn/images/pixel.png&#34;</span> alt<span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;无觅相关文章插件，快速提升流量&#34;</span> style<span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;border:0;padding:0;margin:0;&#34;</span> <span style="color:#000;font-weight:bold">/&gt;&lt;/</span>a<span style="color:#000;font-weight:bold">&gt;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>有网友专门针对此暗链咨询了无觅客服,客服也给出了解释此暗链可以删除,我也试着删除了此暗链发现对无觅插件无任何影响,不过我的问题还是没有解决.
 后来我也给无觅客服发了邮件(但至今无回音?鄙视一下),又请教了几个网友还是没有好的解决办法.最后无意中发现我的主题里就有无觅相关插件的代码预留设置,我首先停用了自己安装的无觅插件,然后启用了主题预留的无觅代码,发现纠结了很久的WordPress版本号没有了.
 因为这段代码是主题作者预留好的,不知道在其他主题中能不能适用,我就不在这里放出来了,有需要代码的朋友请给我留言.</p>
         </div>
@@ -249,6 +289,8 @@
 
 
 
+
+    <script src='/js/douban.js'></script>
 
                 </div>
 
@@ -616,7 +658,7 @@
         </li>
         
         <li>
-            <a target="_blank" href="https://doufu.ru" title="Linux系统运维相关的经验和技巧，以及各种运维资源分享，建站教程">Ryan&#39;s 博客</a>
+            <a target="_blank" href="http://www.zyidai.com/" title="裂变增长实验室联创始人、易粉活码合系统创始人、网赚操盘手">丁少奇的博客</a>
         </li>
         
         <li>

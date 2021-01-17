@@ -37,6 +37,10 @@
     
     
     
+        <link rel="stylesheet" href='/css/douban.css'>
+    
+        <link rel="stylesheet" href='/css/other.css'>
+    
 </head>
 
 
@@ -211,31 +215,63 @@
 当然这可能只是网站主忘记更新页脚时间，很多情况下是因为用了编码字符串。不过这种东西还是交给计算机自动维护比较好，使用本页面的动态时间戳会让网站主事半功倍。</p>
 <h2 id="javascript代码">JavaScript代码</h2>
 <p>时间依据用户当前的浏览器端。复制并粘贴下面的代码放置于你希望的页脚处。</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#f92672">&lt;</span><span style="color:#a6e22e">script</span><span style="color:#f92672">&gt;</span><span style="color:#75715e">// &lt;![CDATA[
-</span><span style="color:#75715e"></span>  document.<span style="color:#a6e22e">write</span>(<span style="color:#66d9ef">new</span> Date().<span style="color:#a6e22e">getFullYear</span>());
-<span style="color:#75715e">// ]]&gt;&lt;/script&gt;
-</span></code></pre></div><p>效果演示：</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#000;font-weight:bold">&lt;</span>script<span style="color:#000;font-weight:bold">&gt;</span><span style="color:#998;font-style:italic">// &lt;![CDATA[
+</span><span style="color:#998;font-style:italic"></span>  <span style="color:#0086b3">document</span>.write(<span style="color:#000;font-weight:bold">new</span> <span style="color:#0086b3">Date</span>().getFullYear());
+<span style="color:#998;font-style:italic">// ]]&gt;&lt;/script&gt;
+</span></code></pre></td></tr></table>
+</div>
+</div><p>效果演示：</p>
 <blockquote>
 <p>请自行复制代码到你网页中查看效果</p>
 </blockquote>
 <p>如果你想展示更多的信息，可以这样设计：</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#960050;background-color:#1e0010">©</span> <span style="color:#ae81ff">2011</span><span style="color:#f92672">&lt;</span><span style="color:#a6e22e">script</span><span style="color:#f92672">&gt;</span><span style="color:#75715e">// &lt;![CDATA[
-</span><span style="color:#75715e"></span><span style="color:#66d9ef">new</span> Date().<span style="color:#a6e22e">getFullYear</span>()<span style="color:#f92672">&gt;</span><span style="color:#ae81ff">2010</span><span style="color:#f92672">&amp;&amp;</span>document.<span style="color:#a6e22e">write</span>(<span style="color:#e6db74">&#34;-&#34;</span><span style="color:#f92672">+</span><span style="color:#66d9ef">new</span> Date().<span style="color:#a6e22e">getFullYear</span>());
-<span style="color:#75715e">// ]]&gt;&lt;/script&gt;, ImFang.Net
-</span></code></pre></div><p>效果演示：</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a61717;background-color:#e3d2d2">©</span> <span style="color:#099">2011</span><span style="color:#000;font-weight:bold">&lt;</span>script<span style="color:#000;font-weight:bold">&gt;</span><span style="color:#998;font-style:italic">// &lt;![CDATA[
+</span><span style="color:#998;font-style:italic"></span><span style="color:#000;font-weight:bold">new</span> <span style="color:#0086b3">Date</span>().getFullYear()<span style="color:#000;font-weight:bold">&gt;</span><span style="color:#099">2010</span><span style="color:#000;font-weight:bold">&amp;&amp;</span><span style="color:#0086b3">document</span>.write(<span style="color:#d14">&#34;-&#34;</span><span style="color:#000;font-weight:bold">+</span><span style="color:#000;font-weight:bold">new</span> <span style="color:#0086b3">Date</span>().getFullYear());
+<span style="color:#998;font-style:italic">// ]]&gt;&lt;/script&gt;, ImFang.Net
+</span></code></pre></td></tr></table>
+</div>
+</div><p>效果演示：</p>
 <blockquote>
 <p>请自行复制代码到你网页中查看效果</p>
 </blockquote>
 <h2 id="php代码">PHP代码</h2>
 <p>相同效果的PHP代码，不过获取时间是从服务器端。您用的是Wordpress吗？找到“footer.php”文件编辑并增加这段代码。下面这段代码显示当前服务器时间：</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#f92672">&lt;!--?</span><span style="color:#a6e22e">php</span> <span style="color:#66d9ef">echo</span> <span style="color:#a6e22e">date</span>(<span style="color:#e6db74">&#34;Y&#34;</span>); <span style="color:#f92672">?--&gt;</span>
-</code></pre></div><p>效果演示：</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#000;font-weight:bold">&lt;!--?</span>php <span style="color:#000;font-weight:bold">echo</span> date(<span style="color:#d14">&#34;Y&#34;</span>); <span style="color:#000;font-weight:bold">?--&gt;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>效果演示：</p>
 <blockquote>
 <p>请自行复制代码到你网页中查看效果</p>
 </blockquote>
 <p>如果你想展示更多的信息，可以这样设计：</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#a6e22e">©</span> <span style="color:#f92672">&lt;!--?</span><span style="color:#a6e22e">php</span>    $fromYear <span style="color:#f92672">=</span> <span style="color:#ae81ff">2011</span>;    $thisYear <span style="color:#f92672">=</span> (<span style="color:#a6e22e">int</span>)<span style="color:#a6e22e">date</span>(<span style="color:#e6db74">&#39;Y&#39;</span>);    <span style="color:#66d9ef">echo</span> $fromYear <span style="color:#f92672">.</span> (($fromYear <span style="color:#f92672">!=</span> $thisYear) <span style="color:#f92672">?</span> <span style="color:#e6db74">&#39;-&#39;</span> <span style="color:#f92672">.</span> $thisYear <span style="color:#f92672">:</span> <span style="color:#e6db74">&#39;&#39;</span>);<span style="color:#f92672">?--&gt;</span> <span style="color:#a6e22e">ImFang</span><span style="color:#f92672">.</span><span style="color:#a6e22e">Net</span>
-</code></pre></div><p>或者你也可以用 ($fromYear &lt; $thisYear) ， 效果演示：</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php">© <span style="color:#000;font-weight:bold">&lt;!--?</span>php    <span style="color:#008080">$fromYear</span> <span style="color:#000;font-weight:bold">=</span> <span style="color:#099">2011</span>;    <span style="color:#008080">$thisYear</span> <span style="color:#000;font-weight:bold">=</span> (int)date(<span style="color:#d14">&#39;Y&#39;</span>);    <span style="color:#000;font-weight:bold">echo</span> <span style="color:#008080">$fromYear</span> <span style="color:#000;font-weight:bold">.</span> ((<span style="color:#008080">$fromYear</span> <span style="color:#000;font-weight:bold">!=</span> <span style="color:#008080">$thisYear</span>) <span style="color:#000;font-weight:bold">?</span> <span style="color:#d14">&#39;-&#39;</span> <span style="color:#000;font-weight:bold">.</span> <span style="color:#008080">$thisYear</span> <span style="color:#000;font-weight:bold">:</span> <span style="color:#d14">&#39;&#39;</span>);<span style="color:#000;font-weight:bold">?--&gt;</span> ImFang<span style="color:#000;font-weight:bold">.</span>Net
+</code></pre></td></tr></table>
+</div>
+</div><p>或者你也可以用 ($fromYear &lt; $thisYear) ， 效果演示：</p>
 <blockquote>
 <p>请自行复制代码到你网页中查看效果</p>
 </blockquote>
@@ -365,6 +401,8 @@
 
 
 
+
+    <script src='/js/douban.js'></script>
 
                 </div>
 
@@ -732,7 +770,7 @@
         </li>
         
         <li>
-            <a target="_blank" href="https://doufu.ru" title="Linux系统运维相关的经验和技巧，以及各种运维资源分享，建站教程">Ryan&#39;s 博客</a>
+            <a target="_blank" href="http://www.zyidai.com/" title="裂变增长实验室联创始人、易粉活码合系统创始人、网赚操盘手">丁少奇的博客</a>
         </li>
         
         <li>

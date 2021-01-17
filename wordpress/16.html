@@ -37,6 +37,10 @@
     
     
     
+        <link rel="stylesheet" href='/css/douban.css'>
+    
+        <link rel="stylesheet" href='/css/other.css'>
+    
 </head>
 
 
@@ -207,33 +211,72 @@
         <div class="post-content">
             <h2 id="隐藏wordpress的版本信息">隐藏WordPress的版本信息</h2>
 <p>有些主题会带有显示WordPress的版本信息的代码，有些恶意用户看到你的WordPress版本后，那他对特定版本的漏洞进行攻击就简单多了。那么我们就要去除WordPress的版本信息显示代码，首先，在主题的header.php中查找是否以下类似代码，如果有的话就将它去除，因为这是用来输出版本号的：</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php">    <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">meta</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;generator&#34;</span> <span style="color:#a6e22e">content</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;WordPress &lt;?php bloginfo(’version’); ?&gt;&#34;</span> <span style="color:#f92672">/&gt;</span>
-</code></pre></div><p>接着，主题的wp_head()函数可能还会输出WordPress版本号，为了不让它输出，请在主题目录下的 functions.php 中添加以下代码(没有functions.php就新建一个)：</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php">    <span style="color:#75715e">// 同时删除head和feed中的WP版本号
-</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">ludou_remove_wp_version</span>() {
-      <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#39;&#39;</span>;
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php">    <span style="color:#000;font-weight:bold">&lt;</span>meta name<span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;generator&#34;</span> content<span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;WordPress &lt;?php bloginfo(’version’); ?&gt;&#34;</span> <span style="color:#000;font-weight:bold">/&gt;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>接着，主题的wp_head()函数可能还会输出WordPress版本号，为了不让它输出，请在主题目录下的 functions.php 中添加以下代码(没有functions.php就新建一个)：</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php">    <span style="color:#998;font-style:italic">// 同时删除head和feed中的WP版本号
+</span><span style="color:#998;font-style:italic"></span>    <span style="color:#000;font-weight:bold">function</span> <span style="color:#900;font-weight:bold">ludou_remove_wp_version</span>() {
+      <span style="color:#000;font-weight:bold">return</span> <span style="color:#d14">&#39;&#39;</span>;
     }
-    <span style="color:#a6e22e">add_filter</span>(<span style="color:#e6db74">&#39;the_generator&#39;</span>, <span style="color:#e6db74">&#39;ludou_remove_wp_version&#39;</span>);
-    <span style="color:#75715e">// 隐藏js/css附加的WP版本号
-</span><span style="color:#75715e"></span>    <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">ludou_remove_wp_version_strings</span>( $src ) {
-      <span style="color:#66d9ef">global</span> $wp_version;
-      <span style="color:#a6e22e">parse_str</span>(<span style="color:#a6e22e">parse_url</span>($src, <span style="color:#a6e22e">PHP_URL_QUERY</span>), $query);
-      <span style="color:#66d9ef">if</span> ( <span style="color:#f92672">!</span><span style="color:#66d9ef">empty</span>($query[<span style="color:#e6db74">&#39;ver&#39;</span>]) <span style="color:#f92672">&amp;&amp;</span> $query[<span style="color:#e6db74">&#39;ver&#39;</span>] <span style="color:#f92672">===</span> $wp_version ) {
-        <span style="color:#75715e">// 用WP版本号 + 12.8来替代js/css附加的版本号
-</span><span style="color:#75715e"></span>        <span style="color:#75715e">// 既隐藏了WordPress版本号，也不会影响缓存
-</span><span style="color:#75715e"></span>        <span style="color:#75715e">// 建议把下面的 12.8 替换成其他数字，以免被别人猜出
-</span><span style="color:#75715e"></span>        $src <span style="color:#f92672">=</span> <span style="color:#a6e22e">str_replace</span>($wp_version, $wp_version <span style="color:#f92672">+</span> <span style="color:#ae81ff">12.8</span>, $src);
+    add_filter(<span style="color:#d14">&#39;the_generator&#39;</span>, <span style="color:#d14">&#39;ludou_remove_wp_version&#39;</span>);
+    <span style="color:#998;font-style:italic">// 隐藏js/css附加的WP版本号
+</span><span style="color:#998;font-style:italic"></span>    <span style="color:#000;font-weight:bold">function</span> <span style="color:#900;font-weight:bold">ludou_remove_wp_version_strings</span>( <span style="color:#008080">$src</span> ) {
+      <span style="color:#000;font-weight:bold">global</span> <span style="color:#008080">$wp_version</span>;
+      parse_str(parse_url(<span style="color:#008080">$src</span>, PHP_URL_QUERY), <span style="color:#008080">$query</span>);
+      <span style="color:#000;font-weight:bold">if</span> ( <span style="color:#000;font-weight:bold">!</span><span style="color:#000;font-weight:bold">empty</span>(<span style="color:#008080">$query</span>[<span style="color:#d14">&#39;ver&#39;</span>]) <span style="color:#000;font-weight:bold">&amp;&amp;</span> <span style="color:#008080">$query</span>[<span style="color:#d14">&#39;ver&#39;</span>] <span style="color:#000;font-weight:bold">===</span> <span style="color:#008080">$wp_version</span> ) {
+        <span style="color:#998;font-style:italic">// 用WP版本号 + 12.8来替代js/css附加的版本号
+</span><span style="color:#998;font-style:italic"></span>        <span style="color:#998;font-style:italic">// 既隐藏了WordPress版本号，也不会影响缓存
+</span><span style="color:#998;font-style:italic"></span>        <span style="color:#998;font-style:italic">// 建议把下面的 12.8 替换成其他数字，以免被别人猜出
+</span><span style="color:#998;font-style:italic"></span>        <span style="color:#008080">$src</span> <span style="color:#000;font-weight:bold">=</span> str_replace(<span style="color:#008080">$wp_version</span>, <span style="color:#008080">$wp_version</span> <span style="color:#000;font-weight:bold">+</span> <span style="color:#099">12.8</span>, <span style="color:#008080">$src</span>);
       }
-      <span style="color:#66d9ef">return</span> $src;
+      <span style="color:#000;font-weight:bold">return</span> <span style="color:#008080">$src</span>;
     }
-    <span style="color:#a6e22e">add_filter</span>( <span style="color:#e6db74">&#39;script_loader_src&#39;</span>, <span style="color:#e6db74">&#39;ludou_remove_wp_version_strings&#39;</span> );
-    <span style="color:#a6e22e">add_filter</span>( <span style="color:#e6db74">&#39;style_loader_src&#39;</span>, <span style="color:#e6db74">&#39;ludou_remove_wp_version_strings&#39;</span> );
-</code></pre></div><h2 id="隐藏面板登陆错误信息">隐藏面板登陆错误信息</h2>
+    add_filter( <span style="color:#d14">&#39;script_loader_src&#39;</span>, <span style="color:#d14">&#39;ludou_remove_wp_version_strings&#39;</span> );
+    add_filter( <span style="color:#d14">&#39;style_loader_src&#39;</span>, <span style="color:#d14">&#39;ludou_remove_wp_version_strings&#39;</span> );
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="隐藏面板登陆错误信息">隐藏面板登陆错误信息</h2>
 <p>另一种保护你的WordPress的主题的方法是隐藏登录错误。这样做的原因是，不管什么时候，你输入正确的用户名，但是输入的是错误的密码，那么系统就会提示：&ldquo;错误：密码不正确。忘记密码？&quot;，这样就是直接暗示恶意用户，这个用户名是正确的，只要不断地尝试其他密码，迟早可以破解处你的登陆密码。
 同样，当你输入一个不存在的用户名是，会出现提示&quot;错误：不可用的用户名&rdquo;，同样也可以暗示这个用户名是不可用，再换其他用户名，这样又减少了一种可能。
 为了不让这样的问题发生，你需要在 functions.php 文件中添加：</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#a6e22e">add_filter</span>(<span style="color:#e6db74">&#39;login_errors&#39;</span>, <span style="color:#a6e22e">create_function</span>(<span style="color:#e6db74">&#39;$a&#39;</span>, <span style="color:#e6db74">&#34;return null;&#34;</span>));
-</code></pre></div><p>这段代码可以去除登陆错误时出现标准错误信息。
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php">add_filter(<span style="color:#d14">&#39;login_errors&#39;</span>, create_function(<span style="color:#d14">&#39;$a&#39;</span>, <span style="color:#d14">&#34;return null;&#34;</span>));
+</code></pre></td></tr></table>
+</div>
+</div><p>这段代码可以去除登陆错误时出现标准错误信息。
 经过这些修改相信你的WordPress将更加安全了！</p>
         </div>
 
@@ -359,6 +402,8 @@
 
 
 
+
+    <script src='/js/douban.js'></script>
 
                 </div>
 
@@ -726,7 +771,7 @@
         </li>
         
         <li>
-            <a target="_blank" href="https://doufu.ru" title="Linux系统运维相关的经验和技巧，以及各种运维资源分享，建站教程">Ryan&#39;s 博客</a>
+            <a target="_blank" href="http://www.zyidai.com/" title="裂变增长实验室联创始人、易粉活码合系统创始人、网赚操盘手">丁少奇的博客</a>
         </li>
         
         <li>

@@ -37,6 +37,10 @@
     
     
     
+        <link rel="stylesheet" href='/css/douban.css'>
+    
+        <link rel="stylesheet" href='/css/other.css'>
+    
 </head>
 
 
@@ -103,12 +107,23 @@
         <div class="post-content">
             <p>发现现在打开的我的博客老是提示:加载&quot;0.gravatar.com&quot;等,而且评论头像也无法正常显示了,可能是Gravatar头像服务器集体被墙了,无论是国内主机还是国外主机都受到了影响,严重的影响了使用此服务网站的打开速度和使用体验.当然网上有很多方法可以解决这一问题,有国内服务器替代法也有插件替代法,在这里我介绍下我使用的方法,打开速度还不错.</p>
 <p>使用方法是将下面代码添加到主题functions.php文件中：</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php">    <span style="color:#66d9ef">function</span> <span style="color:#a6e22e">get_ssl_avatar</span>($avatar) {
-       $avatar <span style="color:#f92672">=</span> <span style="color:#a6e22e">preg_replace</span>(<span style="color:#e6db74">&#39;/.*\/avatar\/(.*)\?s=([\d]+)&amp;.*/&#39;</span>,<span style="color:#e6db74">&#39;&lt;img src=&#34;https://secure.gravatar.com/avatar/$1?s=$2&#34; class=&#34;avatar avatar-$2&#34; height=&#34;$2&#34; width=&#34;$2&#34;&gt;&#39;</span>,$avatar);
-       <span style="color:#66d9ef">return</span> $avatar;
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php">    <span style="color:#000;font-weight:bold">function</span> <span style="color:#900;font-weight:bold">get_ssl_avatar</span>(<span style="color:#008080">$avatar</span>) {
+       <span style="color:#008080">$avatar</span> <span style="color:#000;font-weight:bold">=</span> preg_replace(<span style="color:#d14">&#39;/.*\/avatar\/(.*)\?s=([\d]+)&amp;.*/&#39;</span>,<span style="color:#d14">&#39;&lt;img src=&#34;https://secure.gravatar.com/avatar/$1?s=$2&#34; class=&#34;avatar avatar-$2&#34; height=&#34;$2&#34; width=&#34;$2&#34;&gt;&#39;</span>,<span style="color:#008080">$avatar</span>);
+       <span style="color:#000;font-weight:bold">return</span> <span style="color:#008080">$avatar</span>;
     }
-    <span style="color:#a6e22e">add_filter</span>(<span style="color:#e6db74">&#39;get_avatar&#39;</span>, <span style="color:#e6db74">&#39;get_ssl_avatar&#39;</span>);
-</code></pre></div><p>注意:使用以上代码后,一些头像缓存插件也将失效!不过没有打开缓慢的现像.</p>
+    add_filter(<span style="color:#d14">&#39;get_avatar&#39;</span>, <span style="color:#d14">&#39;get_ssl_avatar&#39;</span>);
+</code></pre></td></tr></table>
+</div>
+</div><p>注意:使用以上代码后,一些头像缓存插件也将失效!不过没有打开缓慢的现像.</p>
         </div>
 
         
@@ -235,6 +250,8 @@
 
 
 
+
+    <script src='/js/douban.js'></script>
 
                 </div>
 
@@ -602,7 +619,7 @@
         </li>
         
         <li>
-            <a target="_blank" href="https://doufu.ru" title="Linux系统运维相关的经验和技巧，以及各种运维资源分享，建站教程">Ryan&#39;s 博客</a>
+            <a target="_blank" href="http://www.zyidai.com/" title="裂变增长实验室联创始人、易粉活码合系统创始人、网赚操盘手">丁少奇的博客</a>
         </li>
         
         <li>

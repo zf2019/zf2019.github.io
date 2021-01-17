@@ -37,6 +37,10 @@
     
     
     
+        <link rel="stylesheet" href='/css/douban.css'>
+    
+        <link rel="stylesheet" href='/css/other.css'>
+    
 </head>
 
 
@@ -106,16 +110,44 @@
 <p>下面就介绍一下如何修改DEDE的代码,让图片附件都按月保存:</p>
 <p>1.打开后台管理目录DEDE（默认为DEDE,如果你改过请找到对应的文件夹).打开文件 media_add.php,找到如下代码
 (默认的在第34行)</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php">$dpath <span style="color:#f92672">=</span> <span style="color:#a6e22e">MyDate</span>(<span style="color:#a6e22e">“ymd”</span>,$uptime);
-</code></pre></div><p>修改为:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php">$dpath <span style="color:#f92672">=</span> <span style="color:#a6e22e">MyDate</span>(<span style="color:#a6e22e">“ym”</span>,$uptime);
-</code></pre></div><p>改过后你在后台上传文件时就会按月存放了.</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#008080">$dpath</span> <span style="color:#000;font-weight:bold">=</span> MyDate(“ymd”,<span style="color:#008080">$uptime</span>);
+</code></pre></td></tr></table>
+</div>
+</div><p>修改为:</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#008080">$dpath</span> <span style="color:#000;font-weight:bold">=</span> MyDate(“ym”,<span style="color:#008080">$uptime</span>);
+</code></pre></td></tr></table>
+</div>
+</div><p>改过后你在后台上传文件时就会按月存放了.</p>
 <p>2.同样在后台,打开文件dede/inc/inc_archives_functions.php找到如下代码
 (默认的在第119行)</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php">$imgUrl <span style="color:#f92672">=</span> $cfg_uploaddir<span style="color:#f92672">.</span><span style="color:#a6e22e">’</span><span style="color:#f92672">/</span><span style="color:#a6e22e">’</span><span style="color:#f92672">.</span><span style="color:#a6e22e">MyDate</span>(<span style="color:#a6e22e">“ymd”</span>,<span style="color:#a6e22e">time</span>());
-</code></pre></div><p>修改为:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php">$imgUrl <span style="color:#f92672">=</span> $cfg_uploaddir<span style="color:#f92672">.</span><span style="color:#a6e22e">’</span><span style="color:#f92672">/</span><span style="color:#a6e22e">’</span><span style="color:#f92672">.</span><span style="color:#a6e22e">MyDate</span>(<span style="color:#a6e22e">“ym”</span>,<span style="color:#a6e22e">time</span>());
-</code></pre></div><p>修改以后图片本地化的附件就会按月保存</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#008080">$imgUrl</span> <span style="color:#000;font-weight:bold">=</span> <span style="color:#008080">$cfg_uploaddir</span><span style="color:#000;font-weight:bold">.</span>’<span style="color:#000;font-weight:bold">/</span>’<span style="color:#000;font-weight:bold">.</span>MyDate(“ymd”,time());
+</code></pre></td></tr></table>
+</div>
+</div><p>修改为:</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#008080">$imgUrl</span> <span style="color:#000;font-weight:bold">=</span> <span style="color:#008080">$cfg_uploaddir</span><span style="color:#000;font-weight:bold">.</span>’<span style="color:#000;font-weight:bold">/</span>’<span style="color:#000;font-weight:bold">.</span>MyDate(“ym”,time());
+</code></pre></td></tr></table>
+</div>
+</div><p>修改以后图片本地化的附件就会按月保存</p>
         </div>
 
         
@@ -240,6 +272,8 @@
 
 
 
+
+    <script src='/js/douban.js'></script>
 
                 </div>
 
@@ -607,7 +641,7 @@
         </li>
         
         <li>
-            <a target="_blank" href="https://doufu.ru" title="Linux系统运维相关的经验和技巧，以及各种运维资源分享，建站教程">Ryan&#39;s 博客</a>
+            <a target="_blank" href="http://www.zyidai.com/" title="裂变增长实验室联创始人、易粉活码合系统创始人、网赚操盘手">丁少奇的博客</a>
         </li>
         
         <li>

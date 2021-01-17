@@ -37,6 +37,10 @@
     
     
     
+        <link rel="stylesheet" href='/css/douban.css'>
+    
+        <link rel="stylesheet" href='/css/other.css'>
+    
 </head>
 
 
@@ -114,8 +118,15 @@
 <p>4.激活插件</p>
 <p><strong>使用方法：</strong></p>
 <p>页面调用：在你想显示文章浏览数量的地方插入下面代码：</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#f92672">&lt;</span> <span style="color:#f92672">?</span><span style="color:#a6e22e">php</span> <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">function_exists</span>(<span style="color:#a6e22e">‘the_views’</span>)) {<span style="color:#a6e22e">the_views</span>();} <span style="color:#75715e">?&gt;</span><span style="color:#960050;background-color:#1e0010">
-</span></code></pre></div><p>通常是在 single.php中选择适当的位置插入上面代码。</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php"><span style="color:#000;font-weight:bold">&lt;</span> <span style="color:#000;font-weight:bold">?</span>php <span style="color:#000;font-weight:bold">if</span>(function_exists(‘the_views’)) {the_views();} <span style="color:#999;font-weight:bold;font-style:italic">?&gt;</span><span style="color:#a61717;background-color:#e3d2d2">
+</span></code></pre></td></tr></table>
+</div>
+</div><p>通常是在 single.php中选择适当的位置插入上面代码。</p>
 <p>如果你想在首页显示文章的浏览数量则需要修改index.php文件了。</p>
 <p><strong>设置：</strong></p>
 <p>在后台可以设置浏览量显示给游客、注册用户、还是所有人看到。</p>
@@ -248,6 +259,8 @@
 
 
 
+
+    <script src='/js/douban.js'></script>
 
                 </div>
 
@@ -615,7 +628,7 @@
         </li>
         
         <li>
-            <a target="_blank" href="https://doufu.ru" title="Linux系统运维相关的经验和技巧，以及各种运维资源分享，建站教程">Ryan&#39;s 博客</a>
+            <a target="_blank" href="http://www.zyidai.com/" title="裂变增长实验室联创始人、易粉活码合系统创始人、网赚操盘手">丁少奇的博客</a>
         </li>
         
         <li>

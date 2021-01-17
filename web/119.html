@@ -37,6 +37,10 @@
     
     
     
+        <link rel="stylesheet" href='/css/douban.css'>
+    
+        <link rel="stylesheet" href='/css/other.css'>
+    
 </head>
 
 
@@ -210,56 +214,115 @@
 <p>网上有很多实现打赏功能的方法，本站使用的是添加HTML+CSS代码方式实现，此方法简洁高效可适用于任何静态页面上。声明：下面的代码转自 “<a href="https://www.wusiqi.cn/archives/445/">547的Blog - 萌萌哒 ~</a>”</p>
 <h2 id="添加html代码">添加HTML代码</h2>
 <p>找到并打开HUGO主题文件copyright.html（一般在主题文件夹\layouts\partials），在版权声明下方添加如下代码，请把src=后面的打赏二维码图片改成你的。</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">    &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;padding: 10px 0; margin: 20px auto; width: 100%; font-size:16px; text-align: center;&#34;</span>&gt;
-        &lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;rewardButton&#34;</span> <span style="color:#a6e22e">disable</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;enable&#34;</span> <span style="color:#a6e22e">onclick</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;var qr = document.getElementById(&#39;QR&#39;); if (qr.style.display === &#39;none&#39;) {qr.style.display=&#39;block&#39;;} else {qr.style.display=&#39;none&#39;}&#34;</span>&gt;
-            &lt;<span style="color:#f92672">span</span>&gt;打赏&lt;/<span style="color:#f92672">span</span>&gt;&lt;/<span style="color:#f92672">button</span>&gt;
-        &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;QR&#34;</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;display: none;&#34;</span>&gt;
-            &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;wechat&#34;</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;display: inline-block&#34;</span>&gt;
-                &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;fancybox&#34;</span> <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;group&#34;</span>&gt;
-                    &lt;<span style="color:#f92672">img</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;wechat_qr&#34;</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://www.wusiqi.cn/WeChatPay.JPG&#34;</span> <span style="color:#a6e22e">alt</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;WeChat Pay&#34;</span>&gt;&lt;/<span style="color:#f92672">a</span>&gt;
-                &lt;<span style="color:#f92672">p</span>&gt;微信打赏&lt;/<span style="color:#f92672">p</span>&gt;
-            &lt;/<span style="color:#f92672">div</span>&gt;
-            &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;alipay&#34;</span> <span style="color:#a6e22e">style</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;display: inline-block&#34;</span>&gt;
-                &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;fancybox&#34;</span> <span style="color:#a6e22e">rel</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;group&#34;</span>&gt;
-                    &lt;<span style="color:#f92672">img</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;alipay_qr&#34;</span> <span style="color:#a6e22e">src</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;https://www.wusiqi.cn/AliPay.JPG&#34;</span> <span style="color:#a6e22e">alt</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;Alipay&#34;</span>&gt;&lt;/<span style="color:#f92672">a</span>&gt;
-                &lt;<span style="color:#f92672">p</span>&gt;支付宝打赏&lt;/<span style="color:#f92672">p</span>&gt;
-            &lt;/<span style="color:#f92672">div</span>&gt;
-        &lt;/<span style="color:#f92672">div</span>&gt;
-    &lt;/<span style="color:#f92672">div</span>&gt;
-</code></pre></div><h2 id="添加css样式">添加CSS样式</h2>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">    &lt;<span style="color:#000080">div</span> <span style="color:#008080">style</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;padding: 10px 0; margin: 20px auto; width: 100%; font-size:16px; text-align: center;&#34;</span>&gt;
+        &lt;<span style="color:#000080">button</span> <span style="color:#008080">id</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;rewardButton&#34;</span> <span style="color:#008080">disable</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;enable&#34;</span> <span style="color:#008080">onclick</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;var qr = document.getElementById(&#39;QR&#39;); if (qr.style.display === &#39;none&#39;) {qr.style.display=&#39;block&#39;;} else {qr.style.display=&#39;none&#39;}&#34;</span>&gt;
+            &lt;<span style="color:#000080">span</span>&gt;打赏&lt;/<span style="color:#000080">span</span>&gt;&lt;/<span style="color:#000080">button</span>&gt;
+        &lt;<span style="color:#000080">div</span> <span style="color:#008080">id</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;QR&#34;</span> <span style="color:#008080">style</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;display: none;&#34;</span>&gt;
+            &lt;<span style="color:#000080">div</span> <span style="color:#008080">id</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;wechat&#34;</span> <span style="color:#008080">style</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;display: inline-block&#34;</span>&gt;
+                &lt;<span style="color:#000080">a</span> <span style="color:#008080">class</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;fancybox&#34;</span> <span style="color:#008080">rel</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;group&#34;</span>&gt;
+                    &lt;<span style="color:#000080">img</span> <span style="color:#008080">id</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;wechat_qr&#34;</span> <span style="color:#008080">src</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;https://www.wusiqi.cn/WeChatPay.JPG&#34;</span> <span style="color:#008080">alt</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;WeChat Pay&#34;</span>&gt;&lt;/<span style="color:#000080">a</span>&gt;
+                &lt;<span style="color:#000080">p</span>&gt;微信打赏&lt;/<span style="color:#000080">p</span>&gt;
+            &lt;/<span style="color:#000080">div</span>&gt;
+            &lt;<span style="color:#000080">div</span> <span style="color:#008080">id</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;alipay&#34;</span> <span style="color:#008080">style</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;display: inline-block&#34;</span>&gt;
+                &lt;<span style="color:#000080">a</span> <span style="color:#008080">class</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;fancybox&#34;</span> <span style="color:#008080">rel</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;group&#34;</span>&gt;
+                    &lt;<span style="color:#000080">img</span> <span style="color:#008080">id</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;alipay_qr&#34;</span> <span style="color:#008080">src</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;https://www.wusiqi.cn/AliPay.JPG&#34;</span> <span style="color:#008080">alt</span><span style="color:#000;font-weight:bold">=</span><span style="color:#d14">&#34;Alipay&#34;</span>&gt;&lt;/<span style="color:#000080">a</span>&gt;
+                &lt;<span style="color:#000080">p</span>&gt;支付宝打赏&lt;/<span style="color:#000080">p</span>&gt;
+            &lt;/<span style="color:#000080">div</span>&gt;
+        &lt;/<span style="color:#000080">div</span>&gt;
+    &lt;/<span style="color:#000080">div</span>&gt;
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="添加css样式">添加CSS样式</h2>
 <p>找到并打开HUGO主题样式文件style.css（一般在主题文件夹\static\css），在最下方添加下面代码。</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">#QR {
-    <span style="color:#66d9ef">padding-top</span>:<span style="color:#ae81ff">20</span><span style="color:#66d9ef">px</span>;
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-css" data-lang="css">#<span style="color:#555">QR</span> {
+    <span style="color:#000;font-weight:bold">padding-top</span>:<span style="color:#099">20</span><span style="color:#458;font-weight:bold">px</span>;
 }
-#QR <span style="color:#f92672">a</span> {
-    <span style="color:#66d9ef">border</span>:<span style="color:#ae81ff">0</span>
+#<span style="color:#555">QR</span> <span style="color:#000080">a</span> {
+    <span style="color:#000;font-weight:bold">border</span>:<span style="color:#099">0</span>
 }
-#QR <span style="color:#f92672">img</span> {
-    <span style="color:#66d9ef">width</span>:<span style="color:#ae81ff">180</span><span style="color:#66d9ef">px</span>;
-    <span style="color:#66d9ef">max-width</span>:<span style="color:#ae81ff">100</span><span style="color:#66d9ef">%</span>;
-    <span style="color:#66d9ef">display</span>:<span style="color:#66d9ef">inline</span><span style="color:#f92672">-</span><span style="color:#66d9ef">block</span>;
-    <span style="color:#66d9ef">margin</span>:<span style="color:#ae81ff">.8</span><span style="color:#66d9ef">em</span> <span style="color:#ae81ff">2</span><span style="color:#66d9ef">em</span> <span style="color:#ae81ff">0</span> <span style="color:#ae81ff">2</span><span style="color:#66d9ef">em</span>
+#<span style="color:#555">QR</span> <span style="color:#000080">img</span> {
+    <span style="color:#000;font-weight:bold">width</span>:<span style="color:#099">180</span><span style="color:#458;font-weight:bold">px</span>;
+    <span style="color:#000;font-weight:bold">max-width</span>:<span style="color:#099">100</span><span style="color:#458;font-weight:bold">%</span>;
+    <span style="color:#000;font-weight:bold">display</span>:<span style="color:#000;font-weight:bold">inline</span><span style="color:#000;font-weight:bold">-</span><span style="color:#000;font-weight:bold">block</span>;
+    <span style="color:#000;font-weight:bold">margin</span>:<span style="color:#099">.8</span><span style="color:#458;font-weight:bold">em</span> <span style="color:#099">2</span><span style="color:#458;font-weight:bold">em</span> <span style="color:#099">0</span> <span style="color:#099">2</span><span style="color:#458;font-weight:bold">em</span>
 }
-#rewardButton {
-    <span style="color:#66d9ef">border</span>:<span style="color:#ae81ff">1</span><span style="color:#66d9ef">px</span> <span style="color:#66d9ef">solid</span> <span style="color:#ae81ff">#ccc</span>;
-    <span style="color:#66d9ef">line-height</span>:<span style="color:#ae81ff">36</span><span style="color:#66d9ef">px</span>;
-    <span style="color:#66d9ef">text-align</span>:<span style="color:#66d9ef">center</span>;
-    <span style="color:#66d9ef">height</span>:<span style="color:#ae81ff">36</span><span style="color:#66d9ef">px</span>;
-    <span style="color:#66d9ef">display</span>:<span style="color:#66d9ef">block</span>;
-    <span style="color:#66d9ef">border-radius</span>:<span style="color:#ae81ff">4</span><span style="color:#66d9ef">px</span>;
-    <span style="color:#66d9ef">-webkit-</span><span style="color:#66d9ef">transition-duration</span>:<span style="color:#ae81ff">.4</span><span style="color:#66d9ef">s</span>;
-    <span style="color:#66d9ef">transition-duration</span>:<span style="color:#ae81ff">.4</span><span style="color:#66d9ef">s</span>;
-    <span style="color:#66d9ef">background-color</span>:<span style="color:#ae81ff">#fff</span>;
-    <span style="color:#66d9ef">color</span>:<span style="color:#ae81ff">#999</span>;
-    <span style="color:#66d9ef">margin</span>:<span style="color:#ae81ff">0</span> <span style="color:#66d9ef">auto</span>;
-    <span style="color:#66d9ef">padding</span>:<span style="color:#ae81ff">0</span> <span style="color:#ae81ff">25</span><span style="color:#66d9ef">px</span>
+#<span style="color:#555">rewardButton</span> {
+    <span style="color:#000;font-weight:bold">border</span>:<span style="color:#099">1</span><span style="color:#458;font-weight:bold">px</span> <span style="color:#000;font-weight:bold">solid</span> <span style="color:#099">#ccc</span>;
+    <span style="color:#000;font-weight:bold">line-height</span>:<span style="color:#099">36</span><span style="color:#458;font-weight:bold">px</span>;
+    <span style="color:#000;font-weight:bold">text-align</span>:<span style="color:#000;font-weight:bold">center</span>;
+    <span style="color:#000;font-weight:bold">height</span>:<span style="color:#099">36</span><span style="color:#458;font-weight:bold">px</span>;
+    <span style="color:#000;font-weight:bold">display</span>:<span style="color:#000;font-weight:bold">block</span>;
+    <span style="color:#000;font-weight:bold">border-radius</span>:<span style="color:#099">4</span><span style="color:#458;font-weight:bold">px</span>;
+    <span style="color:#000;font-weight:bold">-webkit-</span><span style="color:#000;font-weight:bold">transition-duration</span>:<span style="color:#099">.4</span><span style="color:#458;font-weight:bold">s</span>;
+    <span style="color:#000;font-weight:bold">transition-duration</span>:<span style="color:#099">.4</span><span style="color:#458;font-weight:bold">s</span>;
+    <span style="color:#000;font-weight:bold">background-color</span>:<span style="color:#099">#fff</span>;
+    <span style="color:#000;font-weight:bold">color</span>:<span style="color:#099">#999</span>;
+    <span style="color:#000;font-weight:bold">margin</span>:<span style="color:#099">0</span> <span style="color:#000;font-weight:bold">auto</span>;
+    <span style="color:#000;font-weight:bold">padding</span>:<span style="color:#099">0</span> <span style="color:#099">25</span><span style="color:#458;font-weight:bold">px</span>
 }
-#rewardButton:<span style="color:#a6e22e">hover</span> {
-    <span style="color:#66d9ef">color</span>:<span style="color:#ae81ff">#f77b83</span>;
-    <span style="color:#66d9ef">border-color</span>:<span style="color:#ae81ff">#f77b83</span>;
-    <span style="color:#66d9ef">outline-style</span>:<span style="color:#66d9ef">none</span>
+#<span style="color:#555">rewardButton</span>:<span style="color:#3c5d5d;font-weight:bold">hover</span> {
+    <span style="color:#000;font-weight:bold">color</span>:<span style="color:#099">#f77b83</span>;
+    <span style="color:#000;font-weight:bold">border-color</span>:<span style="color:#099">#f77b83</span>;
+    <span style="color:#000;font-weight:bold">outline-style</span>:<span style="color:#000;font-weight:bold">none</span>
 }
-</code></pre></div><p>打赏效果请参见本站 <a href="https://blog.imfang.net/">https://blog.imfang.net/</a> 文章页面</p>
+</code></pre></td></tr></table>
+</div>
+</div><p>打赏效果请参见本站 <a href="https://blog.imfang.net/">https://blog.imfang.net/</a> 文章页面</p>
         </div>
 
         
@@ -384,6 +447,8 @@
 
 
 
+
+    <script src='/js/douban.js'></script>
 
                 </div>
 
@@ -751,7 +816,7 @@
         </li>
         
         <li>
-            <a target="_blank" href="https://doufu.ru" title="Linux系统运维相关的经验和技巧，以及各种运维资源分享，建站教程">Ryan&#39;s 博客</a>
+            <a target="_blank" href="http://www.zyidai.com/" title="裂变增长实验室联创始人、易粉活码合系统创始人、网赚操盘手">丁少奇的博客</a>
         </li>
         
         <li>
